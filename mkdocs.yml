@@ -1,0 +1,161 @@
+# 你的网站名
+site_name: Android-Vast-Extension
+
+site_url: https://ave.entropy2020.cn/
+
+repo_name: Android-Vast-Extension
+repo_url: https://github.com/SakurajimaMaii/Android-Vast-Extension
+
+edit_uri: blob/main/docs/
+
+# 主题设置
+theme:
+  name: material
+  custom_dir: mkdocs
+  language: zh
+  logo: assets/img/logo.png
+  icon:
+    repo: fontawesome/brands/github-alt
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 亮色模式
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=footer
+    - navigation.footer
+    - navigation.top
+    - navigation.sections
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit#code-actions
+    - content.action.edit
+    - content.tabs.link
+    - content.code.copy
+
+# 版权
+copyright: >
+  感谢 <a href="https://github.com/SakurajimaMaii/Android-Vast-Extension">OSS contributors</a> 
+  对于本项目的支持  <svg class="fa-heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7
+  62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
+  53-154.3-9.8-207.9z"></path></svg> 。该项目遵循 
+  <a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/LICENSE">Apache-2.0 license</a> 。
+
+# 插件
+plugins:
+  - i18n:
+      docs_structure: suffix
+      material_alternate: true
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+          nav_translations:
+            App data and files : 应用数据与文件
+            App entry points : 应用入口点
+            App resources : 应用资源
+            Architecture components : 架构组件
+            Avatar : 头像
+            Badge : 徽标
+            Collections : 集合
+            Connectivity : 连接性
+            Core topics : 核心主题
+            Debug : 调试
+            Documents : 文档
+            Extension : 拓展
+            File manager : 文件管理
+            Graphics : 绘图
+            Images : 图像
+            Information get : 信息获取
+            Init : 初始化
+            License : 许可
+            Lifecycle aware components : 生命周期感知型组件
+            Log : 日志
+            Performing network operations : 执行网络操作
+            Progress : 进度条
+            Save key value data : 保存键值对数据
+            Security : 安全
+            String : 字符串
+            Text : 文本
+            Textview : 文本框
+            Ui : 界面
+            Ui layer libraries : 界面层库
+            Utils : 工具
+            Version : 版本
+            View bind : 视图绑定
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Class转换为Map : Class to Map
+            GPS状态 : GPS
+            初始化 : Initialization
+            初始化 : ToolsConfig
+            前言 : Preface
+            对话框 : Dialog
+            常见Intent : Normal Intent
+            广播 : Broadcast
+            日志 : Logcat
+            概览 : Overview
+            裁剪照片 : Crop photo
+            适用于 DataStore 的拓展 : Extension for DataStore
+            适用于 SharedPreferences 的拓展 : Extension for SharedPreferences
+            组件 : Components
+  - search:
+      lang: ja
+  - awesome-pages:
+      strict: false
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: True
+
+# LaTeX支持
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://buttons.github.io/buttons.js
+
+extra_css:
+  - assets/css/mkdocs.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SakurajimaMaii
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Sakuraj61377782

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="{{ config.extra.site_keywords }}" />
+<meta name="theme-color" content="{{ config.extra.theme_color }}" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/icon-small.png" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ config.extra.twitter_user }}">
+
+<meta property="og:title" content="{{ config.site_name }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ config.site_url }}" />
+<meta property="og:image" content="{{ config.site_url }}icon-small.png" />
+<meta property="og:description" content="{{ config.extra.site_long_description }}" />
+
+{% endblock %}
+
+{% block footer %}
+<footer class="md-footer">
+
+  {% if page.previous_page or page.next_page %}
+  <nav class="md-footer__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
+
+    {% if page.previous_page %}
+    <a href="{{ page.previous_page.url | url }}" class="md-footer__link md-footer__link--prev" rel="prev">
+
+      <div class="md-footer__button md-icon">{% include ".icons/material/arrow-left.svg" %}</div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction">{{ lang.t("footer.previous") }}</span>
+          {{ page.previous_page.title }}
+        </div>
+      </div>
+    </a>
+    {% endif %}
+
+    {% if page.next_page %}
+    <a href="{{ page.next_page.url | url }}" class="md-footer__link md-footer__link--next" rel="next">
+
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction">{{ lang.t("footer.next") }}</span>
+          {{ page.next_page.title }}
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">{% include ".icons/material/arrow-right.svg" %}</div>
+    </a>
+    {% endif %}
+  </nav>
+  {% endif %}
+
+  <div class="md-footer-wrapper">
+    <div class="md-footer-content">
+      <div class="md-footer-information">
+        <!-- Social -->
+        <div class="md-footer-social">
+          {% include "partials/social.html" %}
+        </div>
+        
+        <!-- Copyright -->
+        <div class="md-footer-meta md-typeset">
+          <div class="md-footer-meta__inner md-grid">
+            <div class="md-footer-copyright">
+              {% if config.copyright %}
+              <div class="md-footer-copyright__highlight">{{ config.copyright }}</div>
+              {% endif %}
+              <div class="md-footer-copyright__highlight">
+                <a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/issues">欢迎</a>
+                你参与该项目!
+              </div>
+              <div class="md-footer-copyright__highlight">
+                <a href="https://ythzxfw.miit.gov.cn/index">ICP备案码:津ICP备20005520号-1</a>
+              </div>
+              <div class="social-buttons" style="margin-top: .3rem;">
+                <a class="github-button" href="{{ config.repo_url }}" data-icon="octicon-star" data-show-count="true"
+                  aria-label="Star {{ config.extra.repo }} on GitHub">Star</a>
+                <a class="github-button" href="{{ config.repo_url }}/subscription" data-icon="octicon-eye"
+                  data-show-count="true" aria-label="Watch {{ config.extra.repo }} on GitHub">Watch</a>
+                <a class="github-button" href="{{ config.repo_url }}/fork" data-icon="octicon-git-branch"
+                  data-show-count="true" aria-label="Fork {{ config.extra.repo }} on GitHub">Fork</a>
+              </div>
+              {{ extracopyright }}
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Sponsors -->
+      <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+          <div class="md-footer-copyright">
+            <p style="margin: 0;margin-block-start: 0">诚挚的感谢:</p>
+            <p id="sponsors">
+              <a href="https://sales.jetbrains.com/hc/zh-cn/articles/360016581839-%E4%BB%80%E4%B9%88%E6%98%AF-OSS-%E5%BC%80%E5%8F%91%E8%AE%B8%E5%8F%AF%E8%AF%81-%E8%B0%81%E5%8F%AF%E4%BB%A5%E8%8E%B7%E5%BE%97-"
+                style="width: 100%;">
+                <img style="height: 96px"
+                  src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png"
+                  alt="JetBrains Logo (Main) logo.">
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</footer>
+{% endblock %}

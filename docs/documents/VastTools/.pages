@@ -1,0 +1,11 @@
+nav:
+  - Index.md
+  - Index.en.md
+  - init
+  - log
+  - architecture-components
+  - app-entry-points
+  - core-topics
+  - ...
+
+collapse_single_pages: true
