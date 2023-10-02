@@ -2,7 +2,7 @@
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-日志系统为你提供了详细的数据展示确保你更快的锁定相关问题。
+这是一条日志示例。
 
 ```xml
 20:41:40.099 LogActivity  D  ╔═════════════════════════════════════════════════════════════════════════════
@@ -14,13 +14,13 @@
 20:41:40.099 LogActivity  D  ╚═════════════════════════════════════════════════════════════════════════════
 ```
 
-## 使用
+## 快速开始
 
 ### 创建 LogFactory
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-调用 `getLogFactory` 来对日志进行配置。
+通过 [getLogFactory](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/get-log-factory.html?query=fun%20getLogFactory(factory:%20LogFactory.()%20-%3E%20Unit):%20LogFactory) 可以获取 [LogFactory](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-factory/index.html) ，以便对日志进行配置。
 
 ```kotlin
 val mLogFactory = getLogFactory {
@@ -35,9 +35,11 @@ val mLogFactory = getLogFactory {
 }
 ```
 
-### 获取 Log
+### 打印日志
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+
+调用 [getLog](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-factory/get-log.html?query=fun%20getLog(clazz:%20Class%3C*%3E):%20LogUtil) 来获取 [LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) 对象，通过该对象打印日志。
 
 ```kotlin
 private val logger = mLogFactory.getLog(this::class.java)
@@ -49,13 +51,14 @@ logger.d("这是一条测试日志")
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
+[LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) 提供了 [json](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/json.html) 方法以便你将指定内容按照 Json 的格式打印出来。
+
 ```kotlin
 // User 定义
 data class User(val name: String, val age: Int)
 
 // 在 Activity 中使用
 private val logger = mLogFactory.getLog(this::class.java)
-
 logger.json(LogLevel.DEBUG, User("张三", 18))
 ```
 

@@ -4,8 +4,7 @@
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-日志当前提供了以下级别。
-
+[LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) 目前支持以下级别。
 
 |  级别   |       属性       |
 | :-----: | :--------------: |
@@ -19,16 +18,11 @@
 
 ## 日志工厂
 
-日志工厂用来安装日志插件，目前提供了以下插件：
-
-- LogSwitch: 用来控制日志的开启和关闭
-- LogFormat: 用来控制日志的格式化
-
 ### 日志开关
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-通过配置 `LogSwitch` 插件来开启日志。
+[LogSwitch](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log.plugin/-log-switch/index.html) 提供了 `open` 参数
 
 ```kotlin
 val mLogFactory = getLogFactory {
@@ -45,9 +39,7 @@ val mLogFactory = getLogFactory {
 
 ### 日志格式化
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
-
-通过配置 `LogFormat` 插件来配置日志的格式。
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
 我们以下面的一段话为示例日志内容：
 
@@ -65,19 +57,14 @@ val mLogFactory = getLogFactory {
 
 #### 限制每行字符数
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
-在配置项中设置 `singleLogCharLength` 为 30 ，即每行日志最多打印 30 个字符。
-
-!!! notes "字符说明"
-
-    每个字符按照 UTF-8 最大 4Bytes 计算。
+`maxSingleLogLength` 用于设置单行日志的最大打印长度，每个字符按照 UTF-8 最大 4Bytes 计算。因此实际打印结果可能会略微有差异，这是正常的。
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogFormat) {
-        singleLogCharLength = 30
-        ...
+    install(LogPrinter) {
+        maxSingleLogLength = 30
     }
     ... 
 }
@@ -97,20 +84,23 @@ val mLogFactory = getLogFactory {
 
 #### 限制最多打印次数
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
-在配置项中设置 `maxPrintTimes` 为 1 ，即超长日志最多打印 1 行。
+`maxPrintTimes` 用于设置日志打印的重复次数，例如根据设置超长的日志被分割为 10 行，如果 `maxPrintTimes` 被设置为 5 ，则只会打印前五行内容。
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogFormat) {
-        singleLogCharLength = 30
-        maxPrintTimes = 1
-        ...
+    install(LogPrinter) {
+        maxSingleLogLength = 100
+        maxPrintTimes = 5
     }
     ...
 }
 ```
+
+!!! warn "行数限制说明"
+
+    Json 对象不收该项限制。
 
 ```xml
 21:41:04.297 LogActivity D  ╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -121,10 +111,6 @@ val mLogFactory = getLogFactory {
 21:41:04.298 LogActivity D  ║ 安卓（Android）是一种基于Linux内核（不包含GNU组件）的自由及开放源代码的移动操作系统
 21:41:04.298 LogActivity D  ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 ```
-
-!!! warn "行数限制说明"
-
-    Json 对象不收该项限制。
 
 ### 日志 Json 转换器
 
@@ -140,9 +126,8 @@ val mLogFactory = getLogFactory {
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogJson) {
+    install(LogJson){
         converter = GsonConverter(true)
-        ...
     }
     ... 
 }

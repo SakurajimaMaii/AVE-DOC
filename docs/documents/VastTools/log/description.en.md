@@ -2,23 +2,25 @@
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
+Here is a log example.
+
 ```xml
 20:41:40.099 LogActivity  D  ╔═════════════════════════════════════════════════════════════════════════════
 20:41:40.099 LogActivity  D  ║ Thread: main
 20:41:40.099 LogActivity  D  ╟─────────────────────────────────────────────────────────────────────────────
 20:41:40.099 LogActivity  D  ║ com.ave.vastgui.app.activity.LogActivity$onCreate$2.invoke(LogActivity.kt:44)
 20:41:40.099 LogActivity  D  ╟─────────────────────────────────────────────────────────────────────────────
-20:41:40.099 LogActivity  D  ║ 这是一条测试日志
+20:41:40.099 LogActivity  D  ║ This is a test log.
 20:41:40.099 LogActivity  D  ╚═════════════════════════════════════════════════════════════════════════════
 ```
 
-## Usage
+## Quick start
 
-### Create LogFactory
+### Creating LogFactory
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-Using `getLogFactory` to configure the log.
+By calling [getLogFactory](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/get-log-factory.html?query=fun%20getLogFactory(factory:%20LogFactory.()%20-%3E%20Unit):%20LogFactory) ,you can get [LogFactory](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-factory/index.html) to configure the Log.
 
 ```kotlin
 val mLogFactory = getLogFactory {
@@ -37,6 +39,8 @@ val mLogFactory = getLogFactory {
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
+You can create a [LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) by calling [getLog](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-factory/get-log.html?query=fun%20getLog(clazz:%20Class%3C*%3E):%20LogUtil) , which makes you to print log in terminal. 
+
 ```kotlin
 private val logger = mLogFactory.getLog(this::class.java)
 
@@ -46,6 +50,8 @@ logger.d("This is a test log.")
 ### Json
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+
+By calling [json](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/json.html) of [LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) , you can print the log content in json format.
 
 ```kotlin
 data class User(val name: String, val age: Int)

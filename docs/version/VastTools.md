@@ -1,6 +1,6 @@
 # VastTools
 
-## 0.5.4
+## 0.5.4(Latest)
 
 - 新增
 
@@ -21,7 +21,7 @@
     - `LineTextProgressView` 修复 [#53](https://github.com/SakurajimaMaii/Android-Vast-Extension/issues/53)
     - `HorizontalTextProgressView` 修复 [#52](https://github.com/SakurajimaMaii/Android-Vast-Extension/issues/52)
 
-## 0.5.3(Latest)
+## 0.5.3
 
 - 新增
 

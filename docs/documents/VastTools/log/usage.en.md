@@ -4,9 +4,9 @@
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-Logging currently provides the following levels.
+[LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) currently supports the following levels.
 
-|  Level  |    Attributes    |
+|  Level  |   Implemention   |
 | :-----: | :--------------: |
 | VERBOSE | LogLevel.VERBOSE |
 |  DEBUG  |  LogLevel.DEBUG  |
@@ -14,15 +14,15 @@ Logging currently provides the following levels.
 |  WARN   |  LogLevel.WARN   |
 |  ERROR  |  LogLevel.ERROR  |
 
-For example, you can call the `i()` method to print **INFO** level logs.
+For example, you can call `i()` to print log message in **INFO** level.
 
-## Log factory
+## LogFactory
 
-### Switch
+### LogSwitch
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-By configure `LogSwitch` , you can open or close the log.
+[LogUtil](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log/-log-util/index.html) will print log when the app is in debug mode and the `open` of [LogSwitch](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.log.plugin/-log-switch/index.html) is true.
 
 ```kotlin
 val mLogFactory = getLogFactory {
@@ -33,15 +33,9 @@ val mLogFactory = getLogFactory {
 }
 ```
 
-!!! note "Conditions for log printing"
+### LogPrinter
 
-    Logs will be printed only if the application is in debug mode and the logging system is enabled.
-
-### Format
-
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
-
-Configure the log format by configuring the `LogFormat` plugin.
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
 Let’s take the following paragraph as an example log content:
 
@@ -57,21 +51,16 @@ Let’s take the following paragraph as an example log content:
 21:28:41.093 LogActivity D  ╚═══════════════════════════════════════════════════════════════════════════════════════════════
 ```
 
-#### Char length of the single log
+#### maxSingleLogLength
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
-Set `singleLogCharLength` in the configuration to 30, that is, each line of logs can print up to 30 characters.
-
-!!! notes "Character Description"
-
-     Each character is calculated according to UTF-8 maximum 4Bytes.
+`maxSingleLogLength` allows you to configure the max length of one line. Each character in line is calculated as 4 bytes([UTF-8](https://home.unicode.org/)). Therefore the actual printed results may vary slightly, this is normal.
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogFormat) {
-        singleLogCharLength = 30
-        ...
+    install(LogPrinter) {
+        maxSingleLogLength = 30
     }
     ... 
 }
@@ -89,18 +78,19 @@ val mLogFactory = getLogFactory {
 21:32:15.132 LogActivity D  ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 ```
 
-#### Limit the maximum number of prints
+#### maxPrintTimes
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
-Set `maxPrintTimes` to 1 in the configuration, that is, a maximum of 1 line will be printed in the extremely long log.
+Set `maxPrintTimes` is the repeat number of prints. For example, the log content 
+is divided into ten lines depending on maxSingleLogLength. If you set maxPrintTimes 
+to 5, only the first five lines will be printed.
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogFormat) {
-        singleLogCharLength = 30
-        maxPrintTimes = 1
-        ...
+    install(LogPrinter) {
+        maxSingleLogLength = 100
+        maxPrintTimes = 5
     }
     ...
 }
@@ -116,7 +106,7 @@ val mLogFactory = getLogFactory {
 21:41:04.298 LogActivity D  ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 ```
 
-### Json converter
+### LogJson
 
 [:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
 
@@ -130,19 +120,16 @@ Currently the following three Json converters are provided:
 
 ```kotlin
 val mLogFactory = getLogFactory {
-    install(LogJson) {
+    install(LogJson){
         converter = GsonConverter(true)
-        ...
     }
     ... 
 }
 ```
 
-### Storage
+### LogStorage
 
 [:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
-
-The `LogStorage` plugin allows you to store the logs into files. The configuration is as follows:
 
 ```kotlin
 val mLogFactory = getLogFactory {
