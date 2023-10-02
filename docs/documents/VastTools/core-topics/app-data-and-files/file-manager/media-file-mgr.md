@@ -40,7 +40,7 @@ uri = file.let {
 
 通过 `getFileUriAboveApi30` ，会调用 `contentResolver.insert()` 方法插入一条新的记录，并将对应的 `Uri` 返回。
 
-### 对 Android 7 的适配(API 30开始)
+### 对 Android 7 的适配(API 24开始)
 
 通过 `getFileUriAboveApi24` ，会调用 `FileProvider.getUriForFile` 方法获取 `Uri` 。
 

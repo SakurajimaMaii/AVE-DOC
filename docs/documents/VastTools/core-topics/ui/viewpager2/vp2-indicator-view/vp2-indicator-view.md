@@ -4,7 +4,6 @@
 
 <figure markdown>
   ![Vp2IndicatorView](../img/vp2_indicator_view.gif){ width="250" }
-  <figcaption>Vp2IndicatorView</figcaption>
 </figure>
 
 ## 快速使用
@@ -61,12 +60,10 @@ mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
 
 <figure markdown>
   ![默认指示器大小](../img/default_size.jpg){ width="250" }
-  <figcaption>默认指示器大小</figcaption>
 </figure>
 
 <figure markdown>
   ![修改指示器大小](../img/change_size.jpg){ width="250" }
-  <figcaption>修改指示器大小</figcaption>
 </figure>
 
 ## 设置圆点指示器颜色
@@ -85,7 +82,6 @@ mBinding.vp2indicator.apply {
 
 <figure markdown>
   ![修改指示器颜色](../img/change_color.jpg){ width="250" }
-  <figcaption>修改指示器颜色</figcaption>
 </figure>
 
 ## 设置指示器间距
@@ -125,7 +121,6 @@ mBinding.vp2indicator.apply {
 
 <figure markdown>
   ![修改指示器为bitmap](../img/bitmap.jpg){ width="250" }
-  <figcaption>修改指示器为bitmap</figcaption>
 </figure>
 
 ## 示例代码

@@ -1,4 +1,4 @@
-# Get app information
+# App information
 
 You can get app information by `AppUtils` .
 
@@ -43,4 +43,4 @@ fun AppInfo() {
 }
 ```
 
-[Sample Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/informationget/AppInfo.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/informationget/AppInfo.kt){ .md-button }

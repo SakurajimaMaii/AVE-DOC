@@ -66,8 +66,8 @@ val intent = Intent(this, VastCropActivity::class.java).apply {
 
 |类型|示例|类型|示例|
 |:-:|:-:|:-:|:-:|
-|CIRCLE|![Image title](../img/crop_view_cricle.jpg){ width="250" }|SQUARE|![Image title](../img/crop_view_square.jpg){ width="250" }|
-|GRID9|![Image title](../img/crop_view_grid9.jpg){ width="250" }|RECTANGLE|![Image title](../img/crop_view_rectangle.jpg){ width="250" }|
+|CIRCLE|![Frame circle](../img/frame_cricle.jpg){ width="250" }|SQUARE|![Frame square](../img/frame_square.jpg){ width="250" }|
+|GRID9|![Frame grid9](../img/frame_grid9.jpg){ width="250" }|RECTANGLE|![Frame rectangle](../img/frame_rectangle.jpg){ width="250" }|
 
 ```kotlin
 getBinding().cropViewLayout.setCropFrameType(CropFrameType.CIRCLE)
@@ -91,20 +91,19 @@ getBinding().cropViewLayout.setCropFrameSize(previewWidth, previewHeight)
 
 [:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
 
-调用 `setCropMaskColor` 来设置蒙版颜色
+调用 `setCropMaskColor` 来设置蒙版颜色。
 
 ```kotlin
 // 设置颜色
 getBinding().cropViewLayout.setCropMaskColor(color)
 ```
 
-!!! warning "蒙版颜色说明"
+!!! note "蒙版颜色说明"
 
     建议采用带透明度的颜色效果会更好。
 
 <figure markdown>
-  ![CropViewLayout with mask color](../img/crop_view_mask_color.jpg){ width="250" }
-  <figcaption>CropViewLayout设置蒙版颜色</figcaption>
+  ![CropViewLayout with mask color](../img/mask_color.jpg){ width="250" }
 </figure>
 
 ## 设置设置预览框的边框颜色
@@ -122,8 +121,7 @@ getBinding().cropViewLayout.setCropFrameStrokeColor(color)
 ```
 
 <figure markdown>
-  ![CropViewLayout with stroke color](../img/crop_view_stroke_color.jpg){ width="250" }
-  <figcaption>CropViewLayout设置预览框边框颜色</figcaption>
+  ![CropViewLayout with stroke color](../img/stroke_color.jpg){ width="250" }
 </figure>
 
 ## 获取裁剪照片

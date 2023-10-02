@@ -1,4 +1,4 @@
-# Get date 
+# Date 
 
 ## Default time format
 

@@ -1,20 +1,13 @@
 # 多种样式文字
 
-`appendableStyleScope` 允许你快速构建多种样式文字。
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
+`appendableStyleScope` helps you to build string with style.
 
 <figure markdown>
   ![AppendableStyleScope](../img/appendable_style_scope.jpg){ width="400" }
   <figcaption>AppendableStyleScope</figcaption>
 </figure>
-
-## 特性
-
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
-
-- 支持对于同一个字符串设置多种样式。
-- 支持文字和图片。
-- 提供默认样式。
-- 采用 DSL 确保更清晰的样式作用范围
 
 ## 快速开始
 
@@ -36,10 +29,6 @@ appendableStyleScope(getBinding().tv) {
     withImage(ImageSpan(this, R.mipmap.ic_launcher))
 }
 ```
-
-## 拼接字符串
-
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
 
 下面的示例为你展示如何创建一条复杂的富文本字符串。
 
@@ -120,7 +109,7 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Url](../img/appendable_style_string_url.jpg){ width="400" }
+  ![Url style](../img/appendable_style_string_url.jpg){ width="400" }
 </figure>
 
 ### 首行缩进
@@ -133,7 +122,7 @@ appendableStyleScope(getBinding().tv) {
 }
 ```
 
-![AppendableStyleString-linesIndent](../img/appendable_style_scope_lines_indent.jpg){ align=left width="400" } 
+![Lines indent style](../img/appendable_style_scope_lines_indent.jpg){ align=left width="400" } 
 
 !!! note "linesIndent 参数的设置"
 
@@ -152,7 +141,7 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Bullet](../img/appendable_style_scope_bullet.jpg){ width="400" }
+  ![Bullet style](../img/appendable_style_scope_bullet.jpg){ width="400" }
 </figure>
 
 ### 引用文字
@@ -168,7 +157,7 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Quote](../img/appendable_style_scope_quote.jpg){ width="400" }
+  ![Quote style](../img/appendable_style_scope_quote.jpg){ width="400" }
 </figure>
 
 ### 删除线或者下划线
@@ -189,7 +178,7 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Strike](../img/appendable_style_scope_strike.jpg){ width="400" }
+  ![Strike through or underline style](../img/appendable_style_scope_strike.jpg){ width="400" }
 </figure>
 
 ### 上标或者下标
@@ -204,7 +193,7 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Script](../img/appendable_style_scope_script.jpg){ width="400" }
+  ![Script style](../img/appendable_style_scope_script.jpg){ width="400" }
 </figure>
 
 ### 范围模糊
@@ -220,9 +209,5 @@ appendableStyleScope(getBinding().tv) {
 ```
 
 <figure markdown>
-  ![AppendableStyleString-Blur](../img/appendable_style_scope_blur.jpg){ width="400" }
+  ![Blur style](../img/appendable_style_scope_blur.jpg){ width="400" }
 </figure>
-
-### 可点击文字
-
-该项不提供示例。

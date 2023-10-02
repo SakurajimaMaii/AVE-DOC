@@ -1,5 +1,26 @@
 # VastTools
 
+## 0.5.4
+
+- 新增
+
+    - `AlphabetSideBar` 字母索引侧边导航栏
+    - `viewSnapshot` 用于将视图保存为 `Bitmap`
+    - `Avatar` 控件用于显示头像， `AvatarGroup` 布局用来显示头像组
+
+- 更新
+
+    - `ArcProgressView` 更新起始点和终点圆形颜色设置逻辑和属性设置方法
+    - `HorizontalTextProgressView` 删除最小高度的占比
+    - `LineTextProgressView` 允许设置进度条高度，更新字体外边距设置
+
+- 修复
+
+    - `ColorUtils` 修复获取带透明度颜色错误的问题
+    - `HorizontalProgressView` 修复将图片设置为背景或者进度条时绘制错误的问题
+    - `LineTextProgressView` 修复 [#53](https://github.com/SakurajimaMaii/Android-Vast-Extension/issues/53)
+    - `HorizontalTextProgressView` 修复 [#52](https://github.com/SakurajimaMaii/Android-Vast-Extension/issues/52)
+
 ## 0.5.3(Latest)
 
 - 新增

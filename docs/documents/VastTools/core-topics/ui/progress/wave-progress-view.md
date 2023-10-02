@@ -1,10 +1,9 @@
 # WaveProgressView
 
-`WaveProgressView` 是波浪形进度条。
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
 <figure markdown>
   ![波浪形进度条](../img/wave_progress_view.gif){ width="250" }
-  <figcaption>波浪形进度条</figcaption>
 </figure>
 
 ## 快速使用
@@ -15,12 +14,10 @@
 <com.ave.vastgui.tools.view.progress.WaveProgressView
     android:id="@+id/waveProgressView"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    app:progress_current_value="0" />
+    android:layout_height="wrap_content" />
 ```
 
-[查看默认样式 BaseWaveProgressView](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
 
 ## 自定义背景
 
@@ -39,8 +36,7 @@
 ```
 
 <figure markdown>
-  ![自定义背景](../img/wave_progress_view_custom_background.jpg){ width="300" }
-  <figcaption>自定义背景</figcaption>
+  ![自定义背景](../img/wave_custom_background.jpg){ width="300" }
 </figure>
 
 ## 示例代码

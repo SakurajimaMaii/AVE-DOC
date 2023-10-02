@@ -1,6 +1,6 @@
 # 使用反射获取视图拓展
 
-## 基本使用
+## 快速开始
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 

@@ -106,10 +106,10 @@ plugins:
             广播 : Broadcast
             日志 : Logcat
             概览 : Overview
+            组件 : Components
             裁剪照片 : Crop photo
             适用于 DataStore 的拓展 : Extension for DataStore
             适用于 SharedPreferences 的拓展 : Extension for SharedPreferences
-            组件 : Components
   - search:
       lang: ja
   - awesome-pages:

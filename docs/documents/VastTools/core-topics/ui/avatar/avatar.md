@@ -6,7 +6,6 @@
 
 <figure markdown>
   ![Avatar](../img/avatar.jpg){ width="540" }
-  <figcaption>头像</figcaption>
 </figure>
 
 ## 快速开始
@@ -42,8 +41,7 @@
     ```
 
 <figure markdown>
-  ![Avatar Size](../img/avatar_size.jpg){ width="540" }
-  <figcaption>头像尺寸</figcaption>
+  ![Avatar Size](../img/size.jpg){ width="540" }
 </figure>
 
 ## 设置形状
@@ -70,15 +68,14 @@
     ```
 
 <figure markdown>
-  ![Avatar Shape](../img/avatar_shape.jpg){ width="270" }
-  <figcaption>头像形状</figcaption>
+  ![Avatar Shape](../img/shape.jpg){ width="270" }
 </figure>
 
 ## 设置颜色
 
 [:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
 
-可以通过 `avatar_background` 或者调用 `mAvatarSize` 来设置头像的大小。
+可以通过 `avatar_background` 或者调用 `mBackground` 来设置文字头像的背景色。
 
 === "Kotlin"
 
@@ -91,12 +88,11 @@
     ```xml
     <com.ave.vastgui.tools.view.avatar.Avatar
         ... 
-        app:avatar_size="60dp" />
+        app:avatar_background="#e84118" />
     ```
 
 <figure markdown>
-  ![Avatar Color](../img/avatar_color.jpg){ width="540" }
-  <figcaption>头像颜色</figcaption>
+  ![Avatar Color](../img/color.jpg){ width="540" }
 </figure>
 
 ## 设置图片
@@ -120,8 +116,7 @@
     ```
 
 <figure markdown>
-  ![Avatar Image](../img/avatar_img.jpg){ width="100" }
-  <figcaption>头像图片</figcaption>
+  ![Avatar Image](../img/image.jpg){ width="100" }
 </figure>
 
 ## 设置文字
@@ -145,15 +140,14 @@
     ```
 
 <figure markdown>
-  ![Avatar Text](../img/avatar_text.jpg){ width="540" }
-  <figcaption>头像文字</figcaption>
+  ![Avatar Text](../img/text.jpg){ width="540" }
 </figure>
 
 ## 设置文字颜色
 
 [:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
 
-可以通过 `avatar_text` 或者调用 `mText` 来设置头像的显示文字。
+可以通过 `avatar_text_color` 或者调用 `mTextColor` 来设置文字颜色。
 
 === "Kotlin"
 
@@ -170,8 +164,7 @@
     ```
 
 <figure markdown>
-  ![Avatar Text Color](../img/avatar_text_color.jpg){ width="540" }
-  <figcaption>文字颜色</figcaption>
+  ![Avatar Text Color](../img/text_color.jpg){ width="540" }
 </figure>
 
 ## 设置文字大小
@@ -195,15 +188,14 @@
     ```
 
 <figure markdown>
-  ![Avatar Text Size](../img/avatar_text_size.jpg){ width="540" }
-  <figcaption>文字大小</figcaption>
+  ![Avatar Text Size](../img/text_size.jpg){ width="540" }
 </figure>
 
 ## 设置描边
 
 [:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
 
-可以通过 `avatar_stroke_color` 或者调用 `mStrokeColor` 来设置头像的图片。
+可以通过 `avatar_stroke_color` 或者调用 `mStrokeColor` 来设置头像的描边颜色。
 
 === "Kotlin"
 
@@ -220,15 +212,14 @@
     ```
 
 <figure markdown>
-  ![Avatar Stroke Color](../img/avatar_stroke_color.jpg){ width="540" }
-  <figcaption>头像描边</figcaption>
+  ![Avatar Stroke Color](../img/stroke_color.jpg){ width="540" }
 </figure>
 
 ## 设置描边宽度
 
 [:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
 
-可以通过 `avatar_stroke_color` 或者调用 `mStrokeWidth` 来设置头像的图片。
+可以通过 `avatar_stroke_width` 或者调用 `mStrokeWidth` 来设置头像的描边宽度。
 
 !!! note "描边宽度说明"
 
@@ -249,8 +240,7 @@
     ```
 
 <figure markdown>
-  ![Avatar Stroke Width](../img/avatar_stroke_width.jpg){ width="540" }
-  <figcaption>头像描边宽度</figcaption>
+  ![Avatar Stroke Width](../img/stroke_width.jpg){ width="540" }
 </figure>
 
 ## 矩形圆角
@@ -278,6 +268,9 @@
     ```
 
 <figure markdown>
-  ![Avatar Corner Radius](../img/avatar_corner_radius.jpg){ width="540" }
-  <figcaption>头像矩形圆角</figcaption>
+  ![Avatar Corner Radius](../img/corner_radius.jpg){ width="540" }
 </figure>
+
+## 示例代码
+
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/AvatarActivity.kt){ .md-button }

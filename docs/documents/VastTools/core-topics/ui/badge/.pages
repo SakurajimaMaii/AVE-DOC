@@ -1,3 +1,5 @@
 nav:
     - description.md
+    - description.en.md
     - badge-layout.md
+    - badge-layout.en.md

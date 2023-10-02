@@ -1,6 +1,6 @@
 # MarqueeTextView
 
-`MarqueeTextView` 重写了`isFocused` 方法，以便你快速实现跑马灯功能。
+`MarqueeTextView` 重写了 `isFocused` 方法，以便你快速实现跑马灯功能。
 
 <figure markdown>
   ![MarqueeTextView](../img/marquee-text-view.gif){ width="250" }

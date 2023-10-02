@@ -1,4 +1,4 @@
-# IntentUtils
+# Common intent
 
 `IntentUtils` provides some useful [Intent](https://developer.android.com/guide/components/intents-common) . 
 
@@ -45,6 +45,6 @@ As demonstrated in the code above, a call can be made by using `dialPhoneNumber`
 |   createAlarm   |       Create a alarm        |
 |   wifiSetting   |      Open WIFI setting      |
 
-## Example code
+## Sample code
 
-[Example code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }

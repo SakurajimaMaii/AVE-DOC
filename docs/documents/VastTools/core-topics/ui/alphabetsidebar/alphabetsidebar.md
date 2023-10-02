@@ -42,8 +42,8 @@
     ```
 
 <center>
-![alphabetsidebar_location_left](../img/alphabetsidebar_location_left.jpg){ width="220" }
-![alphabetsidebar_location_right](../img/alphabetsidebar_location_right.jpg){ width="220" }
+![Location left](../img/location_left.jpg){ width="220" }
+![Location right](../img/location_right.jpg){ width="220" }
 </center>
 
 ## 背景颜色
@@ -67,7 +67,7 @@
     ```
 
 <center>
-![alphabetsidebar_background](../img/alphabetsidebar_background.jpg){ width="220" }
+![Background](../img/background.jpg){ width="220" }
 </center>
 
 ## 索引栏字体大小
@@ -91,7 +91,7 @@
     ```
 
 <center>
-![alphabetsidebar_text_size](../img/alphabetsidebar_text_size.jpg){ width="220" }
+![Text size](../img/text_size.jpg){ width="220" }
 </center>
 
 ## 索引栏字体颜色
@@ -115,7 +115,7 @@
     ```
 
 <center>
-![alphabetsidebar_text_color](../img/alphabetsidebar_text_color.jpg){ width="220" }
+![Text_color](../img/text_color.jpg){ width="220" }
 </center>
 
 ## 当前索引字体颜色
@@ -141,8 +141,8 @@
     ```
 
 <center>
-![alphabetsidebar_indicator_text_default_color](../img/alphabetsidebar_indicator_text_default_color.jpg){ width="150" }
-![alphabetsidebar_indicator_text_color](../img/alphabetsidebar_indicator_text_color.jpg){ width="150" }
+![Indicator text default color](../img/indicator_text_default_color.jpg){ width="150" }
+![Indicator text color](../img/indicator_text_color.jpg){ width="150" }
 </center>
 
 ## 气泡内文字大小
@@ -168,8 +168,8 @@
     ```
 
 <center>
-![alphabetsidebar_bubble_text_default_size](../img/alphabetsidebar_bubble_text_default_size.jpg){ width="270" }
-![alphabetsidebar_bubble_text_size](../img/alphabetsidebar_bubble_text_size.jpg){ width="270" }
+![Bubble text default size](../img/bubble_text_default_size.jpg){ width="270" }
+![Bubble text size](../img/bubble_text_size.jpg){ width="270" }
 </center>
 
 ## 气泡内文字颜色
@@ -195,8 +195,8 @@
     ```
 
 <center>
-![alphabetsidebar_bubble_text_default_color](../img/alphabetsidebar_bubble_text_default_color.jpg){ width="270" }
-![alphabetsidebar_bubble_text_color](../img/alphabetsidebar_bubble_text_color.jpg){ width="270" }
+![Bubble text default color](../img/bubble_text_default_color.jpg){ width="270" }
+![Bubble text default color](../img/bubble_text_color.jpg){ width="270" }
 </center>
 
 ## 注册监听事件
@@ -234,3 +234,7 @@ mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListen
     }
 })
 ```
+
+## 示例代码
+
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/AlphabetSideBarActivity.kt){ .md-button }

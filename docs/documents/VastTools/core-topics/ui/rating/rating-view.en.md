@@ -1,0 +1,84 @@
+# Rating
+
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/rating_view.mp4" type="video/mp4">
+    </video>
+</center>
+
+## Quick start
+
+```xml
+<com.ave.vastgui.tools.view.ratingview.RatingView
+    android:id="@+id/ratingView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+```
+
+[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+
+## Select method
+
+Rating currently supports three select method：
+
+- Sliding
+- Click
+- Unable
+
+```kotlin
+mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
+```
+
+## Orientation
+
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+
+Rating currently supports two orientations：
+
+- HORIZONTAL
+- VERTICAL
+
+```kotlin
+mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
+```
+
+!!! note "StarOrientation.UNSPECIFIED"
+
+    The orientation of rating can only be set once.
+ 
+## Gap
+
+```kotlin
+mBinding.ratingView.setStarIntervalWidth(10F.DP)
+```
+
+## Image
+
+The image of star can be set by `setStarSelectedBitmap` and `setStarUnselectedBitmap` .
+
+```kotlin
+mBinding.ratingView.apply{
+    setStarSelectedBitmap(R.drawable.ic_star_normal)
+    setStarUnselectedBitmap(R.drawable.ic_star_unselected)
+}
+```
+
+## Size
+
+The size of the star image can be set by `setStarBitMapSize` .
+
+```kotlin
+mBinding.ratingView.setStarBitMapSize(40F.DP,40F.DP)
+```
+
+## Number
+
+The number of star can be set by `setStarCountNumber` .
+
+```kotlin
+mBinding.ratingView.setStarCountNumber(4)
+```
+
+## Sample code
+
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/RatingActivity.kt){ .md-button }

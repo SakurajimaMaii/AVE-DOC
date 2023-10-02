@@ -5,7 +5,7 @@
 `BadgeLayout` 默认提供徽标 `BadgeView` 和 `AppCompatImageView` ，其中徽标会在右上角展示，图标会以水平居中的方式展示。
 
 <figure markdown>
-  ![BadgeLayout](./img/number_badge_show.png)
+  ![BadgeLayout](./img/number_show.png)
   <figcaption>BadgeLayout</figcaption>
 </figure>
 
@@ -54,5 +54,7 @@ mBinding.dotbadge.hideDot()
   ![Bubble Badge](./img/bubble_badge.gif){ width="270" }
   <figcaption>气泡徽标动画</figcaption>
 </figure>
+
+## 示例代码
 
 [查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/BadgeViewActivity.kt){ .md-button }
