@@ -1,6 +1,41 @@
 # VastTools
 
-## 0.5.4(Latest)
+## 0.5.5(Latest)
+
+- 新增 
+
+    - `ArcProgressView` 支持自定义终点圆形半径，支持隐藏文字，支持 xml 设置文字
+    - `HorizontalTextProgressView` 支持 xml 设置文字，新增文字框颜色
+    - `LineTextProgressView` 支持 xml 设置文字，新增文字框颜色
+    - `WaveProgressView` 支持隐藏文字，直接设置圆形半径
+
+- 更新
+
+    - `ArcProgressView` 更新着色器设置方法
+    - `HorizontalTextProgressView` 更新进度条和文字边距设置方法
+    - `LineTextProgressView` 更新进度条和文字边距设置方法
+    - `WaveProgressView` 更新图片的设置方法，外框线的距离以及外框线的宽度不再通过比率设置而是直接设置
+
+- 修复
+
+    - `ArcProgressView` 修复 `mShowEndpointCircle` 判断逻辑错误的问题
+    - `WaveProgressView` 修复 stroke 在宽度设置为 0 仍有显示的问题
+
+- 删除
+
+    - `ProgressView` 删除以下方法
+
+        * setMaximumProgress
+        * setCurrentProgress
+        * setText
+        * setTextSize
+        * setTextColor
+        * setProgressBackgroundColor
+        * setProgressColor
+
+    - `WaveProgressView` 删除 hint 相关属性
+
+## 0.5.4
 
 - 新增
 

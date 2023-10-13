@@ -1,6 +1,6 @@
 # 通过反射获取 ViewModel
 
-## 默认 ViewModel 获取
+## 创建 ViewModel 
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
@@ -33,7 +33,7 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 }
 ```
 
-## 含参 ViewModel 获取
+## 创建有含参构造函数的 ViewModel 
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
@@ -78,4 +78,4 @@ class ReflectActivity2 : ReflectBaseActivity2<ActivityMyBinding, ReflectViewMode
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/java/com/ave/vastgui/app/activity/reflectexample){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/reflection/ReflectBaseActivity.kt){ .md-button }

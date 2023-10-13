@@ -2,9 +2,11 @@
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-<figure markdown>
-  ![横向进度条](../img/horizontal_progress_view.gif){ width="250" }
-</figure>
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/horizontal_progress_view.mp4" type="video/mp4">
+    </video>
+</center>
 
 ## 快速使用
 
@@ -119,9 +121,9 @@
 
 ### 进度条高度设置
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-进度条高度可以通过 `horizontal_text_progress_height` 和 `setProgressHeight` 来进行设置。
+进度条高度可以通过 `horizontal_text_progress_height` 和 `mProgressHeight` 来进行设置。
 
 !!! note "最小高度说明"
 
@@ -130,7 +132,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setProgressHeight(15f.DP)
+    mBinding.horizontalTextProgressView.mProgressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -147,14 +149,14 @@
 
 ### 字体外边距
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-字体外边距可以通过 `horizontal_text_progress_text_margin` 和 `setTextMargin` 进行设置。
+字体外边距可以通过 `horizontal_text_progress_text_margin` 和 `mTextMargin` 进行设置。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setTextMargin(10f.DP)
+    mBinding.horizontalTextProgressView.mTextMargin = 10f.DP
     ```
 
 === "Xml"
@@ -169,19 +171,43 @@
   ![Text margin](../img/horizontal_text_margin_10dp.jpg){ width="270" }
 </figure>
 
-## LineTextProgressView
+### 文字框颜色设置
 
-### 进度条高度设置
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
-
-进度条高度可以通过 `linetext_progress_height` 和 `setProgressHeight` 来进行设置。
-
+文字框颜色可以通过 `horizontal_text_progress_box_color` 和 `mTextBoxColor` 来进行设置。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.lineTextProgressView.setProgressHeight(15f.DP)
+    mBinding.horizontalTextProgressView.mTextBoxColor =
+        ColorUtils.colorHex2Int("#e84118")
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.progress.HorizontalTextProgressView
+        ...
+        app:horizontal_text_progress_box_color="#e84118" />
+    ```
+
+<figure markdown>
+  ![Text margin](../img/horizontal_text_box_color.jpg){ width="270" }
+</figure>
+
+## LineTextProgressView
+
+### 进度条高度设置
+
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+
+进度条高度可以通过 `linetext_progress_height` 和 `mProgressHeight` 来进行设置。
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.lineTextProgressView.mProgressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -198,14 +224,14 @@
 
 ### 字体外边距
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-字体外边距可以通过 `linetext_progress_text_margin` 和 `setTextMargin` 进行设置。
+字体外边距可以通过 `linetext_progress_text_margin` 和 `mTextMargin` 进行设置。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setTextMargin(10f.DP)
+    mBinding.lineTextProgressView.mTextMargin = 10f.DP
     ```
 
 === "Xml"
@@ -218,6 +244,31 @@
 
 <figure markdown>
   ![Text margin](../img/line_text_margin_10dp.jpg){ width="270" }
+</figure>
+
+### 文字框颜色设置
+
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+
+文字框颜色可以通过 `linetext_progress_box_color` 和 `mTextBoxColor` 来进行设置。
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.horizontalTextProgressView.mTextBoxColor =
+        ColorUtils.colorHex2Int("#e84118")
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.progress.LineTextProgressView
+        ...
+        app:linetext_progress_box_color="#e84118" />
+    ```
+
+<figure markdown>
+  ![Text margin](../img/line_text_box_color.jpg){ width="270" }
 </figure>
 
 ## 示例代码

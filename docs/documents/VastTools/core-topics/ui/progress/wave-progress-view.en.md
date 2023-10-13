@@ -2,9 +2,11 @@
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-<figure markdown>
-  ![WaveProgressView](../img/wave_progress_view.gif){ width="250" }
-</figure>
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/wave_progress_view.mp4" type="video/mp4">
+    </video>
+</center>
 
 ## Quick start
 
@@ -21,7 +23,7 @@
 
 ## Custom background
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
 !!! note "Stroke information"
 
@@ -30,7 +32,7 @@
 ```xml
 <com.ave.vastgui.tools.view.progress.WaveProgressView
     .... 
-    android:background="@drawable/github" />
+    app:wave_progress_image="@drawable/github" />
 ```
 
 <figure markdown>

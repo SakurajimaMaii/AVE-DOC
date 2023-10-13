@@ -2,9 +2,11 @@
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-<figure markdown>
-  ![波浪形进度条](../img/wave_progress_view.gif){ width="250" }
-</figure>
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/wave_progress_view.mp4" type="video/mp4">
+    </video>
+</center>
 
 ## 快速使用
 
@@ -21,7 +23,7 @@
 
 ## 自定义背景
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
 你可以指定 `BitmapDrawable` `VectorDrawable` 和 `VectorDrawableCompat` 类型的对象为背景。
 
@@ -32,7 +34,7 @@
 ```xml
 <com.ave.vastgui.tools.view.progress.WaveProgressView
     .... // 其他设置
-    android:background="@drawable/github" />
+    app:wave_progress_image="@drawable/github" />
 ```
 
 <figure markdown>

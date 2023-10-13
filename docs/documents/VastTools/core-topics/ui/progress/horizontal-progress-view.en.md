@@ -2,9 +2,11 @@
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-<figure markdown>
-  ![Horizontal progress view](../img/horizontal_progress_view.gif){ width="250" }
-</figure>
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/horizontal_progress_view.mp4" type="video/mp4">
+    </video>
+</center>
 
 ## Quick start
 
@@ -116,7 +118,7 @@ Stroke of the progress can be set by `horizontal_progress_stroke_width` or calli
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
 The height of progress can be set by  `horizontal_text_progress_height` or calling `setProgressHeight` .
 
@@ -127,7 +129,7 @@ The height of progress can be set by  `horizontal_text_progress_height` or calli
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setProgressHeight(15f.DP)
+    mBinding.horizontalTextProgressView.mProgressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -144,14 +146,14 @@ The height of progress can be set by  `horizontal_text_progress_height` or calli
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-Text margin can be set by `horizontal_text_progress_text_margin` or calling `setTextMargin` .
+Text margin can be set by `horizontal_text_progress_text_margin` or calling `mTextMargin` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setTextMargin(10f.DP)
+    mBinding.horizontalTextProgressView.mTextMargin = 10f.DP
     ```
 
 === "Xml"
@@ -166,19 +168,42 @@ Text margin can be set by `horizontal_text_progress_text_margin` or calling `set
   ![Text margin](../img/horizontal_text_margin_10dp.jpg){ width="270" }
 </figure>
 
+### Text box color
+
+Color-int of the text box can be set by `horizontal_text_progress_box_color` or calling `mTextBoxColor` .
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.horizontalTextProgressView.mTextBoxColor =
+        ColorUtils.colorHex2Int("#e84118")
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.progress.HorizontalTextProgressView
+        ...
+        app:horizontal_text_progress_box_color="#e84118" />
+    ```
+
+<figure markdown>
+  ![Text margin](../img/horizontal_text_box_color.jpg){ width="270" }
+</figure>
+
 ## LineTextProgressView
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-The height of progress can be set by `linetext_progress_height` or calling `setProgressHeight` .
+The height of progress can be set by `linetext_progress_height` or calling `mProgressHeight` .
 
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.lineTextProgressView.setProgressHeight(15f.DP)
+    mBinding.lineTextProgressView.mProgressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -195,14 +220,14 @@ The height of progress can be set by `linetext_progress_height` or calling `setP
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
 
-Text margin can be set by `linetext_progress_text_margin` or calling `setTextMargin` .
+Text margin can be set by `linetext_progress_text_margin` or calling `mTextMargin` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.setTextMargin(10f.DP)
+    mBinding.lineTextProgressView.mTextMargin = 10f.DP
     ```
 
 === "Xml"
@@ -215,6 +240,29 @@ Text margin can be set by `linetext_progress_text_margin` or calling `setTextMar
 
 <figure markdown>
   ![Text margin](../img/line_text_margin_10dp.jpg){ width="270" }
+</figure>
+
+### Text box color
+
+Color-int of the text box can be set by `linetext_progress_box_color` or calling `mTextBoxColor` .
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.horizontalTextProgressView.mTextBoxColor =
+        ColorUtils.colorHex2Int("#e84118")
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.progress.LineTextProgressView
+        ...
+        app:linetext_progress_box_color="#e84118" />
+    ```
+
+<figure markdown>
+  ![Text margin](../img/line_text_box_color.jpg){ width="270" }
 </figure>
 
 ## Sample code

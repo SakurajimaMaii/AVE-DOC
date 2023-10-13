@@ -2,9 +2,11 @@
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-<figure markdown>
-  ![ArcProgressView](../img/arc_progress_view.gif){ width="250" }
-</figure>
+<center>
+    <video width="250" controls="controls" autoplay="autoplay">
+        <source src="../img/arc_progress_view.mp4" type="video/mp4">
+    </video>
+</center>
 
 ## Quick start
 
@@ -73,11 +75,36 @@ Color of endpoint circle can be set by `arc_progress_endpoint_circle_color` or c
 | :----------------------------------: | :------------------------------------: | :------------------------------------------------: | :--------------------------------------------: |
 | ![Progress 0](../img/progress_0.jpg) | ![Progress 55](../img/progress_55.jpg) | ![Startpoint circle](../img/startpoint_circle.jpg) | ![Endpoint circle](../img/endpoint_circle.jpg) |
 
+## Radius of endpoint circle
+
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+
+Radius of endpoint circle can be set by `arc_progress_endpoint_circle_radius` or calling `mEndpointCircleRadius` .
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.arcProgressView.mEndpointCircleRadius = 
+        15f.DP.coerceAtLeast(recommendedRadius())
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.progress.ArcProgressView
+        ... 
+        app:arc_progress_endpoint_circle_radius="20dp" />
+    ```
+
+<figure markdown>
+  ![Progress endpoint radius](../img/arc_progress_endpoint_radius.jpg){ width="200" }
+</figure>
+
 ## Shader
 
 [:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
 
-Shader of progress can be set by calling `setProgressShader` .
+Shader of progress can be set by calling `mProgressShader` .
 
 ```kotlin
 val colors = intArrayOf(
@@ -86,12 +113,10 @@ val colors = intArrayOf(
 val pos = floatArrayOf(
     ... // The relative positions [0..1] of each corresponding color in the colors array.
 )
-getBinding().arcProgressView.setProgressShader(
-    LinearGradient(
-        -700f, 0f, 700f, 0f,
-        colors, pos,
-        Shader.TileMode.CLAMP
-    )
+getBinding().arcProgressView.mProgressShader = LinearGradient(
+    -700f, 0f, 700f, 0f,
+    colors, pos,
+    Shader.TileMode.CLAMP
 )
 ```
 

@@ -6,7 +6,7 @@
 
 `reflectViewModel` can create `ViewModel` by reflection.
 
-Define the `ReflectBaseActivity1`
+Defining the base class, taking `ReflectBaseActivity1` as an example.
 
 ```kotlin
 abstract class ReflectBaseActivity1<VB : ViewBinding, VM : ViewModel> : AppCompatActivity() {
@@ -19,7 +19,7 @@ abstract class ReflectBaseActivity1<VB : ViewBinding, VM : ViewModel> : AppCompa
 }
 ```
 
-Extend `ReflectBaseActivity1`
+Making your `Activity` extends the `ReflectBaseActivity1` , for example:
 
 ```kotlin
 class ReflectViewModel1() : ViewModel(){
@@ -31,11 +31,15 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 }
 ```
 
-## Create viewModel(have constructor parameter)
+## Create viewModel(Constructor with parameters)
 
 [:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
 
-Define `ReflectBaseActivity2` and `createViewModel` .
+In order to create a ViewModel**(Constructor with parameters)** , you can take the following code as an example:
+
+Defining the base class, taking `ReflectBaseActivity2` as an example. And providing a function like `createViewModel` so that the subclass can override it to return the ViewModel instance which have parameters in constructor.
+
+Defining the `ReflectBaseActivity2`:
 
 ```kotlin
 abstract class ReflectBaseActivity2<VB : ViewBinding, VM : ViewModel> : AppCompatActivity() {
@@ -53,8 +57,8 @@ abstract class ReflectBaseActivity2<VB : ViewBinding, VM : ViewModel> : AppCompa
 
 }
 ```
- 
-Extend `ReflectBaseActivity2` and override `createViewModel` .
+
+Making your `Activity` extends the `ReflectActivity2` and override the `createViewModel` , for example:
 
 ```kotlin
 class ReflectViewModel2(val parameter: String) : ViewModel(){
@@ -72,4 +76,4 @@ class ReflectActivity2 : ReflectBaseActivity2<ActivityMyBinding, ReflectViewMode
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/java/com/ave/vastgui/app/activity/reflectexample){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/reflection/ReflectBaseActivity.kt){ .md-button }
