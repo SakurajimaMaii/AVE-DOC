@@ -1,6 +1,12 @@
 # VastCore
 
-## 0.0.6(Latest)
+## 0.0.7(Latest)
+
+- 新增
+
+    - `ResultCompat` 用于兼容 `kotlin.Result` 在 java 中无法被获取到的问题
+
+## 0.0.6
 
 - 新增
 

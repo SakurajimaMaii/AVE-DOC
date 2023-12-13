@@ -19,10 +19,17 @@
 
 ## 设置选中方式
 
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+
 调用 `setStarSelectMethod` 来设置星星的选中方式，目前支持三种：
 
 - Sliding：滑动
 - Click：点击
+
+    !!! 点击行为变更
+
+        从 0.5.6 版本开始，当选择方式设置为 `Click` 时，星星的选中数量只能为整数。
+
 - Unable：只能通过代码设置
 
 ```kotlin
@@ -38,13 +45,23 @@ mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
 - HORIZONTAL：横向
 - VERTICAL：纵向
 
-```kotlin
-mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
-```
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_orientation="horizontal" />
+    ```
 
 !!! note "默认排列方向"
 
-    默认情况星星的排列方向为 `StarOrientation.UNSPECIFIED` ，只有这种情况可以修改星星的排列方向，一旦修改后无法再次修改。
+    星星的默认排列方向为 `StarOrientation.UNSPECIFIED` ，方向仅允许通过 `setStarOrientation` 或 `star_orientation` 修改一次。
  
 ## 设置星星间距
 
@@ -79,6 +96,20 @@ mBinding.ratingView.setStarBitMapSize(40F.DP,40F.DP)
 
 ```kotlin
 mBinding.ratingView.setStarCountNumber(4)
+```
+
+## 监听星星数量
+
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+
+通过 `setOnStarRatingChangeListener` 注册监听事件来观察评分的改变。
+
+```kotlin
+mBinding.ratingView.setOnStarRatingChangeListener(object : RatingView.OnStarRatingChangeListener {
+    override fun onRatingChanged(rating: Float) {
+        mLogger.d("当前星星评级为 $rating")
+    }
+})
 ```
 
 ## 示例代码

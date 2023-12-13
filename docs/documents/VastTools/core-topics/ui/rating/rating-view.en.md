@@ -19,15 +19,39 @@
 
 ## Select method
 
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+
 Rating currently supports three select method：
 
 - Sliding
+
+    The rating can be set by sliding or calling `setStarRating` .
+
 - Click
+
+    !!! note "Click behavior changes"
+
+        Starting from version 0.5.6, when the select method is set to `Click`, the selected number of stars can only be an integer.
+
+    The rating can be set by clicking or calling `setStarRating` .
+
 - Unable
 
-```kotlin
-mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
-```
+    The rating can only be set by calling `setStarRating` .
+
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_select_method="click" />
+    ```
 
 ## Orientation
 
@@ -38,13 +62,23 @@ Rating currently supports two orientations：
 - HORIZONTAL
 - VERTICAL
 
-```kotlin
-mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
-```
+=== "Kotlin"
+
+    ```kotlin
+    mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_orientation="horizontal" />
+    ```
 
 !!! note "StarOrientation.UNSPECIFIED"
 
-    The orientation of rating can only be set once.
+    The default value of star orientation is `StarOrientation.UNSPECIFIED`, and the direction can only be modified once by calling `setStarOrientation` or `star_orientation`.
  
 ## Gap
 
@@ -77,6 +111,20 @@ The number of star can be set by `setStarCountNumber` .
 
 ```kotlin
 mBinding.ratingView.setStarCountNumber(4)
+```
+
+## Listener
+
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+
+Register a listener by calling `setOnStarRatingChangeListener` to observe the rating changes.
+
+```kotlin
+mBinding.ratingView.setOnStarRatingChangeListener(object : RatingView.OnStarRatingChangeListener {
+    override fun onRatingChanged(rating: Float) {
+        mLogger.d("Current rating is $rating")
+    }
+})
 ```
 
 ## Sample code

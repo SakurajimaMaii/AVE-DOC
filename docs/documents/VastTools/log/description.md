@@ -27,10 +27,12 @@ val mLogFactory = getLogFactory {
     install(LogSwitch) {
         open = true
     }
-    install(LogFormat) {
-        singleLogCharLength = 500
+    install(LogPrinter) {
+        maxSingleLogLength = 50
         maxPrintTimes = 3
-        converter = GsonConverter(true)
+    }
+    install(LogJson) {
+        converter = GsonConverter(true
     }
 }
 ```

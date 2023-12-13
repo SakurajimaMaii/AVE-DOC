@@ -1,6 +1,38 @@
 # VastTools
 
-## 0.5.5(Latest)
+## 0.5.6(Latest)
+
+- 新增
+
+    - `ExperimentalView` 注解
+    - （实验性）暗夜模式切换组件 `MaskLayout` 和 `MaskView`
+    - `RatingView` 新增评分进度监听接口
+    - `DataStorePreference` 使用代理新实现
+    - `SharedPreferences` 使用代理新实现
+    - `PermissionUtils` 新增对未声明权限的提示
+
+- 更新
+
+    - `AlphabetSideBar` 适配 `SharedPreferences`
+    - `RatingView` 更新 `Click` 方式的逻辑，从此版本开始，该方式代表选中的星星数量只会为整数
+    - `LogSp` 适配 `SharedPreferences`
+    - `LogStorage` 适配 `ResultCompat`
+    - `FileMgr` 适配 `ResultCompat`
+    - 适配不同版本定位和文件读写权限
+
+- 修复
+
+    - `SimpleToast` 显示错误的问题
+    - `RatingView` 修复对 `padding` 的支持
+    - `FileMgr` 修复 `moveFile` 移动文件后不删除源文件的问题
+    - `MusicMgr` 修复 `fun getFileUriAboveApi30(file: File): Uri?` 添加时间键值错误的问题
+
+- 删除
+
+    - `FileMgr` 删除 `fun getPath(endWithSeparator: Boolean, vararg path: String): String` 方法
+    - `FileProperty` 和 `FilePropertyMgr`
+
+## 0.5.5
 
 - 新增 
 
