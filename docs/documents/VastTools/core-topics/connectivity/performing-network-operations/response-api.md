@@ -1,6 +1,6 @@
 # ResponseApi
 
-`ResponseApi` 接口提供了四个拓展方法，以便你在之后对请求结果进行监听。
+[ResponseApi](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.network.response/-response-api/index.html) 接口提供了四个拓展方法，以便你在之后对请求结果进行监听。
 
 ## isSuccessful
 
@@ -72,4 +72,4 @@ data class QRCodeKey(
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/net/Request.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/net/Request.kt){ .md-button }

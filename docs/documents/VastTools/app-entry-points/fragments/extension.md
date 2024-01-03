@@ -6,13 +6,7 @@
 
 ## 获取 ViewBinding
 
-请参考 [获取ViewBinding](https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/Reflex/#viewbinding)
-
-## 获取 ViewModel
-
-```kotlin
-private val mViewModel by viewModels<SampleSharedVM>()
-```
+请参考 [获取ViewBinding](https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/#viewbinding)
 
 ## 获取类名为默认日志 tag
 

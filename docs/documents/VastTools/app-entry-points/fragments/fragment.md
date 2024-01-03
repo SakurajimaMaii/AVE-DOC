@@ -7,15 +7,7 @@
 我们以 `VastVbVmFragment` 为例，向你展示了如何将其添加到你的项目当中：
 
 ```kotlin
-class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, SampleSharedVM>() {
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        getBinding().addOne.setOnClickListener {
-            ... //click event
-        }
-    }
+class VideosFragment : VastVbVmFragment<FragmentVideosBinding, SharedVM>() {
 
 }
 ```
@@ -23,23 +15,22 @@ class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, SampleSha
 当然，如果你的项目中没有采用 [ViewBinding](https://developer.android.com/topic/libraries/view-binding?hl=zh-cn) ，你可以继承 `VastVmFragment` ，在此情况下你需要将 `layoutId` 设定为对应的布局id，例如：
 
 ```kotlin
-class SampleVmFragment(override val layoutId: Int = R.layout.fragment_sample_vm) : 
-    VastVmFragment<SampleSharedVM>() {
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        ... //Something to do
-    }
-
+class SenderFragment(override val layoutId: Int = R.layout.fragment_sender) :
+    VastVmFragment<SharedVM>() {
+    
 }
 ```
 
-## 含参数ViewModel的创建
+## 含参数 ViewModel 的创建
 
 如果 `ViewModel` 含有参数，你应该重写 `createViewModel` 方法。
 
 ```kotlin
-class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, SampleSharedVM>() {
+class ParamVM(val param: String) : ViewModel()
+```
+
+```kotlin
+class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, ParamVM>() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -47,7 +38,7 @@ class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, SampleSha
     }
 
     override fun createViewModel(modelClass: Class<out ViewModel>): ViewModel {
-        return SampleSharedVM(defaultTag)
+        return ParamVM(defaultTag)
     }
 
 }
@@ -55,7 +46,9 @@ class SampleVbVmFragment : VastVbVmFragment<FragmentSampleVbVmBinding, SampleSha
 
 ## ViewModel Owner
 
-当 `setVmBySelf` 为 true 时，表示 Fragment 的 ViewModel 会自行保留。当您希望 ViewModel 被其关联的 Activity 保留时，请将 `setVmBySelf` 设置为 false。
+当 `setVmBySelf` 为 true 时，表示 Fragment 的 ViewModel 会自行保留。当你希望 ViewModel 被其关联的 Activity 保留时，请将 `setVmBySelf` 设置为 false 。
+
+你可以通过修改 [SenderFragment](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/fragment/SenderFragment.kt) 的 `setVmBySelf` 返回值来查看 [ReceiverFragment](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/fragment/ReceiverFragment.kt) 是否会接收到数据更新。
 
 ```kotlin
 override fun setVmBySelf(): Boolean = false
@@ -63,26 +56,29 @@ override fun setVmBySelf(): Boolean = false
 
 ## 默认日志标志
 
-你可以通过 `defaultTag` 作为日志的默认TAG，是 `Activity` 的名字。
+你可以通过 `getDefaultTag` 返回值作为日志的默认 TAG，是 `Fragment` 的类名。
 
 ```kotlin
-LogUtils.i(getDefaultTag(), this@SampleVbVmFragment::class.java.simpleName)
+Log.i(getDefaultTag(), "这是一个日志。")
 ```
 
 ## 进行网络请求
 
+在 [ImagesFragment](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/fragment/ImagesFragment.kt) 为你演示了如何通过 `getResponseBuilder` 进行网络请求。
+
 ```kotlin
-getResponseBuilder().suspendWithListener({
-    NetworkRetrofitBuilder().create(UserService::class.java).generateQRCode(DateUtils.currentTime)
-}){
-    onSuccess = {
-
-    }
-    onFailed = {
-
+getBinding().refresh.setOnRefreshListener {
+    getResponseBuilder().suspendWithListener({
+        OpenApi().create(OpenApiService::class.java).getImages(0, 10)
+    }) {
+        ... // 进行数据处理
     }
 }
 ```
+
+!!! warning "过时说明"
+
+    `getResponseBuilder` 方法在 [0.5.3](https://ave.entropy2020.cn/version/VastTools/#053) 版本已被废弃。
 
 ## 获取视图绑定对象
 
@@ -98,4 +94,4 @@ getBinding().view
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/java/com/ave/vastgui/app/fragment){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/fragment){ .md-button }

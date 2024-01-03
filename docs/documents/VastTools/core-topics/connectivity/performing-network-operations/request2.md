@@ -8,52 +8,57 @@
 
 ## 快速开始
 
-- 定义数据类型
+- 定义数据类型。
 
     ```kotlin
-    data class RequestResponse(val code: Int, val message: String, val result: Result) {
-        data class Result(val list: List<Data>, val total: Int) {
-            data class Data(
-                val coverUrl: String, 
-                val duration: String, 
-                val id: Int, 
-                val playUrl: String,
-                val title: String,
-                val userName: String,
-                val userPic: String
-            )
-        }
+    /**
+     * 通过 Api 请求到的好看视频测试数据。
+     *
+     * @property code 返回代码。
+     * @property message 返回信息。
+     * @property result 包含请求到的好看视频列表。
+     */
+    data class Videos(val code: Int, val message: String, val result: Result) {
+        data class Result(val list: List<Data>, val total: Int)
+
+        data class Data(
+            val coverUrl: String,
+            val duration: String,
+            val id: Int,
+            val playUrl: String,
+            val title: String,
+            val userName: String,
+            val userPic: String
+        )
     }
     ```
 
-- 创建网络请求的接口
+- 创建网络请求的接口。
 
     ```kotlin
-    private interface Request2Service {
+    interface Request2Service {
         /**
-         * [获取好看视频](https://api.apiopen.top/swagger/index.html#/%E5%BC%80%E6%94%BE%E6%8E%A5%E5%8F%A3/get_api_getHaoKanVideo)
-         */
+        * [获取好看视频](https://api.apiopen.top/swagger/index.html#/%E5%BC%80%E6%94%BE%E6%8E%A5%E5%8F%A3/get_api_getHaoKanVideo)
+        */
         @GET("/api/getHaoKanVideo")
-        suspend fun getHaoKanVideo(@Query("page") page: Int, @Query("size") size: Int): Request2<Request2Response>
+        suspend fun getHaoKanVideo(@Query("page") page: Int, @Query("size") size: Int): Request2<Videos>
     }
     ```
 
-- 使用 `RequestBuilder` 创建实例
+- 使用 [RequestBuilder](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.network.request/-request-builder/index.html) 创建实例。
 
     ```kotlin
     class NetRequestBuilder : RequestBuilder("https://api.apiopen.top") {
-
         override fun retrofitConfiguration(builder: Retrofit.Builder) {
             super.retrofitConfiguration(builder)
             builder.apply {
                 addConverterFactory(GsonConverterFactory.create())
             }
         }
-
     }
     ```
 
-    如果你不想使用 `RequestBuilder` ，你需要为 `Retrofit.Builder` 添加 `Request2AdapterFactory()` 以便数据能够正确解析。
+    如果你不想使用 `RequestBuilder` ，你需要为 `Retrofit.Builder` 添加 [Request2AdapterFactory](https://api.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.network.request/-request2-adapter-factory/index.html) 以便数据能够正确解析。
 
     ```kotlin
     yourRetrofitBuilder.addCallAdapterFactory(Request2AdapterFactory())
@@ -61,7 +66,7 @@
 
     通过 `RequestBuilder.getApi` 方法你可以获取对应的 `flow` ，你可以对此进行收集和处理。
 
-- 监听网络请求结果
+- 监听网络请求结果。
 
     ```kotlin
     NetRequestBuilder()
@@ -80,4 +85,4 @@
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/net/Request2.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/net/Request2.kt){ .md-button }

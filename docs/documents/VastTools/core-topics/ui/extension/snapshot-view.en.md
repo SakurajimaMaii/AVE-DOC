@@ -27,4 +27,4 @@ val bitmap = viewSnapshot(view, SnapshotOption(1080, 540))
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/extension/ViewSnapActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/extension/ViewSnapActivity.kt){ .md-button }

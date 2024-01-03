@@ -13,35 +13,41 @@ val Context.dataStore: DataStore<Preferences> by
     preferencesDataStore(name = "settings")
 ```
 
-### Write to a Preferences DataStore
+### Implement IDataStoreOwner
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
-
-The following example shows you that `Boolean` type data can be written to `Preferences DataStore` by calling **`saveBoolean`** in `Compose` .
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
 ```kotlin
-val checkState = remember { mutableStateOf(false) }
-val coroutineScope = rememberCoroutineScope()
+object ThemeDs : IDataStoreOwner {
+    override val dataStore: DataStore<Preferences> =
+        ContextHelper.getAppContext().dataStore
 
-Switch(checked = checkState.value, onCheckedChange = {
-    checkState.value = it
-    coroutineScope.launch {
-        dataStore.saveBoolean("isdark", it)
-    }
-})
+    val isDark by boolean(false)
+}
 ```
 
 ### Read from a Preferences DataStore
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
-The following example shows you that `Boolean` type data can be read from `Preferences DataStore` by calling **`readBooleanFlow`** in `Compose` .
+The following example shows you that `Boolean` type data can be read from `Preferences DataStore` by calling `asNotNullFlow` in Compose .
 
 ```kotlin
-val context = LocalContext.current
-val darkFlow = remember {
-    context.dataStore.readBooleanFlow("isdark",false)
-}
+val darkTheme by ThemeDs.isDark.asNotNullFlow().collectAsState(false)
+```
 
-val isThemeInDarkState = darkFlow.collectAsState(initial = false)
+### Write to a Preferences DataStore
+
+[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
+The following example shows you that `Boolean` type data can be written to `Preferences DataStore` in Compose .
+
+```kotlin
+val coroutineScope = rememberCoroutineScope()
+
+Switch(checked = darkTheme, onCheckedChange = { value ->
+    coroutineScope.launch {
+        ThemeDs.isDark.set(value)
+    }
+})
 ```

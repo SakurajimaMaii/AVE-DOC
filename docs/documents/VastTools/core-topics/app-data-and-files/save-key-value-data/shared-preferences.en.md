@@ -14,32 +14,38 @@ Currently support data type:
 - Boolean
 - Double
 
-## Write to shared preferences
+## Get started 
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
-```kotlin
-// sp is SharedPreferences
-var count by sp.float()
-count = 1f
-```
+- Implement `ISharedPreferencesOwner`
 
-## Read from shared preferences
+    ```kotlin
+    object SpExample : ISharedPreferencesOwner {
+        override val name: String = "Sp name"
+        override val kv: SharedPreferences = ... // SharedPreferences instance
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+        // Declare stored fields
+        var isDark by boolean(false)
+    }
+    ```
 
-```kotlin
-// sp is SharedPreferences
-var count by sp.float()
-val value = count
-```
+- Write to shared preferences
 
-## Clear shared preferences
+    ```kotlin
+    SpExample.isDark = !SpExample.isDark
+    ```
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+- Read from shared preferences
 
-Use `clearAll()` to remove all values ​​from `SharedPreferences`.
+    ```kotlin
+    val isDark = SpExample.isDark
+    ```
 
-```kotlin
-sp.clearAll()
-```
+- Clear shared preferences
+
+    Calling `clearAll()` to remove all values ​​from `SharedPreferences`.
+
+    ```kotlin
+    sp.clearAll()
+    ```

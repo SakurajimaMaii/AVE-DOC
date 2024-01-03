@@ -67,4 +67,4 @@
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/text/UnitString.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/text/UnitString.kt){ .md-button }

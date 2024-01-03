@@ -13,35 +13,41 @@ val Context.dataStore: DataStore<Preferences> by
     preferencesDataStore(name = "settings")
 ```
 
-### 将内容写入 Preferences DataStore
+### 实现 IDataStoreOwner
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
-
-下面的示例为你展示了在 `Compose` 中通过调用 **`saveBoolean`** 可以将 `Boolean` 类型数据写入 `Preferences DataStore` 中。
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
 ```kotlin
-val checkState = remember { mutableStateOf(false) }
-val coroutineScope = rememberCoroutineScope()
+object ThemeDs : IDataStoreOwner {
+    override val dataStore: DataStore<Preferences> =
+        ContextHelper.getAppContext().dataStore
 
-Switch(checked = checkState.value, onCheckedChange = {
-    checkState.value = it
-    coroutineScope.launch {
-        dataStore.saveBoolean("isdark", it)
-    }
-})
+    val isDark by boolean(false)
+}
 ```
 
 ### 从 Preferences DataStore 读取内容
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
-下面的示例为你展示了在 `Compose` 中通过调用 **`readBooleanFlow`** 可以将 `Boolean` 类型数据从`Preferences DataStore` 中读出。
+下面的示例为你展示了在 `Compose` 中通过调用 `asNotNullFlow` 可以将 `Boolean` 类型数据从 `Preferences DataStore` 中读出。
 
 ```kotlin
-val context = LocalContext.current
-val darkFlow = remember {
-    context.dataStore.readBooleanFlow("isdark",false)
-}
+val darkTheme by ThemeDs.isDark.asNotNullFlow().collectAsState(false)
+```
 
-val isThemeInDarkState = darkFlow.collectAsState(initial = false)
+### 将内容写入 Preferences DataStore
+
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+
+下面的示例为你展示了在 `Compose` 中将 `Boolean` 类型数据写入 `Preferences DataStore` 中。
+
+```kotlin
+val coroutineScope = rememberCoroutineScope()
+
+Switch(checked = darkTheme, onCheckedChange = { value ->
+    coroutineScope.launch {
+        ThemeDs.isDark.set(value)
+    }
+})
 ```

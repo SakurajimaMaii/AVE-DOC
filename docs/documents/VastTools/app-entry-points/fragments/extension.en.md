@@ -1,20 +1,10 @@
 # Extension
 
-## 概述
+## Get ViewBinding
 
-我们知道有时候你的 `Fragment` 已经有继承对象，因此对你而言继承 `VastFragment` 组件显然是不合适的，因而你可以使用下面的方法来拓展其功能。
+Please refer to [ViewBinding](https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/Reflex/#viewbinding) .
 
-## 获取 ViewBinding
-
-请参考 [获取ViewBinding](https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/Reflex/#viewbinding)
-
-## 获取 ViewModel
-
-```kotlin
-private val mViewModel by viewModels<SampleSharedVM>()
-```
-
-## 获取类名为默认日志 tag
+## Get class name as log tag
 
 ```kotlin
 private val mLogTag = defaultLogTag()

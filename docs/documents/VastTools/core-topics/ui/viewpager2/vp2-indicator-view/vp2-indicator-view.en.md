@@ -121,4 +121,4 @@ mBinding.vp2indicator.apply {
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/Vp2IndicatorActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/Vp2IndicatorActivity.kt){ .md-button }

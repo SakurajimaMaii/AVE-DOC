@@ -4,7 +4,10 @@
 
 !!! warning 
     
-    如果你的设备是Android 11(API>=30)，你应该在清单中做出如下声明，否则可能会找不到对应的Activity。例如：
+    如果您的应用以 Android 11（API 级别 30）或更高版本为目标平台，在默认情况下，系统会[自动让部分应用对您的应用可见](https://developer.android.com/training/basics/intents/package-visibility?hl=zh-cn#automatic)，但会隐藏其他应用。通过让部分应用在默认情况下不可见，系统可以了解应向您的应用显示哪些其他应用，这样有助于鼓励最小权限原则。
+
+    如果你想打开系统电话，需要在清单文件中声明以下内容：
+
     ```xml
     <queries>
         <intent>
@@ -47,4 +50,4 @@
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }

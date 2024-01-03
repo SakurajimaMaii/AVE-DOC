@@ -20,5 +20,5 @@ fun QRCode() {
   <figcaption>QRCode</figcaption>
 </figure>
 
-[Sample Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/graphics/QRCode.kt){ .md-button }
+[Sample Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/graphics/QRCode.kt){ .md-button }
 

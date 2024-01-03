@@ -30,4 +30,4 @@ val screenOrientation = ScreenSizeUtils.getScreenOrientation()
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/informationget/ScreenInfo.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/informationget/ScreenInfo.kt){ .md-button }

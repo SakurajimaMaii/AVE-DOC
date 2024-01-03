@@ -73,6 +73,7 @@ plugins:
             Documents : 文档
             Extension : 拓展
             File manager : 文件管理
+            Fragments : 片段
             Graphics : 绘图
             Images : 图像
             Information get : 信息获取
@@ -120,6 +121,8 @@ plugins:
 
 # LaTeX支持
 markdown_extensions:
+  - toc:
+      permalink: true
   - attr_list
   - md_in_html
   - admonition
@@ -132,7 +135,11 @@ markdown_extensions:
       generic: true
   - pymdownx.details
   - pymdownx.tilde
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys

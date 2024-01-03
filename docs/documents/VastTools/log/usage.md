@@ -152,4 +152,4 @@ val mLogFactory = getLogFactory {
 }
 ```
 
-[查看存储文件示例](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/log/AVE_1694179554073.log){ .md-button }
+[查看存储文件示例](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/log/AVE_1694179554073.log){ .md-button }

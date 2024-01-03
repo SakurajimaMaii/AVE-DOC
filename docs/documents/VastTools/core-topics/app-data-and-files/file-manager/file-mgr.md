@@ -32,7 +32,7 @@ fun DevicePath(modifier: Modifier = Modifier){
 }
 ```
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
 
 ## 对文件进行操作
 
@@ -57,7 +57,7 @@ if(result.isSuccess){
 }
 ```
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/FileActivity.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/FileActivity.kt){ .md-button }
 
 ## 构建文件路径
 
@@ -70,4 +70,4 @@ val path = FileMgr.getPath {
 }
 ```
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }

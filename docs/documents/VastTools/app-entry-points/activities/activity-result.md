@@ -1,7 +1,6 @@
-# 获取 activity 的结果
+# 获取 Activity 的结果
 
-借助工具包提供给你的合约，你可以配合 `registerForActivityResult()`
- API 来快速的获取 activity 结果。
+借助工具包提供给你的合约，你可以配合 `registerForActivityResult()` API 来快速的获取 activity 结果。
 
 ## CropPhotoContract
 

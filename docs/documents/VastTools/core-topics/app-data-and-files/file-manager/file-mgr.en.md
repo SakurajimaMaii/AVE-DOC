@@ -32,7 +32,7 @@ fun DevicePath(modifier: Modifier = Modifier){
 }
 ```
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
 
 ## File operations
 
@@ -55,7 +55,7 @@ fun DevicePath(modifier: Modifier = Modifier){
     }
     ```
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/FileActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/FileActivity.kt){ .md-button }
 
 ## Build file path
 
@@ -68,4 +68,4 @@ val path = FileMgr.getPath {
 }
 ```
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/FilePath.kt){ .md-button }

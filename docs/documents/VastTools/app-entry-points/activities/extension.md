@@ -8,16 +8,10 @@
 
 请参考 [获取ViewBinding](https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/Reflex/#viewbinding)
 
-## 获取 ViewModel
-
-```kotlin
-private val mViewModel by viewModels<SampleSharedVM>()
-```
-
 ## 获取类名为默认日志 tag
 
 ```kotlin
-private val mLogTag = defaultLogTag()
+private val mLogTag = getDefaultTag()
 ```
 
 ## 设置全屏模式

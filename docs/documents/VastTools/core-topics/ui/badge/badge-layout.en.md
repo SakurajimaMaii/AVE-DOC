@@ -53,4 +53,4 @@ mBinding.dotbadge.hideDot()
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/BadgeViewActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/BadgeViewActivity.kt){ .md-button }

@@ -1,9 +1,5 @@
 # 适用于 SharedPreferences 的拓展
 
-为了方便用户对 `SharedPreferences` 进行操作，提供了如下的拓展方法：
-
-`fun SharedPreferences.string(defaultValue: String? = null): ReadWriteProperty<Any, String>`
-
 目前支持的数据类型：
 
 - String
@@ -14,32 +10,38 @@
 - Boolean
 - Double
 
-## 向共享偏好中写入数据
+## 快速开始
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
 
-```kotlin
-// sp 是一个 SharedPreferences 对象
-var count by sp.float()
-count = 1f
-```
+- 实现 `ISharedPreferencesOwner`
 
-## 从共享偏好中读出数据
+    ```kotlin
+    object SpExample : ISharedPreferencesOwner {
+        override val name: String = "Sp的名称"
+        override val kv: SharedPreferences = ... // SharedPreferences 对象
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+        // 声明存储的字段
+        var isDark by boolean(false)
+    }
+    ```
 
-```kotlin
-// sp 是一个 SharedPreferences 对象
-var count by sp.float()
-val value = count
-```
+- 向共享偏好中写入数据
 
-## 从共享偏好中清除数据
+    ```kotlin
+    SpExample.isDark = !SpExample.isDark
+    ```
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+- 从共享偏好中读出数据
 
-调用 `clearAll()` 从 `SharedPreferences` 中删除所有值。
+    ```kotlin
+    val isDark = SpExample.isDark
+    ```
 
-```kotlin
-sp.clearAll()
-```
+- 从共享偏好中清除数据
+
+    调用 `clearAll()` 从 `SpExample` 中删除所有值。
+
+    ```kotlin
+    SpExample.clearAll()
+    ```

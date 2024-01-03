@@ -52,4 +52,4 @@ object YourRwdStrength : PwdStrength {
 
 ## Sample code
 
-[Sample Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/text/PwdRegex.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/text/PwdRegex.kt){ .md-button }

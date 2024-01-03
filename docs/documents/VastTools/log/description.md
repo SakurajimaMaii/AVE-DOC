@@ -81,4 +81,4 @@ logger.json(LogLevel.DEBUG, User("张三", 18))
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/java/com/ave/vastgui/app/activity/log){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/log){ .md-button }

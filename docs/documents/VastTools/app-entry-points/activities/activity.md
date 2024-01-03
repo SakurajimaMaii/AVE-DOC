@@ -6,8 +6,6 @@
 
 我们以 `VastVbVmActivity` 为例，你无需去手动初始化 `ViewBinding` 和 `ViewModel` 。
 
-下面展示了基本使用
-
 ```kotlin
 class ExampleActivity : VastVbVmActivity<ActivityExampleBinding, SampleSharedVM>() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,12 +73,12 @@ class ExampleActivity : VastVbVmActivity<ActivityExampleBinding, SampleSharedVM>
   <figcaption>使用全面屏</figcaption>
 </figure>
 
-## 含参数ViewModel的创建
+## 含参数 ViewModel 的创建
 
 如果 `ViewModel` 含有参数，你应该重写 `createViewModel` 方法。
 
 ```kotlin
-class ParamVM(val param:String): ViewModel()
+class ParamVM(val param: String) : ViewModel()
 ```
 
 ```kotlin
@@ -118,10 +116,10 @@ class MainActivity : VastVbActivity<ActivityMainBinding>() {
 
 ## 默认日志标志
 
-你可以通过 `defaultTag` 作为日志的默认TAG，是 `Activity` 的名字。
+你可以通过 `getDefaultTag` 作为日志的默认TAG，是 `Activity` 的类名。
 
 ```kotlin
-LogUtils.i(getDefaultTag(),"This is a log.")
+Log.i(getDefaultTag(), "这是一个日志。")
 ```
 
 ## Snackbar
@@ -156,6 +154,10 @@ getResponseBuilder().suspendWithListener({
     }
 }
 ```
+
+!!! warning "过时说明"
+
+    `getResponseBuilder` 方法在 [0.5.3](https://ave.entropy2020.cn/version/VastTools/#053) 版本已被废弃。
 
 ## 获取视图绑定对象
 

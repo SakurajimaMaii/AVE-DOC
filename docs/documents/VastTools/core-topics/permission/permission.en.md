@@ -81,4 +81,4 @@ requestMultiplePermissions(arrayOf(DATE, SMS)) {
 
 ## Example Code
 
-[Example Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/PermissionActivity.kt){ .md-button }
+[Example Code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/PermissionActivity.kt){ .md-button }

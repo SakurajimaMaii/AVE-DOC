@@ -112,7 +112,7 @@ val mLogFactory = getLogFactory {
 
 Currently the following three Json converters are provided:
 
-|       类名        |                          属性                           |
+|       Class       |                          Base                           |
 | :---------------: | :-----------------------------------------------------: |
 | FastJsonConverter | Base on [FastJson](https://github.com/alibaba/fastjson) |
 |   GsonConverter   |     Base on [Gson](https://github.com/google/gson)      |
@@ -144,4 +144,4 @@ val mLogFactory = getLogFactory {
 }
 ```
 
-[Sample file](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/log/AVE_1694179554073.log){ .md-button }
+[Sample file](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/log/AVE_1694179554073.log){ .md-button }

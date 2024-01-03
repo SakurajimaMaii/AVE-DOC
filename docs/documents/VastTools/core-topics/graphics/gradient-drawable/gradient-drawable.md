@@ -9,8 +9,8 @@
 ```kotlin
 getBinding().btn.background = GradientDrawable().apply {
     shape = RECTANGLE
-    cornerRadius = 30f.DP
-    setBkColor(getColor(R.color.teal_200))
+    cornerRadius = 20f.DP
+    setSingle(Color.argb(255,2,218,197))
 }
 ```
 
@@ -84,4 +84,4 @@ getBinding().btn.background = GradientDrawable().apply {
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/graphics/GradientDrawableActivity.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/graphics/GradientDrawableActivity.kt){ .md-button }

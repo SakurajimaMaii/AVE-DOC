@@ -105,7 +105,7 @@ val base64 =  .....
 val base64Bitmap = BmpUtils.getBitmapFromBase64(base64)
 ```
 
-[查看示例Base64](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/graphics/bitmap/Base64.txt){ .md-button }
+[查看示例Base64](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/graphics/bitmap/Base64.txt){ .md-button }
 
 ## 通过 Drawable 获取位图
 
@@ -154,4 +154,4 @@ val (width, height) = BmpUtils.getBitmapWidthHeight { options ->
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/java/com/ave/vastgui/appcompose/example/graphics/bitmap/Bitmap.kt){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app-compose/src/main/kotlin/com/ave/vastgui/appcompose/example/graphics/bitmap/Bitmap.kt){ .md-button }

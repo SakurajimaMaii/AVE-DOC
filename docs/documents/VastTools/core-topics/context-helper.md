@@ -15,13 +15,13 @@ class App: Application() {
 }
 ```
 
-## 获取Application
+## 获取 Application
 
 ```kotlin
 ContextHelper.getApp()
 ```
 
-## 获取全局Context
+## 获取全局 Context
 
 ```kotlin
 ContextHelper.getAppContext()

@@ -2,98 +2,20 @@
 
 ## Quick start
 
-### Register for activity result of crop picture
+You can choose the following three ways to call the cropping application. The main differences are as follows:
 
-```kotlin
-private val cropIntentLauncher =
-    registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { res ->
-        val uri = res.data?.data ?: return@registerForActivityResult
-        getBinding().image.setImageURI(uri)
-    }
+- If you use `VastCropActivity` , the cropping application built based on [CropViewLayout](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/) will be used.
+- If you use `CropIntent` , you need to obtain the `Uri` of the returned image and refer to [Uri permissions](#uri-permission) to revoke permissions.
+- If you use `CropIntent` and `CropPhotoContract`, there is no need to set the `Uri` of the returned image and revoke permissions.
+
+```mermaid
+graph LR
+A[Cropping]-->B[VastCropActivity]
+A-->C[CropIntent]
+A-->D[CropIntent with CropPhotoContract]
 ```
 
-### Get uri for output picture
-
-Click [ImageMgr](https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/) to learn about how to get the uri with different android version.
- 
-```kotlin
-val dir = ImageMgr.getExternalFilesDir(null)
-val name = ImageMgr.getDefaultFileName(".jpg")
-output = ImageMgr.getFileUriAboveApi30(File(dir, name))
-```
-
-### Configure and start CropIntent
-
-```kotlin
-val cropIntent = CropIntent()
-    .setData(uri)
-    .setCorp(true)
-    .setAspect(1, 1)
-    .setOutput(200, 200)
-    .setReturnData(false)
-    .setNoFaceDetection(true)
-    .setOutputUri(output)
-    .getIntent()
-cropIntentLauncher.launch(cropIntent)
-```
-
-## Use CropIntent with CropPhotoContract
-
-The following example shows how to use `CropIntent` with `CropPhotoContract`.
-
-!!! note
-
-    It's necessary to call `getIntent` and `setOutputUri`.
-
-=== "Android-View"
-
-    ```kotlin
-    // Get the cropped picture and display it
-    private val cropIntentLauncher =
-        registerForActivityResult(CropPhotoContract()) { uri ->
-            uri?.let {
-                getBinding().image.setImageURI(it)
-            }
-        }
-
-    // Configure CropIntent
-    val cropIntent = CropIntent()
-        .setData(uri)
-        .setCorp(true)
-        .setAspect(1, 1)
-        .setOutput(200, 200)
-        .setReturnData(false)
-        .setOutputName(null)
-        .setNoFaceDetection(true)
-    cropIntentLauncher.launch(cropIntent)
-    ```
-
-=== "Compose"
-
-    ```kotlin
-    // Get the cropped picture and display it
-    val cropIntentLauncher = rememberLauncherForActivityResult(CropPhotoContract()) { uri: Uri? ->
-        image = uri
-    }
-
-    // Configure CropIntent
-    val cropIntent = CropIntent()
-        .setData(it)
-        .setCorp(true)
-        .setAspect(1, 1)
-        .setOutput(200, 200)
-        .setReturnData(false)
-        .setNoFaceDetection(true)
-    cropIntentLauncher.launch(cropIntent)
-
-    image?.let { it ->
-        AsyncImage(
-            model = ImageRequest.Builder(LocalContext.current).data(it).build(),
-            contentDescription = null,
-            modifier = Modifier.size(200.dp,200.dp)
-        )
-    }
-    ```
+You can refer to [Sample code](#sample-code) to see a complete usage example.
 
 ## Set output picture name
 
@@ -124,4 +46,4 @@ ContextHelper.getAppContext()
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/utils/cropimage){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/CropImageActivity.kt){ .md-button }

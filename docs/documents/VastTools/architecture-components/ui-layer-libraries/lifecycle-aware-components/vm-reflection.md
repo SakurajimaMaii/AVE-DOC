@@ -78,4 +78,4 @@ class ReflectActivity2 : ReflectBaseActivity2<ActivityMyBinding, ReflectViewMode
 
 ## 示例代码
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/reflection/ReflectBaseActivity.kt){ .md-button }
+[示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/reflection/ReflectBaseActivity.kt){ .md-button }

@@ -4,7 +4,10 @@
 
 !!! warning 
     
-    If the SDK of device is above Android 11(API>=30)，you should add following content in `AndroidManifest.xml` ：
+    When an app targets Android 11 (API level 30) or higher and queries for information about the other apps that are installed on a device, the system filters this information by default. This filtering behavior means that your app can’t detect all the apps installed on a device, which helps minimize the potentially sensitive information that your app can access but doesn't need to fulfill its use cases.
+
+    For example, if you want to use the default phone app, declare the following in `AndroidManifest.xml` .
+
     ```xml
     <queries>
         <intent>
@@ -47,4 +50,4 @@ As demonstrated in the code above, a call can be made by using `dialPhoneNumber`
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/IntentActivity.kt){ .md-button }

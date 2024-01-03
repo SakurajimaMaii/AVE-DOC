@@ -8,97 +8,20 @@
 
 ## 快速使用
 
-### 注册 Activity 获取裁剪结果
+你可以选择以下三种方式来调用裁剪应用，其主要区别如下：
 
-```kotlin
-private val cropIntentLauncher =
-    registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { res ->
-        val uri = res.data?.data ?: return@registerForActivityResult
-        getBinding().image.setImageURI(uri)
-    }
+- 如果使用 `VastCropActivity` ，则会通过基于 [CropViewLayout](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/) 所构建的裁剪应用。
+- 如果使用 `CropIntent` ，需要手动获取返回图片的 `Uri` 并参考 [关于 uri 权限](#uri) 手动收回权限。
+- 如果使用 `CropIntent` 和 `CropPhotoContract` ，则无需手动设置返回图片的 `Uri` 以及取消权限。
+
+```mermaid
+graph LR
+A[调用裁剪]-->B[使用 VastCropActivity]
+A-->C[使用 CropIntent]
+A-->D[使用 CropIntent 和 CropPhotoContract]
 ```
 
-### 获取输出文件 Uri
-
-你可以点击 [ImageMgr](https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/) 来了解如何在不同版本下获取文件对应的 Uri 。
- 
-```kotlin
-// 获取输出 uri
-val dir = ImageMgr.getExternalFilesDir(null)
-val name = ImageMgr.getDefaultFileName(".jpg")
-output = ImageMgr.getFileUriAboveApi30(File(dir, name))
-```
-
-### 配置裁剪参数并启动 Intent
-
-```kotlin
-// 设置相关参数
-val cropIntent = CropIntent()
-    .setData(uri)
-    .setCorp(true)
-    .setAspect(1, 1)
-    .setOutput(200, 200)
-    .setReturnData(false)
-    .setNoFaceDetection(true)
-    .setOutputUri(output)
-    .getIntent()
-cropIntentLauncher.launch(cropIntent)
-```
-
-## 配合 CropPhotoContract
-
-下面的示例为你展示了如何配合 `CropPhotoContract` 使用。在此情况下无需调用 `getIntent` 和 `setOutputUri` 方法。
-
-=== "Android-View"
-
-    ```kotlin
-    // 获取裁剪后的图片并展示
-    private val cropIntentLauncher =
-        registerForActivityResult(CropPhotoContract()) { uri ->
-            uri?.let {
-                getBinding().image.setImageURI(it)
-            }
-        }
-
-    // 构建 CropIntent
-    val cropIntent = CropIntent()
-        .setData(uri)
-        .setCorp(true)
-        .setAspect(1, 1)
-        .setOutput(200, 200)
-        .setReturnData(false)
-        .setOutputName(null)
-        .setNoFaceDetection(true)
-    cropIntentLauncher.launch(cropIntent)
-    ```
-
-=== "Compose"
-
-    ```kotlin
-    // 获取裁剪后的图片并展示
-    val cropIntentLauncher = rememberLauncherForActivityResult(CropPhotoContract()) { uri: Uri? ->
-        image = uri
-    }
-
-    // 构建 CropIntent
-    val cropIntent = CropIntent()
-        .setData(it)
-        .setCorp(true)
-        .setAspect(1, 1)
-        .setOutput(200, 200)
-        .setReturnData(false)
-        .setNoFaceDetection(true)
-    cropIntentLauncher.launch(cropIntent)
-
-    // 展示图像
-    image?.let { it ->
-        AsyncImage(
-            model = ImageRequest.Builder(LocalContext.current).data(it).build(),
-            contentDescription = null,
-            modifier = Modifier.size(200.dp,200.dp)
-        )
-    }
-    ```
+可以参考 [示例代码](#_4) 来查看完整的使用示例。
 
 ## 设置输出图像名称
 
@@ -129,4 +52,4 @@ ContextHelper.getAppContext()
 
 ## 示例代码
 
-[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/utils/cropimage){ .md-button }
+[查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/CropImageActivity.kt){ .md-button }

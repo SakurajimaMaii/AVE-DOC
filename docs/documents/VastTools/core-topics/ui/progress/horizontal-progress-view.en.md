@@ -267,4 +267,4 @@ Color-int of the text box can be set by `linetext_progress_box_color` or calling
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/activity/view/HorizontalProgressViewActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/HorizontalProgressViewActivity.kt){ .md-button }
