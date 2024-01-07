@@ -1,6 +1,24 @@
 # VastTools
 
-## 0.5.6(Latest)
+## 1.1.1(Latest)
+
+- 新增
+
+    - 使用 [App Startup](https://developer.android.com/topic/libraries/app-startup) 初始化
+
+- 修复
+
+    - `VastVmActivity` 没有重写 `getSnackbar` 方法的问题
+    - `VastVmActivity` 的 Snackbar 找不到合法根布局的问题
+    - `VastVmFragment` 创建 ViewModel 参数错误的问题
+    - 移除将存在 TRANSPORT_VPN 作为网络可用的判断条件，因为必须先开启 wifi 或者移动网络 VPN 连接才有效
+    - 发送短信时错误添加附件的问题
+
+- 删除
+
+    - `Vp2IndicatorView` 的多余属性
+
+## 0.5.6
 
 - 新增
 
