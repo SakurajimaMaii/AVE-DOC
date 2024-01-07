@@ -67,6 +67,7 @@ plugins:
             Avatar : 头像
             Badge : 徽标
             Collections : 集合
+            Component : 组件
             Connectivity : 连接性
             Core topics : 核心主题
             Debug : 调试

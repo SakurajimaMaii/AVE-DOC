@@ -58,6 +58,22 @@
     implementation("io.github.sakurajimamaii:VastTools:$version")
     ```
 
+### VastAdapter
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/VastAdapter)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:VastAdapter:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:VastAdapter:$version")
+    ```
+
 ## Star历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=SakurajimaMaii/Android-Vast-Extension&type=Date)](https://star-history.com/#SakurajimaMaii/Android-Vast-Extension&Date)
