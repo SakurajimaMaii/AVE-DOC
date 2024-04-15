@@ -2,6 +2,8 @@
 
 ## Create pinned shortcuts
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 ![AppShortcuts](../img/app_shortcuts.png){ align=right width="300" }
 
 On Android 8.0 (API level 26) and higher, you can create pinned shortcuts. Unlike static and dynamic shortcuts, pinned shortcuts appear in supported launchers as separate icons. Figure 1 shows the distinction between these two types of shortcuts.
@@ -20,6 +22,8 @@ createPinnedShortcut("OnlyId") {
 
 ### Set resultIntent for shortcut
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 Set resultIntent by `shortcutResultIntent` .
 
 ```kotlin
@@ -37,6 +41,8 @@ createPinnedShortcut(
 
 ## Create dynamic shortcuts
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 ![DynamicShortcuts](../img/dynamic_shortcuts.png){ align=right width="300" }
 
 Using `DynamicShortcuts` to create dynamic shortcuts.
@@ -50,7 +56,7 @@ val shortcut = ShortcutInfoCompat.Builder(context, "OnlyId")
     .setIntent(Intent(Intent.ACTION_VIEW,
         Uri.parse("https://www.mysite.example.com/")))
     .build()
-DynamicShortcuts(listOf(shortcut))
+addDynamicShortcuts(listOf(shortcut))
 ```
 
 ## Sample code

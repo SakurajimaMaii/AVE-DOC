@@ -2,6 +2,8 @@
 
 ## 创建固定快捷方式
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 ![AppShortcuts](../img/app_shortcuts.png){ align=right width="300" }
 
 在 Android 8.0（API 级别 26）及更高版本中，您可以创建固定快捷方式。与静态和动态快捷方式不同，固定快捷方式在受支持的启动器中显示为单独的图标。右图显示了这两类快捷方式之间的区别。
@@ -20,6 +22,8 @@ createPinnedShortcut("OnlyId") {
 
 ### 为快捷方式设置 resultIntent
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 通过 `shortcutResultIntent` 参数设置 resultIntent 。
 
 ```kotlin
@@ -37,6 +41,8 @@ createPinnedShortcut(
 
 ## 创建动态快捷方式
 
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+
 ![DynamicShortcuts](../img/dynamic_shortcuts.png){ align=right width="300" }
 
 调用 `DynamicShortcuts` 来创建一个动态快捷方式。
@@ -50,7 +56,7 @@ val shortcut = ShortcutInfoCompat.Builder(context, "OnlyId")
     .setIntent(Intent(Intent.ACTION_VIEW,
         Uri.parse("https://www.mysite.example.com/")))
     .build()
-DynamicShortcuts(listOf(shortcut))
+addDynamicShortcuts(listOf(shortcut))
 ```
 
 ## 示例代码

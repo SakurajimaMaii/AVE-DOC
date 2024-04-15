@@ -1,6 +1,15 @@
 # VastTools
 
-## 1.1.1(Latest)
+## 1.2.1(Latest)
+
+- 新增 
+
+    - 网络工具新增 IP 地址相关方法
+    - [新增 Api 适配拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/build/)
+    - [新增 View 可见性拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/view/)
+    - [新增 CountDownTimer 拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/countdowntimer/)
+
+## 1.1.1
 
 - 新增
 
