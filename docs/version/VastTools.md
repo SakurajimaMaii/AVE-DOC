@@ -1,6 +1,17 @@
 # VastTools
 
-## 1.2.1(Latest)
+## 1.3.1(Latest)
+
+- 新增：
+
+    - 新增键盘工具类。
+    - 新增位图转换 Base64 方法 [getBase64FromBitmap](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.graphics/-bmp-utils/get-base64-from-bitmap.html?query=fun%20getBase64FromBitmap(bitmap:%20Bitmap):%20String?) 。 
+
+- 更新：
+
+    - 日志框架被独立，作为单独的模块进行发布。
+
+## 1.2.1
 
 - 新增 
 

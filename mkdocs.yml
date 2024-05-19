@@ -82,6 +82,8 @@ plugins:
             License : 许可
             Lifecycle aware components : 生命周期感知型组件
             Log : 日志
+            Log core : 核心主题
+            Log desktop : Kotlin/Java 应用
             Performing network operations : 执行网络操作
             Progress : 进度条
             Save key value data : 保存键值对数据
@@ -119,6 +121,7 @@ plugins:
   - mkdocs-video:
       is_video: True
       video_autoplay: True
+  - glightbox
 
 # LaTeX支持
 markdown_extensions:
@@ -130,8 +133,8 @@ markdown_extensions:
   - footnotes
   - def_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
