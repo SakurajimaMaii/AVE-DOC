@@ -35,6 +35,7 @@ jobs:
       - run: pip install mkdocs-static-i18n
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-video
+      - run: pip install mkdocs-glightbox
       - run: mkdocs build --verbose --clean
           
 permissions:
