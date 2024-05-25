@@ -9,7 +9,9 @@
 
 `VastCore` 提供了其他库的一些核心功能。
 
-## 引用
+## 依赖
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/VastCore)
 
 === "gradle"
 
@@ -17,7 +19,7 @@
     implementation 'io.github.sakurajimamaii:VastCore:$version'
     ```
 
-=== "gradle.kts"
+=== "kts"
 
     ```kotlin
     implementation("io.github.sakurajimamaii:VastCore:$version")

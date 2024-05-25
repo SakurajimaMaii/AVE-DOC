@@ -89,3 +89,19 @@
 <figure markdown>
   ![VastAdapter 架构](./img/adapter_sample.jpg){ width="300" }
 </figure>
+
+## 依赖
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/VastAdapter)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:VastAdapter:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:VastAdapter:$version")
+    ```

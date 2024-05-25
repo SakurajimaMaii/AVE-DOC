@@ -7,13 +7,15 @@
 
 ## Add the dependency
 
+Latest version ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/VastCore)
+
 === "gradle"
 
     ```groovy
     implementation 'io.github.sakurajimamaii:VastCore:$version'
     ```
 
-=== "gradle.kts"
+=== "kts"
 
     ```kotlin
     implementation("io.github.sakurajimamaii:VastCore:$version")

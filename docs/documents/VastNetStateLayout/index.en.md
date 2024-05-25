@@ -18,3 +18,19 @@
 <img src="./img/loading.png" width=30%/>
 <img src="./img/network_error.png" width=30%/>
 </div>
+
+## Add the dependency
+
+Latest version ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/VastNetStateLayout)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:VastNetStateLayout:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:VastNetStateLayout:$version")
+    ```
