@@ -1,6 +1,6 @@
 # VastTools
 
-## 1.3.2(Latest)
+## 1.4.1(Latest)
 
 - 新增：
 
