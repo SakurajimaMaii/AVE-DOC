@@ -1,6 +1,21 @@
 # VastTools
 
-## 1.3.1(Latest)
+## 1.3.2(Latest)
+
+- 新增：
+
+    - [AppCrashHandler](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.exception/-app-crash-handler/index.html) 用来处理全局异常。 [**#6783215**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/678321504ffe93e5bec18e6b18581ae23dd50e43)
+
+- 修复：
+
+    - [AndroidLogger](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-logger/index.html?query=class%20AndroidLogger(val%20mMaxSingleLogLength:%20Int,%20val%20mMaxPrintTimes:%20Int,%20val%20mHeader:%20LogHeader)%20:%20LogScope,%20Logger) 修复日志内容长度小于mMaxSingleLogLength由于未处理换行符导致打印错误的问题 。[**#8ee9a00**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8ee9a00b116a4485e3a1ebb84b41c30a92c39cab)
+
+- 更新：
+
+    - [AndroidLogger](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-logger/index.html?query=class%20AndroidLogger(val%20mMaxSingleLogLength:%20Int,%20val%20mMaxPrintTimes:%20Int,%20val%20mHeader:%20LogHeader)%20:%20LogScope,%20Logger) 修改了日志打印的方式，由打印多条修改为打印单条。 [**#6f3b709**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6f3b709aee400feeaba5c8a2d539896714203cb4)
+
+
+## 1.3.1
 
 - 新增：
 

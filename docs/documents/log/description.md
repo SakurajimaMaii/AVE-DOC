@@ -21,7 +21,7 @@
 
 ## 面向 Kotlin/Java 程序
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
 
 ![log_desktop](../img/log_desktop.png){ align=left width="400" }
 
@@ -31,6 +31,18 @@
 - 支持日志文件存储，查看 [示例](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/libraries/log/desktop/log) 。
 - 支持对象以 json(pretty 可选) 风格输出。
 - 支持 JsonString 打印。
+
+## 面向 Okhttp
+
+[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+
+![log_okhttp](../img/log_okhttp.png){ align=right width="400" }
+
+- 支持过滤请求。
+- 支持自定义日志内容显示级别。
+- 支持自定义请求日志级别。
+- 支持自定义回复日志级别。
+- 支持超长内容打印。
 
 ## 快速使用
 
@@ -64,4 +76,20 @@
 
     ```kotlin
     implementation("io.github.sakurajimamaii:log-desktop:$version")
+    ```
+
+### log-okhttp
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-okhttp)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-okhttp:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-okhttp:$version")
     ```
