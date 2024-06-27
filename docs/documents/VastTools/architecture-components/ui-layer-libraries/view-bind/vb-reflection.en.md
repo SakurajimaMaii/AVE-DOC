@@ -66,4 +66,4 @@ abstract class ReflectBaseActivity1<VB : ViewBinding, VM : ViewModel> : AppCompa
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/java/com/ave/vastgui/app/activity/reflection){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/reflection/ReflectActivity.kt){ .md-button }

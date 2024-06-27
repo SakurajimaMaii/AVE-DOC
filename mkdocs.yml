@@ -84,8 +84,10 @@ plugins:
             Log : 日志
             Log core : 核心主题
             Log desktop : Kotlin/Java 应用
+            Log mars : Tencent/Mars
             Log okhttp : Okhttp3 日志拦截器
             Performing network operations : 执行网络操作
+            Plugin : 插件
             Progress : 进度条
             Save key value data : 保存键值对数据
             Security : 安全

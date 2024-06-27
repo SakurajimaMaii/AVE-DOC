@@ -1,4 +1,5 @@
 nav:
+    - setting-up-logfactory.md
     - usage.md
     - develop.md
     - ...

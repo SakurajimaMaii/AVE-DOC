@@ -8,8 +8,10 @@
 
 ## Get started
 
+[:octicons-tag-24: Version 1.5.0](https://ave.entropy2020.cn/version/VastTools/#150)
+
 ```kotlin
-val sp = SpNormal.getInstance(name).getSharedPreferences()
+val sp = SpNormal(name).getSharedPreferences()
 ```
 
 ## Example Code
