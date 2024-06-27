@@ -41,3 +41,11 @@ val mLogFactory: LogFactory = getLogFactory {
 ║ }
 ╚════════════════════════════════════════════════════════════════════════════════════════════════════
 ```
+
+目前提供了以下三种 Json 序列化对象
+
+|       类名        |                           属性                            |
+| :---------------: | :-------------------------------------------------------: |
+| FastJsonConverter | 基于 [FastJson](https://github.com/alibaba/fastjson2) 打造 |
+|   GsonConverter   |     基于 [Gson](https://github.com/google/gson) 打造      |
+| JacksonConverter  | 基于 [Jackson](https://github.com/FasterXML/jackson) 打造 |
