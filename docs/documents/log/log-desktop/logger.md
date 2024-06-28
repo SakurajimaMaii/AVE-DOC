@@ -16,6 +16,6 @@ val mLogFactory: LogFactory = getLogFactory {
 以下是按照默认配置打印的日志格式：
 
 <figure markdown>
-  ![默认日志打印格式](../img/log_desktop.png)
+  ![默认日志打印格式](../img/line_colorful_format.png)
   <figcaption>默认日志打印格式</figcaption>
 </figure>

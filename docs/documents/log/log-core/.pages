@@ -1,5 +1,6 @@
 nav:
     - setting-up-logfactory.md
-    - usage.md
+    - plugin
+    - format.md
     - develop.md
     - ...
