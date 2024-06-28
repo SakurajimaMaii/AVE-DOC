@@ -26,6 +26,22 @@ class OpenApi : RequestBuilder("https://api.apiopen.top") {
   <figcaption>请求日志示例</figcaption>
 </figure>
 
+## 添加依赖
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-okhttp)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-okhttp:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-okhttp:$version")
+    ```
+
 ## 过滤器
 
 [:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)

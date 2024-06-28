@@ -19,3 +19,19 @@ val mLogFactory: LogFactory = getLogFactory {
   ![默认日志打印格式](../img/line_colorful_format.png)
   <figcaption>默认日志打印格式</figcaption>
 </figure>
+
+## 添加依赖 
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-desktop)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-desktop:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-desktop:$version")
+    ```
