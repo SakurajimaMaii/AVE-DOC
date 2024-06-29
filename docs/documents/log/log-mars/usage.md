@@ -37,6 +37,14 @@ val mLogFactory: LogFactory = getLogFactory {
     implementation("io.github.sakurajimamaii:log-mars:$version")
     ```
 
+选择合适的 ndk ，目前仅支持 `armeabi-v7a` 和 `arm64-v8a` :
+
+```kotlin
+ndk { 
+    abiFilters.addAll(arrayOf("armeabi-v7a", "arm64-v8a")) 
+}
+```
+
 ## 文件写入模式
 
 [:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
