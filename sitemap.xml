@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://ave.entropy2020.cn/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/resources/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/resources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/resources/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/component/ImageDiffUtil/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ImageDiffUtil/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ImageDiffUtil/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/component/ItemBindHolder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemBindHolder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemBindHolder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/component/ItemHolder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemHolder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemHolder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastAdapter/component/ItemWrapper/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemWrapper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemWrapper/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/Index/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/Index/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/Index/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/collections/map/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/collections/map/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/collections/map/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/extension/cast/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/cast/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/cast/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/extension/defaultLogTag/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/defaultLogTag/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/defaultLogTag/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/extension/not-null-variable/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/not-null-variable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/not-null-variable/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/extension/nothing/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/nothing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/nothing/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/extension/singleton-holder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/singleton-holder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/singleton-holder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/text/string-number-conversions/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/text/string-number-conversions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/text/string-number-conversions/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastCore/utils/tuples/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/utils/tuples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/utils/tuples/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastNetStateLayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastNetStateLayout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastNetStateLayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastNetStateLayout/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastNetStateLayout/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastNetStateLayout/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/Index/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/Index/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/Index/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activity-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activity-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activity-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/app-shortcuts/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/app-shortcuts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/app-shortcuts/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity-result/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity-result/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity-result/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/bundle/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/bundle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/bundle/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/extension/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/extension/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/extension/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/extension/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/extension/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/extension/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/fragment/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/fragment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/fragment/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/architecture-components/data-layer-libraries/datastore/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/data-layer-libraries/datastore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/data-layer-libraries/datastore/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/context-helper/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/context-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/context-helper/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/animation/flip-animation/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/animation/flip-animation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/animation/flip-animation/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/color-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/color-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/color-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/density-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/density-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/density-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/resource-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/resource-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/resource-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/bean/bean/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/bean/bean/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/bean/bean/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/net-state-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/net-state-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/net-state-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/download/download/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/download/download/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/download/download/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/exception/app-crash-handler/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/exception/app-crash-handler/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/exception/app-crash-handler/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/bitmap/bitmap/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/bitmap/bitmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/bitmap/bitmap/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/qrcode/qrcode/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/qrcode/qrcode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/qrcode/qrcode/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/hardware/gps-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/hardware/gps-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/hardware/gps-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/app-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/app-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/app-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/date-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/date-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/date-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/screen-size-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/screen-size-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/screen-size-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/system-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/system-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/system-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/Intent/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/Intent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/Intent/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/crop-intent/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/crop-intent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/crop-intent/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/intent-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/intent-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/intent-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/build/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/build/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/build/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/countdowntimer/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/countdowntimer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/countdowntimer/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/permission/permission/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/permission/permission/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/permission/permission/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/security/encryption-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/security/encryption-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/security/encryption-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/text/id-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/id-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/id-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/text/pwd-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/pwd-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/pwd-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/text/str-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/str-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/str-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/text/unit-string/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/unit-string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/unit-string/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatar/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatar/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatargroup/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatargroup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatargroup/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/badge-layout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/badge-layout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/badge-layout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/description/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/description/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/description/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/cropview/crop-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/refresh-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/refresh-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/refresh-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/snapshot-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/snapshot-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/snapshot-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/masklayout/masklayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/masklayout/masklayout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/masklayout/masklayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/arc-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/arc-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/arc-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/wave-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/wave-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/wave-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/rating/rating-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/rating/rating-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/rating/rating-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/marquee-text-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/marquee-text-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/marquee-text-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/toast/simple-toast/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/toast/simple-toast/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/toast/simple-toast/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/init/tools-config/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/init/tools-config/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/init/tools-config/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/log/logger/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/log/logger/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/log/logger/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/VastTools/log/store/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/log/store/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/log/store/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/description/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/description/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/description/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/develop/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/develop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/develop/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/format/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/format/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/format/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/setting-up-logfactory/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/setting-up-logfactory/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/setting-up-logfactory/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/advanced/advanced/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/advanced/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/advanced/advanced/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/plugin/json/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/json/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/plugin/pretty/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/pretty/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/pretty/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/plugin/printer/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/printer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/printer/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/plugin/storage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/storage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/storage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-core/plugin/switch/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/switch/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-desktop/logger/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-desktop/logger/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-desktop/logger/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-desktop/store/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-desktop/store/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-desktop/store/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-mars/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-mars/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-mars/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/documents/log/log-okhttp/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-okhttp/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-okhttp/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/license/LICENSE/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/license/LICENSE/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/license/LICENSE/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/VastAdapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastAdapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastAdapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/VastCore/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastCore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastCore/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/VastNetStateLayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastNetStateLayout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastNetStateLayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/VastTools/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastTools/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastTools/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/log-core/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-core/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/log-desktop/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-desktop/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/version/log-okhttp/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-okhttp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-okhttp/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/resources/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/resources/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/resources/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/component/ImageDiffUtil/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ImageDiffUtil/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ImageDiffUtil/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemBindHolder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemBindHolder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemBindHolder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemHolder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemHolder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemHolder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemWrapper/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastAdapter/component/ItemWrapper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastAdapter/component/ItemWrapper/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/Index/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/Index/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/Index/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/collections/map/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/collections/map/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/collections/map/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/extension/cast/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/cast/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/cast/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/extension/defaultLogTag/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/defaultLogTag/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/defaultLogTag/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/extension/not-null-variable/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/not-null-variable/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/not-null-variable/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/extension/nothing/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/nothing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/nothing/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/extension/singleton-holder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/extension/singleton-holder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/extension/singleton-holder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/text/string-number-conversions/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/text/string-number-conversions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/text/string-number-conversions/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastCore/utils/tuples/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastCore/utils/tuples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastCore/utils/tuples/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastNetStateLayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastNetStateLayout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastNetStateLayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastNetStateLayout/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastNetStateLayout/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastNetStateLayout/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/Index/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/Index/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/Index/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activity-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activity-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activity-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/app-shortcuts/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/app-shortcuts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/app-shortcuts/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity-result/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity-result/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity-result/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/activity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/activity/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/bundle/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/bundle/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/bundle/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/extension/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/activities/extension/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/extension/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/extension/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/extension/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/extension/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/fragment/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/app-entry-points/fragments/fragment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/app-entry-points/fragments/fragment/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/data-layer-libraries/datastore/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/data-layer-libraries/datastore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/data-layer-libraries/datastore/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/context-helper/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/context-helper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/context-helper/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/animation/flip-animation/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/animation/flip-animation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/animation/flip-animation/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/color-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/color-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/color-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/density-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/density-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/density-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/resource-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/app-resources/resource-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/app-resources/resource-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/bean/bean/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/bean/bean/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/bean/bean/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/net-state-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/net-state-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/net-state-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/download/download/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/download/download/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/download/download/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/request2/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-api/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/exception/app-crash-handler/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/exception/app-crash-handler/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/exception/app-crash-handler/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/bitmap/bitmap/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/bitmap/bitmap/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/bitmap/bitmap/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/qrcode/qrcode/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/graphics/qrcode/qrcode/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/graphics/qrcode/qrcode/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/hardware/gps-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/hardware/gps-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/hardware/gps-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/app-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/app-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/app-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/date-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/date-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/date-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/screen-size-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/screen-size-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/screen-size-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/system-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/information-get/system-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/information-get/system-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/Intent/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/Intent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/Intent/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/crop-intent/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/crop-intent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/crop-intent/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/intent-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/intent/intent-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/intent-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/build/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/build/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/build/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/countdowntimer/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/os/extension/countdowntimer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/countdowntimer/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/permission/permission/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/permission/permission/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/permission/permission/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/security/encryption-utils/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/security/encryption-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/security/encryption-utils/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/id-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/id-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/id-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/pwd-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/pwd-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/pwd-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/str-regex/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/str-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/str-regex/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/unit-string/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/unit-string/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/unit-string/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatar/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatar/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatargroup/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/avatar/avatargroup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/avatar/avatargroup/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/badge-layout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/badge-layout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/badge-layout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/description/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/badge/description/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/badge/description/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/cropview/crop-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/cropview/crop-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/refresh-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/refresh-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/refresh-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/snapshot-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/snapshot-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/snapshot-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/extension/view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/masklayout/masklayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/masklayout/masklayout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/masklayout/masklayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/arc-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/arc-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/arc-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/horizontal-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/wave-progress-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/progress/wave-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/wave-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/rating/rating-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/rating/rating-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/rating/rating-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/mail-box-associate-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/marquee-text-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/textview/marquee-text-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/textview/marquee-text-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/toast/simple-toast/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/toast/simple-toast/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/toast/simple-toast/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/fragment-adapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/init/tools-config/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/init/tools-config/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/init/tools-config/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/log/logger/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/log/logger/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/log/logger/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/VastTools/log/store/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/VastTools/log/store/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/VastTools/log/store/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/description/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/description/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/description/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/develop/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/develop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/develop/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/format/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/format/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/format/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/setting-up-logfactory/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/setting-up-logfactory/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/setting-up-logfactory/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/advanced/advanced/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/advanced/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/advanced/advanced/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/plugin/json/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/json/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/json/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/plugin/pretty/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/pretty/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/pretty/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/plugin/printer/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/printer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/printer/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/plugin/storage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/storage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/storage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-core/plugin/switch/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-core/plugin/switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-core/plugin/switch/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-desktop/logger/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-desktop/logger/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-desktop/logger/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-desktop/store/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-desktop/store/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-desktop/store/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-mars/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-mars/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-mars/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/documents/log/log-okhttp/usage/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/documents/log/log-okhttp/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/documents/log/log-okhttp/usage/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/license/LICENSE/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/license/LICENSE/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/license/LICENSE/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/VastAdapter/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastAdapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastAdapter/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/VastCore/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastCore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastCore/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/VastNetStateLayout/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastNetStateLayout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastNetStateLayout/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/VastTools/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/VastTools/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/VastTools/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/log-core/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-core/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-core/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/log-desktop/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-desktop/"/>
+    </url>
+    <url>
+        <loc>https://ave.entropy2020.cn/en/version/log-okhttp/</loc>
+        <lastmod>2024-06-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ave.entropy2020.cn/en/version/log-okhttp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://ave.entropy2020.cn/version/log-okhttp/"/>
+    </url>
+</urlset>
