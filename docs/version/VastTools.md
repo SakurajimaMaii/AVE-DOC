@@ -1,5 +1,11 @@
 # VastTools
 
+## Next(Latest)
+
+- 新增：
+
+    - [ISharedPreferencesOwner](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-i-shared-preferences-owner/index.html) 拓展方法增加 `commit` 参数方便选择保存方式。 [**#2b20c1c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/2b20c1cde682b7a33a410a114be86b7f438a9048)
+  
 ## 1.4.1(Latest)
 
 - 新增：
