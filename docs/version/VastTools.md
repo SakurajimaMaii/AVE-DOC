@@ -1,12 +1,25 @@
 # VastTools
 
-## Next(Latest)
+## 1.5.0(Latest)
 
 - 新增：
 
     - [ISharedPreferencesOwner](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-i-shared-preferences-owner/index.html) 拓展方法增加 `commit` 参数方便选择保存方式。 [**#2b20c1c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/2b20c1cde682b7a33a410a114be86b7f438a9048)
+    - [makeDirs](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.manager.filemgr/-file-mgr/make-dirs.html) 用于创建任意路径的文件夹。 [**#4e11883**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4e118837902a7c5f41d43499720db2f030b19018)
+    - [zip](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/zip.html) 和 [unzip](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/unzip.html) 用于文件的解压缩。 [**#4e11883**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4e118837902a7c5f41d43499720db2f030b19018)
+    - 新增音频硬件工具类。 [**#b15c3fc**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/b15c3fc2f43f475cf97c60d3102bd37ba2928af3)
+    - [android](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 用于获取拥有自定义 [LogFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-format/index.html) 的 [AndroidLogger](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-logger/index.html) 。
+
+- 修复：
+
+    - [SpNormal](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-sp-normal/index.html) 和 [SpEncrypted](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-sp-encrypted/index.html) 允许创建多个实例。 [**#95f6bdb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/95f6bdb120bffd4b5339650150badd2018728eb7)
+
+- 更新：
+
+    - 适配 [shouldShowRequestPermissionRationale](https://developer.android.com/reference/androidx/core/app/ActivityCompat#shouldShowRequestPermissionRationale(android.app.Activity,%20java.lang.String)) 。 [**#9bfc01e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9bfc01e2853b9bef01b4ba1c96dab92dfb67199e)
+    - [intIP2StringIP](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/-net-state-utils/int-i-p2-string-i-p.html?query=fun%20intIP2StringIP(ipv4:%20Int):%20String) 删除多余的 `toString` 。 [**#8f4a158**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8f4a158e4a86965030544f51f7fa365b8ec703d0)
   
-## 1.4.1(Latest)
+## 1.4.1
 
 - 新增：
 

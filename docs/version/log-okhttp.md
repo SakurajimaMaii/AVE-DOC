@@ -1,6 +1,12 @@
 # log-okhttp
 
-## 1.3.3(Latest)
+## 1.3.4(Latest)
+
+- 更新：
+
+    - [log-core](https://central.sonatype.com/artifact/io.github.sakurajimamaii/log-core/overview) 更新到 1.3.4 版本。
+
+## 1.3.3
 
 - 更新：
 

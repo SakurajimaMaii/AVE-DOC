@@ -136,3 +136,19 @@ private val mOkhttp3Interceptor: Okhttp3Interceptor = Okhttp3Interceptor.getInst
     ```kotlin
     implementation("io.github.sakurajimamaii:log-okhttp:$version")
     ```
+
+### log-mars
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-mars)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-mars:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-mars:$version")
+    ```
