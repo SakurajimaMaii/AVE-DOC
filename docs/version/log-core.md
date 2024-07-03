@@ -1,6 +1,20 @@
 # log-core
 
-## 1.3.3(Latest)
+## 1.3.4(Latest) 🥳🥳🥳
+
+- 更新：
+
+    - 日志框架使用 Pipeline 设计模式，极大的增加了拓展性。 [**#acb6f6b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/acb6f6b14e39e8687b473a5e1943a993fda82581)
+        
+        !!! note "致谢"
+        
+            非常感谢 [ywnkm](https://github.com/ywnkm) 对于这一功能的支持。
+
+- 新增：
+
+    - [LogFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-format/index.html) 用于用户自定义统一的日志模板。 [**#9fd98fd**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9fd98fdee337e7b3511ede27b7ac483a87423ccc)
+
+## 1.3.3
 
 - 新增：
 
