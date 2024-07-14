@@ -14,7 +14,7 @@
 
 - Adapter
   
-    适配器（Adapter）提供了 `VastAdapter` ， `VastListAdapter` ， `VastPagingAdapter` 以及针对[数据绑定](https://developer.android.com/topic/libraries/data-binding?hl=zh-cn)场景下的 `VastBindAdapter` ， `VastBindListAdapter` 和 `VastBindPagingAdapter` 。
+    适配器（Adapter）提供了 `BaseAdapter` ， `BaseListAdapter` ， `BasePagingAdapter` 以及针对[数据绑定](https://developer.android.com/topic/libraries/data-binding?hl=zh-cn)场景下的 `BaseBindAdapter` ， `BaseBindListAdapter` 和 `BaseBindPagingAdapter` 。
 
 - ItemWrapper
 
@@ -74,16 +74,15 @@
         </layout>
         ```
 
-- 使用 `VastBindAdapter` 作为适配器
+- 使用 `BaseBindAdapter` 作为适配器
 
     ```kotlin
-    getBinding().personRv.layoutManager = LinearLayoutManager(this)
-    getBinding().personRv.adapter =
-        VastBindAdapter(this, BR.person, ArrayList<ItemWrapper<Person>>().apply {
-            repeat(20) {
-                add(ItemWrapper(Person("第${it}名", "我是第${it}名"), R.layout.item_person))
-            }
-        })
+    personRv.layoutManager = LinearLayoutManager(this)
+    personRv.adapter = BaseBindAdapter(this, BR.person, ArrayList<ItemWrapper<Person>>().apply {
+        repeat(20) {
+            add(ItemWrapper(Person("第${it}名", "我是第${it}名"), R.layout.item_person))
+        }
+    })
     ```
 
 <figure markdown>
