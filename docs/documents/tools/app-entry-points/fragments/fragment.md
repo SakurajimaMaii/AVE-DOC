@@ -62,24 +62,6 @@ override fun setVmBySelf(): Boolean = false
 Log.i(getDefaultTag(), "这是一个日志。")
 ```
 
-## 进行网络请求
-
-在 [ImagesFragment](https://github.com/SakurajimaMaii/Android-Vast-Extension/tree/develop/app/src/main/kotlin/com/ave/vastgui/app/fragment/ImagesFragment.kt) 为你演示了如何通过 `getResponseBuilder` 进行网络请求。
-
-```kotlin
-getBinding().refresh.setOnRefreshListener {
-    getResponseBuilder().suspendWithListener({
-        OpenApi().create(OpenApiService::class.java).getImages(0, 10)
-    }) {
-        ... // 进行数据处理
-    }
-}
-```
-
-!!! warning "过时说明"
-
-    `getResponseBuilder` 方法在 [0.5.3](https://ave.entropy2020.cn/version/VastTools/#053) 版本已被废弃。
-
 ## 获取视图绑定对象
 
 通过 `getBinding()` 你可以获取对应的视图绑定对象。

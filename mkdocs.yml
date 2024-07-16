@@ -95,6 +95,7 @@ plugins:
             String : 字符串
             Text : 文本
             Textview : 文本框
+            Tools : 工具
             Ui : 界面
             Ui layer libraries : 界面层库
             Utils : 工具

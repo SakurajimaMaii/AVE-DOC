@@ -140,25 +140,6 @@ getSnackbar().setText(ResUtils.getString(R.string.loading_page)).show()
 
 你可以通过 `getContext()` 对象获取 `Activity` 上下文。
 
-## 进行网络请求
-
-```kotlin
-getResponseBuilder().suspendWithListener({
-    NetworkRetrofitBuilder().create(UserService::class.java).generateQRCode(DateUtils.currentTime)
-}){
-    onSuccess = {
-
-    }
-    onFailed = {
-
-    }
-}
-```
-
-!!! warning "过时说明"
-
-    `getResponseBuilder` 方法在 [0.5.3](https://ave.entropy2020.cn/version/VastTools/#053) 版本已被废弃。
-
 ## 获取视图绑定对象
 
 通过 `getBinding()` 你可以获取对应的视图绑定对象。
