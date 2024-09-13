@@ -11,7 +11,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 ```xml
   <com.ave.vastgui.tools.view.cropview.CropViewLayout
@@ -30,7 +30,7 @@
 
 ### 调用 VastCropActivity
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 `VastCropActivity` 是默认提供的裁剪应用，你可以通过下面的方式来轻松的使用它。
 
@@ -60,7 +60,7 @@ val intent = Intent(this, VastCropActivity::class.java).apply {
 
 ## 设置预览框的类型
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 调用 `setCropFrameType` 来设置预览框的形状，目前支持四种：
 
@@ -75,7 +75,7 @@ getBinding().cropViewLayout.setCropFrameType(CropFrameType.CIRCLE)
 
 ## 设置预览框的大小
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 调用 `setCropFrameSize` 来设置预览框的大小。
 
@@ -89,7 +89,7 @@ getBinding().cropViewLayout.setCropFrameSize(previewWidth, previewHeight)
 
 ## 设置预览框的蒙版颜色
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 调用 `setCropMaskColor` 来设置蒙版颜色。
 
@@ -108,7 +108,7 @@ getBinding().cropViewLayout.setCropMaskColor(color)
 
 ## 设置设置预览框的边框颜色
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 调用 `setCropFrameStrokeColor` 来设置蒙版颜色
 
@@ -126,7 +126,7 @@ getBinding().cropViewLayout.setCropFrameStrokeColor(color)
 
 ## 获取裁剪照片
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 !!! note "过时说明" 
 

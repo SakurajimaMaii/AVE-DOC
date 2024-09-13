@@ -4,7 +4,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 创建由 Service 接口定义的 API 端点的实现。
 
@@ -51,7 +51,7 @@ override fun setTimeOut(): Long {
 
 ### 配置 okhttp 客户端
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 ```kotlin
 override fun okHttpConfiguration(builder: OkHttpClient.Builder) {
@@ -63,7 +63,7 @@ override fun okHttpConfiguration(builder: OkHttpClient.Builder) {
 
 ### 配置 retrofit 客户端
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 ```kotlin
 override fun retrofitConfiguration(builder: Retrofit.Builder) {

@@ -7,7 +7,7 @@
 
 ## 请求结果
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 `requestPermission` 和 `requestMultiplePermissions` 会针对所请求的权限返回三种状态。
 
@@ -17,7 +17,7 @@
 
 ## 请求单个权限
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 ![requestPermission](../img/permission.jpg){ align=right width="200"}
 
@@ -48,7 +48,7 @@ requestPermission("android.permission.READ_CALENDAR") {
 
 ## 请求多个权限
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 ![MultiplePermissions](../img/multiple_permissions.gif){ align=right width="200"}
 

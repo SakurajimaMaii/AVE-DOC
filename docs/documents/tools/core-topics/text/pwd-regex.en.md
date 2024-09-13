@@ -4,7 +4,7 @@ By using `PwdRegex` , you can check if the password strength meets the requireme
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 ```kotlin
 "852Vast.".isPwd(RwdStrength3)
@@ -14,7 +14,7 @@ By using `PwdRegex` , you can check if the password strength meets the requireme
 
 ### Default value
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 Four password strength are provided by default:
 
@@ -29,7 +29,7 @@ Four password strength are provided by default:
 
 ### Customize password strength
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 By implementing `PwdStrength` , you can customize the expression corresponding to the password strength, for example:
 
@@ -42,7 +42,7 @@ object YourRwdStrength : PwdStrength {
 
 ## Common combination shielding
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `isPwd` provides the parameter `shouldNotAppear`, through which you can specify combinations that should not appear in the password, for example:
 

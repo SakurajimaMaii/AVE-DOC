@@ -1,6 +1,12 @@
-# VastCore
+# core
 
-## 0.1.0(Latest)
+## 0.1.1(Latest)
+
+- 更新
+
+    - 使用 toXXXOrNull 替换异常捕获，减少性能损耗。 [**#c39cea2**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c39cea2cd1cde8528674a55cf3e8876007bfbbbf)
+
+## 0.1.0
 
 - 新增
 

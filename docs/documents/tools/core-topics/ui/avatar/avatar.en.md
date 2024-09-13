@@ -1,6 +1,6 @@
 # Avatar
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Avatar, used for image or text display.
 
@@ -10,7 +10,7 @@ Avatar, used for image or text display.
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.avatar.Avatar
@@ -22,7 +22,7 @@ Avatar, used for image or text display.
 
 ## Size
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Size can be set by `avatar_size` or calling `mAvatarSize` .
 
@@ -46,7 +46,7 @@ Size can be set by `avatar_size` or calling `mAvatarSize` .
 
 ## Shape
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Shape of avatar can be set by `avatar_shape` or calling `setShape` . Currently support:
 
@@ -73,7 +73,7 @@ Shape of avatar can be set by `avatar_shape` or calling `setShape` . Currently s
 
 ## Color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 The background color of text avatar can be set by  `avatar_background` or calling `mBackground` .
 
@@ -97,7 +97,7 @@ The background color of text avatar can be set by  `avatar_background` or callin
 
 ## Image
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Image of avatar can be set by `avatar_src` or calling `setAvatar` .
 
@@ -121,7 +121,7 @@ Image of avatar can be set by `avatar_src` or calling `setAvatar` .
 
 ## Text
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Text of avatar can be set by `avatar_text` or calling `mText` .
 
@@ -145,7 +145,7 @@ Text of avatar can be set by `avatar_text` or calling `mText` .
 
 ## Text color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Color-int of the avatar text can be set by `avatar_text_color` or calling `mTextColor` .
 
@@ -169,7 +169,7 @@ Color-int of the avatar text can be set by `avatar_text_color` or calling `mText
 
 ## Text size
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Size of avatar text can be set by `avatar_text_size` or calling `mTextSize` .
 
@@ -193,7 +193,7 @@ Size of avatar text can be set by `avatar_text_size` or calling `mTextSize` .
 
 ## Stroke color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Stroke color of avatar can be set by `avatar_stroke_color` or calling `mStrokeColor` .
 === "Kotlin"
@@ -216,7 +216,7 @@ Stroke color of avatar can be set by `avatar_stroke_color` or calling `mStrokeCo
 
 ## Stroke width
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 Stroke width of avatar can be set by `avatar_stroke_width` or calling `mStrokeWidth` .
 
@@ -244,7 +244,7 @@ Stroke width of avatar can be set by `avatar_stroke_width` or calling `mStrokeWi
 
 ## Round corner radius
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 When the shape of avatar is round rctangle, round corner radius can be set by `avatar_corner_radius` or calling `mCornerRadius` .
 

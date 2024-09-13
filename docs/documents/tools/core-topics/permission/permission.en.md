@@ -7,7 +7,7 @@ App permissions help support user privacy by protecting access to the following:
 
 ## Permission request result 
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 `requestPermission` and `requestMultiplePermissions` return three statuses for the requested permissions.
 
@@ -17,7 +17,7 @@ App permissions help support user privacy by protecting access to the following:
 
 ## Request single permission
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 ![requestPermission](../img/permission.jpg){ align=right width="200"}
 
@@ -48,7 +48,7 @@ requestPermission("android.permission.READ_CALENDAR") {
 
 ## Request multiple permissions
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 ![MultiplePermissions](../img/multiple_permissions.gif){ align=right width="200"}
 

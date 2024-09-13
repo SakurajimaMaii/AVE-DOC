@@ -19,7 +19,7 @@
 
 ## 设置选中方式
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 调用 `setStarSelectMethod` 来设置星星的选中方式，目前支持三种：
 
@@ -38,7 +38,7 @@ mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
 
 ## 设置排列方向
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 目前支持两种星星排列方式：
 
@@ -100,7 +100,7 @@ mBinding.ratingView.setStarCountNumber(4)
 
 ## 监听星星数量
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 通过 `setOnStarRatingChangeListener` 注册监听事件来观察评分的改变。
 

@@ -1,6 +1,6 @@
 # 字母索引栏
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.alphabetsidebar.AlphabetSideBar
@@ -23,7 +23,7 @@
 
 ## 索引栏位置
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 索引栏目前支持 **左边** 和 **右边** 两种模式。可以通过 `alphabetsidebar_location` 和调用 `setLocation` 来进行设置。
 
@@ -48,7 +48,7 @@
 
 ## 背景颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_background` 和调用 `mBackgroundColor` 来设置背景颜色。
 
@@ -72,7 +72,7 @@
 
 ## 索引栏字体大小
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_text_size` 和调用 `mBarTextSize` 来设置索引栏字体大小。
 
@@ -96,7 +96,7 @@
 
 ## 索引栏字体颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_text_color` 和调用 `mBarTextColor` 来设置索引栏字体颜色。
 
@@ -120,7 +120,7 @@
 
 ## 当前索引字体颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_indicator_text_color` 和调用 `mBarIndicatorTextColor` 来设置当前索引字体颜色。
 
@@ -147,7 +147,7 @@
 
 ## 气泡内文字大小
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_bubble_text_size` 和调用 `mBubbleTextSize` 来设置气泡内文字大小。
 
@@ -174,7 +174,7 @@
 
 ## 气泡内文字颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 可以通过 `alphabetsidebar_bubble_text_color` 和调用 `mBubbleTextColor` 来设置气泡内文字颜色。
 
@@ -201,7 +201,7 @@
 
 ## 注册监听事件
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 通过 `setLetterListener` 方法注册监听事件。
 
@@ -215,7 +215,7 @@ mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListen
 
 ## 更新字母目标索引
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 通过调用 `setIndicatorLetterTargetIndex` ，你可以更新字母的目标索引值，该索引值会被存储在 [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) 中。
 

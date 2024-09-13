@@ -4,7 +4,7 @@
 
 ### 在 Activity 中
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 ```kotlin
 private val mBindings by 
@@ -13,7 +13,7 @@ private val mBindings by
 
 ### 在 Fragment 中
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 调用 `public Fragment(@LayoutRes int contentLayoutId)` 来传入默认膨胀布局。
 
@@ -28,7 +28,7 @@ class VbFragment1 : Fragment(R.layout.fragment_sample) {
 
 ### 在 ViewHolder 中
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 ```kotlin
 class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -40,7 +40,7 @@ class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
 ### 在 ViewGroup 中
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 需要调用 `public static View inflate(Context context, @LayoutRes int resource, ViewGroup root)` 方法来传入要膨胀的资源 id 。
 

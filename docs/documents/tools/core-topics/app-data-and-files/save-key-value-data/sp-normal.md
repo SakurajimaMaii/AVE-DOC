@@ -8,7 +8,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 1.5.0](https://ave.entropy2020.cn/version/VastTools/#150)
+[:octicons-tag-24: Version 1.5.0](https://ave.entropy2020.cn/version/tools/#150)
 
 ```kotlin
 val sp = SpNormal(name).getSharedPreferences()

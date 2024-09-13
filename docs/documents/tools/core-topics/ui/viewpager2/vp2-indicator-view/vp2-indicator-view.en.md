@@ -6,7 +6,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 === "xml"
 
@@ -34,7 +34,7 @@
 
 ## With ViewPager2
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Calling `attachToViewPager2` to attach to `ViewPager2` .
 
@@ -48,7 +48,7 @@ mBinding.vp2indicator.attachToViewPager2(mBinding.vp2)
 
 ## Circle indicator radius
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Circle indicator radius can be set by `setIndicatorCircleRadius` .
 
@@ -66,7 +66,7 @@ mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
 
 ## Circle indicator color
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Calling `setSelectedColor` and `setUnSelectedColor` to change the indicator color.
 
@@ -84,7 +84,7 @@ mBinding.vp2indicator.apply {
 
 ## Indicator gap
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Calling `setIndicatorItemDistance` to change the gap distance.
 
@@ -94,7 +94,7 @@ mBinding.vp2indicator.setIndicatorItemDistance(10F.DP)
 
 ## Indicator style
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 Calling `setIndicatorStyle` to set the type, `Vp2IndicatorView` currently supports two types.
 
@@ -103,7 +103,7 @@ Calling `setIndicatorStyle` to set the type, `Vp2IndicatorView` currently suppor
 
 ## Indicator image
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 ```kotlin
 mBinding.vp2indicator.apply {

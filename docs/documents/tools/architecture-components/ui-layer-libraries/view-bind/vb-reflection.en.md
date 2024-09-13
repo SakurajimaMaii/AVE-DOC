@@ -2,7 +2,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 Define `reflectViewBinding` .
 
@@ -38,7 +38,7 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 
 ## Reduce recursion
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `reflectViewBinding` provides a `base` parameter that allows you to reduce the number of recursive searches.
 

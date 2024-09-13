@@ -81,7 +81,7 @@ val mLogFactory: LogFactory = getLogFactory {
 
 ### [VastTools](https://github.com/SakurajimaMaii/Android-Vast-Extension)
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/VastTools/#131)
+[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
 
 调用 [android()](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 获取 [AndroidStore](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-store/index.html) ，具体使用请参考 [链接](https://ave.entropy2020.cn/documents/VastTools/log/store/) 。
 

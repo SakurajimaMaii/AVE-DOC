@@ -2,7 +2,7 @@
 
 ## Create pinned shortcuts
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 ![AppShortcuts](../img/app_shortcuts.png){ align=right width="300" }
 
@@ -22,7 +22,7 @@ createPinnedShortcut("OnlyId") {
 
 ### Set resultIntent for shortcut
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 Set resultIntent by `shortcutResultIntent` .
 
@@ -41,7 +41,7 @@ createPinnedShortcut(
 
 ## Create dynamic shortcuts
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 ![DynamicShortcuts](../img/dynamic_shortcuts.png){ align=right width="300" }
 

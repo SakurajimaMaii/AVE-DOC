@@ -7,7 +7,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 ```xml
 <com.ave.vastgui.tools.view.textview.MarqueeTextView

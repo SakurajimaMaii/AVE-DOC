@@ -1,6 +1,6 @@
 # 遮罩布局
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 遮罩布局通过添加动画的形式来使你的主题切换变得更加自然。
 
@@ -16,7 +16,7 @@
 
 ## 快速使用
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 ```xml
 <com.ave.vastgui.tools.view.masklayout.MaskLayout
@@ -32,7 +32,7 @@
 
 ## 动画类型
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 目前，遮罩布局支持延展 `MaskAnimation.EXPANDED` 和收缩 `MaskAnimation.COLLAPSED` 两种形式的动画。
 

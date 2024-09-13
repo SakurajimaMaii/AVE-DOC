@@ -25,7 +25,7 @@ A-->D[使用 CropIntent 和 CropPhotoContract]
 
 ## 设置输出图像名称
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/VastTools/#040)
+[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
 
 调用 `setOutputName` 来设置图像名称，如果不设置则使用 [默认值](https://doc.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.manager.mediafilemgr/-media-file-mgr/get-default-file-name.html) 。
 
@@ -38,7 +38,7 @@ val cropIntent = CropIntent()
 
 ## 关于 Uri 权限
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/VastTools/#040)
+[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
 
 !!! danger "Uri 权限"
 

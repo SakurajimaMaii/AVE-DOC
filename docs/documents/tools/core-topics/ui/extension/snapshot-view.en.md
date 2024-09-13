@@ -1,12 +1,12 @@
 # Snapshot view
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 `viewSnapshot` can convert the view into [Bitmap](https://developer.android.com/reference/android/graphics/Bitmap) for saving.
 
 ## For inflated views
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 ```kotlin
 val bitmap = viewSnapshot(mBinding.snapshotWait)
@@ -14,7 +14,7 @@ val bitmap = viewSnapshot(mBinding.snapshotWait)
 
 ## For uninflated views
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 !!! note
 

@@ -19,7 +19,7 @@ You can refer to [Sample code](#sample-code) to see a complete usage example.
 
 ## Set output picture name
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/VastTools/#040)
+[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
 
 Call `setOutputName` to set output picture name，or take [value](https://doc.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.manager.mediafilemgr/-media-file-mgr/get-default-file-name.html) as the default value.
 
@@ -32,7 +32,7 @@ val cropIntent = CropIntent()
 
 ## Uri permission
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/VastTools/#040)
+[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
 
 !!! danger "Uri permission"
 

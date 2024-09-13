@@ -15,7 +15,7 @@ val Context.dataStore: DataStore<Preferences> by
 
 ### 实现 IDataStoreOwner
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 ```kotlin
 object ThemeDs : IDataStoreOwner {
@@ -28,7 +28,7 @@ object ThemeDs : IDataStoreOwner {
 
 ### 从 Preferences DataStore 读取内容
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 下面的示例为你展示了在 `Compose` 中通过调用 `asNotNullFlow` 可以将 `Boolean` 类型数据从 `Preferences DataStore` 中读出。
 
@@ -38,7 +38,7 @@ val darkTheme by ThemeDs.isDark.asNotNullFlow().collectAsState(false)
 
 ### 将内容写入 Preferences DataStore
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 下面的示例为你展示了在 `Compose` 中将 `Boolean` 类型数据写入 `Preferences DataStore` 中。
 

@@ -44,7 +44,7 @@ fun DevicePath(modifier: Modifier = Modifier){
 
 - Get the operation result
 
-    [:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/VastTools/#040)
+    [:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
 
     ```kotlin
     val result = saveFile(File(appInternalFilesDir().path, "save.txt"))
@@ -59,7 +59,7 @@ fun DevicePath(modifier: Modifier = Modifier){
 
 ## Build file path
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 ```kotlin
 // return a/b/c

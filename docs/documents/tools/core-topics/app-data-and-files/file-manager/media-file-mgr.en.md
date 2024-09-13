@@ -52,7 +52,7 @@ uri = file.let {
 
 ## Shared storage
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 ```kotlin
 // Return /storage/emulated/0/Pictures
@@ -61,7 +61,7 @@ val dir = ImageMgr.getSharedFilesDir()
 
 ## App-specific files
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/VastTools/#050)
+[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
 
 ```kotlin
 // Return /storage/emulated/0/Android/data/com.ave.vastgui.app/files/Pictures

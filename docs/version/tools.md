@@ -1,4 +1,4 @@
-# VastTools
+# tools
 
 ## 1.5.0(Latest)
 
@@ -9,15 +9,21 @@
     - [zip](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/zip.html) 和 [unzip](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/unzip.html) 用于文件的解压缩。 [**#4e11883**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4e118837902a7c5f41d43499720db2f030b19018)
     - 新增音频硬件工具类。 [**#b15c3fc**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/b15c3fc2f43f475cf97c60d3102bd37ba2928af3)
     - [android](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 用于获取拥有自定义 [LogFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-format/index.html) 的 [AndroidLogger](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-logger/index.html) 。
+    - 新增 [ActivityLifecycleLogger](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.lifecycle/-activity-lifecycle-logger/index.html) 用来观察Activity生命周期。 [**#a2ac143**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/a2ac143cbd4fb4fff1c04baf9f45de963d9dfea9)
 
 - 修复：
 
     - [SpNormal](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-sp-normal/index.html) 和 [SpEncrypted](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.sharedpreferences/-sp-encrypted/index.html) 允许创建多个实例。 [**#95f6bdb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/95f6bdb120bffd4b5339650150badd2018728eb7)
+    - 下载工具没有判断状态码和返回资源长度的问题。 [**#11dcda92**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/11dcda92009d326d6093061527a41aa383471f02)
 
 - 更新：
 
     - 适配 [shouldShowRequestPermissionRationale](https://developer.android.com/reference/androidx/core/app/ActivityCompat#shouldShowRequestPermissionRationale(android.app.Activity,%20java.lang.String)) 。 [**#9bfc01e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9bfc01e2853b9bef01b4ba1c96dab92dfb67199e)
     - [intIP2StringIP](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/-net-state-utils/int-i-p2-string-i-p.html?query=fun%20intIP2StringIP(ipv4:%20Int):%20String) 删除多余的 `toString` 。 [**#8f4a158**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8f4a158e4a86965030544f51f7fa365b8ec703d0)
+  
+- 删除：
+
+    - 移除 `ResponseBuilder` 相关 API 。 [**#daa7eb9d**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/daa7eb9d82a94bfb8ea2aedda99cf1c855b3712b)
   
 ## 1.4.1
 

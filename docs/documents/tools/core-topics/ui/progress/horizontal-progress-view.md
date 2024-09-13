@@ -1,6 +1,6 @@
 # HorizontalProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 在示例图中，从上到下依次是 `HorizontalProgressView` ， `HorizontalTextProgressView` 和 `LineTextProgressView` 。
 
@@ -44,7 +44,7 @@
 
 ### 自定义图片背景
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 通过 `horizontal_progress_background_drawable` 和调用 `setProgressBkDrawable` 可以将图片设置为进度条背景。
 
@@ -69,7 +69,7 @@
 
 ### 自定义图片进度条
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 通过 `horizontal_progress_drawable` 和调用 `setProgressDrawable` 可以将图片设置为进度条。
 
@@ -94,7 +94,7 @@
 
 ### 描边宽度
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 通过 `horizontal_progress_stroke_width` 和调用 `mStrokeWidth` 来设置进度条和边框的距离。
 
@@ -121,7 +121,7 @@
 
 ### 进度条高度设置
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 进度条高度可以通过 `horizontal_text_progress_height` 和 `mProgressHeight` 来进行设置。
 
@@ -149,7 +149,7 @@
 
 ### 字体外边距
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 字体外边距可以通过 `horizontal_text_progress_text_margin` 和 `mTextMargin` 进行设置。
 
@@ -173,7 +173,7 @@
 
 ### 文字框颜色设置
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 文字框颜色可以通过 `horizontal_text_progress_box_color` 和 `mTextBoxColor` 来进行设置。
 
@@ -200,7 +200,7 @@
 
 ### 进度条高度设置
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 进度条高度可以通过 `linetext_progress_height` 和 `mProgressHeight` 来进行设置。
 
@@ -224,7 +224,7 @@
 
 ### 字体外边距
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 字体外边距可以通过 `linetext_progress_text_margin` 和 `mTextMargin` 进行设置。
 
@@ -248,7 +248,7 @@
 
 ### 文字框颜色设置
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 文字框颜色可以通过 `linetext_progress_box_color` 和 `mTextBoxColor` 来进行设置。
 

@@ -1,6 +1,6 @@
 # Badge layout
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 `BadgeLayout` provides `BadgeView` and `AppCompatImageView` by default, where the logo will be displayed in the upper right corner and the icon will be displayed horizontally in the center.
 
@@ -11,7 +11,7 @@
 
 ## Label
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 `BadgeLayout` is only allowed to contain a view of type `TextView` to display labels. The following is sample code:
 
@@ -31,7 +31,7 @@
 
 ## Dot badge
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 Calling `showDot` or `hideDot` to control dot badge.
 
@@ -44,7 +44,7 @@ mBinding.dotbadge.hideDot()
 
 ## Bubble badge
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 <figure markdown>
   ![Bubble Badge](./img/bubble_badge.gif){ width="270" }

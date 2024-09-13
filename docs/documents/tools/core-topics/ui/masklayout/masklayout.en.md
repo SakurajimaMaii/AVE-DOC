@@ -1,6 +1,6 @@
 # MaskLayout
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 `MaskLayout` makes your theme switching more natural by adding animation.
 
@@ -16,7 +16,7 @@
 
 ## Quick start
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 ```xml
 <com.ave.vastgui.tools.view.masklayout.MaskLayout
@@ -32,7 +32,7 @@
 
 ## Animation styles
 
-[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-beaker-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 Currently, `MaskLayout` supports two styles of animation: `MaskAnimation.EXPANDED` and `MaskAnimation.COLLAPSED` .
 

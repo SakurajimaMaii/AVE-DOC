@@ -2,7 +2,7 @@
 
 ## 设置单色背景
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 调用 `setSingle` 将 `GradientDrawable` 设置为单色。
 
@@ -20,7 +20,7 @@ getBinding().btn.background = GradientDrawable().apply {
 
 ## 设置圆角
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 调用 `setCornerRadii` 单独设置 `GradientDrawable` 的四个圆角。
 
@@ -46,7 +46,7 @@ getBinding().btn.background = GradientDrawable().apply {
 
 ## 设置渐变
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 `setGradient` 目前支持两种渐变颜色形式。
 

@@ -2,7 +2,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 通过在基类内调用 `reflectViewBinding` 方法来通过反射获取 `ViewBinding` 对象。
 
@@ -38,7 +38,7 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 
 ## 减少递归
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `reflectViewBinding` 提供了 `base` 参数允许你减少递归检索的次数。
 

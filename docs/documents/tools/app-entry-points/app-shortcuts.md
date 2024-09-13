@@ -2,7 +2,7 @@
 
 ## 创建固定快捷方式
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 ![AppShortcuts](../img/app_shortcuts.png){ align=right width="300" }
 
@@ -22,7 +22,7 @@ createPinnedShortcut("OnlyId") {
 
 ### 为快捷方式设置 resultIntent
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 通过 `shortcutResultIntent` 参数设置 resultIntent 。
 
@@ -41,7 +41,7 @@ createPinnedShortcut(
 
 ## 创建动态快捷方式
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/VastTools/#051)
+[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
 
 ![DynamicShortcuts](../img/dynamic_shortcuts.png){ align=right width="300" }
 

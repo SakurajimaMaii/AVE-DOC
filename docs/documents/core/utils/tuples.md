@@ -1,6 +1,6 @@
 # 元组
 
-[:octicons-tag-24: Version 0.0.4](https://ave.entropy2020.cn/version/VastCore/#004)
+[:octicons-tag-24: Version 0.0.4](https://ave.entropy2020.cn/version/core/#004)
 
 `Quadruple` 和 `Quintuple` 提供了四元元祖和五元元祖的拓展。
 

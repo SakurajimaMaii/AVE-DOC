@@ -12,7 +12,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/VastTools/#056)
+[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
 
 - 实现 `ISharedPreferencesOwner`
 

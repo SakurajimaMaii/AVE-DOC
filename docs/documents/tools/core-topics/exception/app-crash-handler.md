@@ -1,6 +1,6 @@
 # 全局异常处理
 
-[:octicons-tag-24: Version 1.4.1](https://ave.entropy2020.cn/version/VastTools/#141)
+[:octicons-tag-24: Version 1.4.1](https://ave.entropy2020.cn/version/tools/#141)
 
 [AppCrashHandler](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.exception/-app-crash-handler/index.html) 允许你对于应用中未捕获的异常进行处理，避免应用意外崩溃，以下是使用示例：
 

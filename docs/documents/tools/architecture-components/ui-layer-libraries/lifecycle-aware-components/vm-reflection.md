@@ -2,7 +2,7 @@
 
 ## 创建 ViewModel 
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `reflectViewModel` 通过反射来获取 `ViewModel` 对象。
 
@@ -35,7 +35,7 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 
 ## 创建有含参构造函数的 ViewModel 
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `reflectViewModel` 默认情况下提供了无参数 ViewModel 构造方法给 ViewModelProvider.Factory ，如果你想传入带参数的 ViewModel ，可以参考下面的示例：
 

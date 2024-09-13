@@ -4,7 +4,7 @@
 
 !!! tip "迁移到 Request2"
 
-    `Request` 最初是为了兼容 java 和 kotlin 混编的项目，并为你提供了基于 `ResponseStateListener` 和 `ResponseMutableLiveData` 的方法实现，但是因为 `Request` 需要数据实现 `ResponseApi` 接口，这在某些场景下是不便的，因此在 [0.5.1](https://ave.entropy2020.cn/version/VastTools/#051) 版本推出了 `Request2` ， `Request2` 不需要你实现 `ResponseApi` 接口。因此如果你的项目使用 kotlin ，那么强烈推荐你使用 `Request2` 。
+    `Request` 最初是为了兼容 java 和 kotlin 混编的项目，并为你提供了基于 `ResponseStateListener` 和 `ResponseMutableLiveData` 的方法实现，但是因为 `Request` 需要数据实现 `ResponseApi` 接口，这在某些场景下是不便的，因此在 [0.5.1](https://ave.entropy2020.cn/version/tools/#051) 版本推出了 `Request2` ， `Request2` 不需要你实现 `ResponseApi` 接口。因此如果你的项目使用 kotlin ，那么强烈推荐你使用 `Request2` 。
 
 !!! note "关于测试接口说明"
 

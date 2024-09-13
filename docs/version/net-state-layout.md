@@ -1,6 +1,12 @@
-# VastNetStateLayout
+# net-state-layout
 
-## 1.1.1(Latest)
+## 1.1.2(Latest)
+
+- 更新：
+
+    - 将 minsdk 降至 21 。
+
+## 1.1.1
 
 - 新增 `NetState` 用来替代之前的 `CONTENT_STATE_SHOW_LOADING` 等常量
 - 新增 `OnEmptyDataListener` ， `OnLoadingErrorListener` ， `OnLoadingListener` ， `OnNetErrorListener` 接口

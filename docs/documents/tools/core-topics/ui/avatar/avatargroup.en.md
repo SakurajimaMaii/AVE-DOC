@@ -1,12 +1,12 @@
 # AvatarGroup
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 You can use `AvatarGroup` component to display avatars as a group.
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.avatar.AvatarGroup
@@ -31,7 +31,7 @@ You can use `AvatarGroup` component to display avatars as a group.
 
 ## Overlap from
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 The coverage direction of the avatars with overlapFrom can be set by `avatar_overlap_from` or calling `setOverlapFrom` .
 
@@ -60,7 +60,7 @@ The coverage direction of the avatars with overlapFrom can be set by `avatar_ove
 
 ## Overlap width
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 The width can be set by `avatar_overlap_distance` or calling `setOverlapDistance` .
 
@@ -89,7 +89,7 @@ The width can be set by `avatar_overlap_distance` or calling `setOverlapDistance
 
 ## Add Avatar
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/VastTools/#054)
+[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
 
 1. Create `Avatar`
 

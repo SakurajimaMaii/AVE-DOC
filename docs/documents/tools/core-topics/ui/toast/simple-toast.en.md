@@ -9,7 +9,7 @@
 
 ## Long Toast
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 !!! note "Long toast"
 
@@ -29,7 +29,7 @@
 
 ## Short Toast
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/VastTools/#053)
+[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
 
 !!! note "Short toast"
 

@@ -1,6 +1,6 @@
 # HorizontalProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 === "HorizontalProgressView"
 
@@ -42,7 +42,7 @@
 
 ### Drawable for background
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Background can be set by `horizontal_progress_background_drawable` or calling `setProgressBkDrawable` .
 === "Kotlin"
@@ -66,7 +66,7 @@ Background can be set by `horizontal_progress_background_drawable` or calling `s
 
 ### Drawable for progress
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Progress can be set to the drawable by `horizontal_progress_drawable` or calling `setProgressDrawable` .
 
@@ -91,7 +91,7 @@ Progress can be set to the drawable by `horizontal_progress_drawable` or calling
 
 ### Stroke
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/VastTools/#020)
+[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
 
 Stroke of the progress can be set by `horizontal_progress_stroke_width` or calling `mStrokeWidth` .
 
@@ -118,7 +118,7 @@ Stroke of the progress can be set by `horizontal_progress_stroke_width` or calli
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 The height of progress can be set by  `horizontal_text_progress_height` or calling `setProgressHeight` .
 
@@ -146,7 +146,7 @@ The height of progress can be set by  `horizontal_text_progress_height` or calli
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 Text margin can be set by `horizontal_text_progress_text_margin` or calling `mTextMargin` .
 
@@ -195,7 +195,7 @@ Color-int of the text box can be set by `horizontal_text_progress_box_color` or 
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 The height of progress can be set by `linetext_progress_height` or calling `mProgressHeight` .
 
@@ -220,7 +220,7 @@ The height of progress can be set by `linetext_progress_height` or calling `mPro
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/VastTools/#055)
+[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
 
 Text margin can be set by `linetext_progress_text_margin` or calling `mTextMargin` .
 

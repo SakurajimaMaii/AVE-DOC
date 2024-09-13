@@ -2,7 +2,7 @@
 
 ## findByContext
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `findByContext` 为你提供了 [Context](https://developer.android.com/reference/android/content/Context) 以便你查找对应的资源。
 
@@ -28,7 +28,7 @@
 
 ## findByResources
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/VastTools/#052)
+[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
 
 `findByResources` 为你提供了 [Resources](https://developer.android.com/reference/android/content/res/Resources) 以便你查找对应的资源。
 
