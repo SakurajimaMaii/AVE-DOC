@@ -16,7 +16,7 @@ logCat.d(address)
 ```kotlin
 val gson = GsonConverter.getInstance(true)
 
-val mLogFactory: LogFactory = getLogFactory {
+val logFactory: LogFactory = getLogFactory {
     ...
     install(LogJson) {
         converter = gson

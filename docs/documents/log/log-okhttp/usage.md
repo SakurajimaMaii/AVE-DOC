@@ -5,16 +5,18 @@
 通过将 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 添加为 [Okhttp](https://square.github.io/okhttp/) 拦截器，便可轻松打印请求日志：
 
 ```kotlin
-class OpenApi : RequestBuilder("https://api.apiopen.top") {
-    ...
-
-    override fun okHttpConfiguration(builder: OkHttpClient.Builder) {
-        super.okHttpConfiguration(builder)
-        mLogger = mLogFactory.getLog(OpenApi::class.java)
-        mOkhttp3Interceptor = Okhttp3Interceptor.getInstance(mLogger)
-        builder.addInterceptor(mOkhttp3Interceptor)
-    }
-}
+// Add Interceptor 
+val logcat = logFactory("global") 
+val okhttp = OkHttpClient
+    .Builder()
+    .addInterceptor(Okhttp3Interceptor(logcat))     
+    .build()  
+    
+// Make a request 
+val request: Request = Request.Builder()
+    .url("http://127.0.0.1:7777")
+    .build()
+okhttp.newCall(request).execute()
 ```
 
 [查看示例代码](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/App.kt){ .md-button }
@@ -49,7 +51,7 @@ class OpenApi : RequestBuilder("https://api.apiopen.top") {
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [filter](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/filter.html) 你可以对请求进行过滤，例如请求链接中必须包含 **getPhoto** :
 
 ```kotlin
-mOkhttp3Interceptor.apply {
+okhttp3Interceptor.apply {
     filter = {
         it.url.host.contains("getPhoto")
     }
@@ -64,7 +66,7 @@ mOkhttp3Interceptor.apply {
 ](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/content-level.html) 你可以设置日志的打印内容，例如可以只打印日志的请求信息：
 
 ```kotlin
-mOkhttp3Interceptor.apply {
+okhttp3Interceptor.apply {
     contentLevel = ContentLevel.INFO
 }
 ```
@@ -85,7 +87,7 @@ mOkhttp3Interceptor.apply {
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [requestLevel](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/request-level.html) 你可以设置请求内容的日志级别：
 
 ```kotlin
-mOkhttp3Interceptor.apply {
+okhttp3Interceptor.apply {
     requestLevel = { request ->  
         if(request.url.host.contains("127.0.0.1")){
             LogLevel.DEBUG
@@ -107,7 +109,7 @@ mOkhttp3Interceptor.apply {
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [responseLevel](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/response-level.html) 你可以设置回复内容的日志级别：
 
 ```kotlin
-mOkhttp3Interceptor.apply {
+okhttp3Interceptor.apply {
     responseLevel = { response ->
         if (200 == response.code) {
             LogLevel.DEBUG

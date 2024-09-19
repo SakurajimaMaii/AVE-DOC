@@ -60,6 +60,7 @@ plugins:
           name: 简体中文
           build: true
           nav_translations:
+            Adapter : 适配器
             Advanced : 高级
             App data and files : 应用数据与文件
             App entry points : 应用入口点
