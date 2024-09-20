@@ -13,7 +13,7 @@
 val logDir = File(FileMgr.appInternalFilesDir(), "log")
 val logCache = File(FileMgr.appInternalFilesDir(), "log-cache")
 
-val mLogFactory: LogFactory = getLogFactory {
+val logFactory: LogFactory = getLogFactory {
     // 配置插件
     install(LogPrinter) {
         logger = Logger.mars(logDir, logCache)
