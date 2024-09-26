@@ -15,7 +15,7 @@ class SimpleLogger : Logger {
 }
 
 // Logger.kt
-val mLogFactory: LogFactory = getLogFactory {
+val logFactory: LogFactory = getLogFactory {
     install(LogSwitch) {
         open = true
     }

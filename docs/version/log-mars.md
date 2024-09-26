@@ -1,6 +1,12 @@
 # log-mars
 
-## 1.3.4(Latest)
+## 1.3.5(Latest)
+
+- 更新：
+
+    - [log-core](https://central.sonatype.com/artifact/io.github.sakurajimamaii/log-core/overview) 更新到 1.3.5 版本。
+
+## 1.3.4
 
 - 更新：
 

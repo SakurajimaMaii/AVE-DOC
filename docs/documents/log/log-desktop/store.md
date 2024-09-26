@@ -5,7 +5,7 @@
 如果想要在 Kotlin/Java 应用中启用日志存储，需要配置 [LogStorage](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-storage/index.html?query=class%20LogStorage(val%20mConfiguration:%20LogStorage.Configuration)) 插件，并调用 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 来获取 [DesktopStore](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/-desktop-store/index.html) 。
 
 ```kotlin
-val mLogFactory: LogFactory = getLogFactory {
+val logFactory: LogFactory = getLogFactory {
     ...
     install(LogStorage) {
         logStore = LogStore.desktop("", 1024L * 1000)

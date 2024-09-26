@@ -5,7 +5,7 @@
 如果想要在 Kotlin/Java 应用中启用日志打印，需要配置 [LogPrinter](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-printer/index.html?query=class%20LogPrinter(val%20mConfiguration:%20LogPrinter.Configuration)) 插件，并调用 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 来获取 [DesktopLogger](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/-desktop-logger/index.html) 。
 
 ```kotlin
-val mLogFactory: LogFactory = getLogFactory {
+val logFactory: LogFactory = getLogFactory {
     ...
     install(LogPrinter) {
         logger = Logger.desktop() // since 1.3.1

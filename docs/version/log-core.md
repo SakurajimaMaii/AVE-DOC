@@ -1,6 +1,27 @@
 # log-core
 
-## 1.3.4(Latest) 🥳🥳🥳
+!!! tip 
+
+    🥳🥳🥳 为推荐版本。
+
+## 1.3.5(Latest)
+
+- 更新：
+
+    - 用户无需调用 [getLogCat()](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-factory/get-log-cat.html) 来获取 [LogCat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/index.html) 对象。 [**#9b85f6e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9b85f6e6b302f5bf1c36d02a57b3d09453ed2001)
+        
+        ```kotlin
+        val logcat = logFactory("global")
+        ```
+
+    - i 等日志方法新增对于 Any? 对象的支持。 [**#9b85f6e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9b85f6e6b302f5bf1c36d02a57b3d09453ed2001)
+
+        ```kotlin
+        val key: String? = System.getenv()["Key"]
+        logcat.d(key)
+        ```
+
+## 1.3.4 🥳🥳🥳
 
 - 更新：
 

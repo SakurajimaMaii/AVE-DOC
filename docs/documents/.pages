@@ -1,6 +1,6 @@
 nav:
     - log
-    - VastTools
+    - tools
     - VastNetStateLayout
     - VastCore
     - ...
