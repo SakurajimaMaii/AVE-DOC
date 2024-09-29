@@ -21,4 +21,4 @@ private val singleton by lazy {
 
 ## Example code
 
-[Example code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/java/com/ave/vastgui/app/model/Singleton.kt){ .md-button }
+[Example code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/model/Singleton.kt){ .md-button }
