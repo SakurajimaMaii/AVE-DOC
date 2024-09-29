@@ -4,7 +4,17 @@
 
     🥳🥳🥳 为推荐版本。
 
-## 1.3.5(Latest)
+## 1.3.6(Latest)
+
+- 修复：
+
+    - 修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 可见性错误，修复默认 tag 在添加 [@LogAPI](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.annotation/-log-api/index.html?query=internal%20annotation%20class%20LogApi) 可以再次修改的问题。 [**#0c70ede**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c70ede2b9a4d1c8de7d20e720316470cb716438)
+
+- 过时：
+
+    - 为了避免用户误解，将 getLogCat(clazz: Class<*>) 和 invoke(clazz: Class<*>) 设置为过时。 [**#031e699**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/031e69950e759e6b786282e7f2c8448a3fc7805a)
+
+## 1.3.5
 
 - 更新：
 
