@@ -4,7 +4,13 @@
 
     🥳🥳🥳 为推荐版本。
 
-## 1.3.5(Latest) 🥳🥳🥳
+## 1.3.6(Latest) 
+
+- 修复：
+
+    - 修复请求头没有打印 [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) 的问题。 [**#71431aa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/71431aab1b11868d96a4b3d5f96abb63855311aa)
+
+## 1.3.5 🥳🥳🥳
 
 - 更新：
 
