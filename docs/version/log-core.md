@@ -2,17 +2,24 @@
 
 !!! tip 
 
-    🥳🥳🥳 为推荐版本。
+    - 🥳🥳🥳 为推荐版本。
+    - 删除线表示该版本存在错误，具体错误为描述中被删除线注解的部分。
 
-## 1.3.6(Latest)
+## 1.3.7
 
 - 修复：
 
-    - 修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 可见性错误，修复默认 tag 在添加 [@LogAPI](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.annotation/-log-api/index.html?query=internal%20annotation%20class%20LogApi) 可以再次修改的问题。 [**#0c70ede**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c70ede2b9a4d1c8de7d20e720316470cb716438)
+    - 修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 被错误添加 internal 修饰符的问题，修复调用堆栈显示错误的问题。 [**#cc3eb84**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/cc3eb844ba2a8166de5bf14894acaece2e4dafb4)
+
+## ~~1.3.6~~
+
+- 修复：
+
+    - ~~修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 可见性错误~~，修复默认 tag 在添加 [@LogAPI](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.annotation/-log-api/index.html?query=internal%20annotation%20class%20LogApi) 可以再次修改的问题。 [**#0c70ede**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c70ede2b9a4d1c8de7d20e720316470cb716438)
 
 - 过时：
 
-    - 为了避免用户误解，将 getLogCat(clazz: Class<*>) 和 invoke(clazz: Class<*>) 设置为过时。 [**#031e699**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/031e69950e759e6b786282e7f2c8448a3fc7805a)
+    - 为了避免用户误解，将 getLogCat(clazz: Class<\*>) 和 invoke(clazz: Class<\*>) 设置为过时。 [**#031e699**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/031e69950e759e6b786282e7f2c8448a3fc7805a)
 
 ## 1.3.5
 
