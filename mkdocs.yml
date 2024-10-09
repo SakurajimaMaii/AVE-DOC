@@ -89,6 +89,7 @@ plugins:
             Log desktop : Kotlin/Java 应用
             Log mars : Tencent/Mars
             Log okhttp : Okhttp3 日志拦截器
+            Log slf4j : SLF4J 支持
             Net state layout : 缺省页
             Performing network operations : 执行网络操作
             Plugin : 插件
