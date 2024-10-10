@@ -1,4 +1,4 @@
-# 日志存储
+# 存储
 
 [:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
 

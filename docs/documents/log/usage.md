@@ -9,6 +9,19 @@
 
 ## 特性
 
+```kotlin
+val logFactory: LogFactory = getLogFactory {
+    install(LogSwitch) {
+        open = true
+    }
+    install(LogPrinter)
+}
+
+val logcat = logFactory("global")
+logcat.d("这是一条日志")
+```
+
+<div class="result" markdown>
 - 支持插件化安装。
 - 支持自定义日志打印格式。
 - 支持显示日志位置用于快速定位。
@@ -16,64 +29,83 @@
 - 支持日志文件存储。
 - 支持对象以 json(pretty 可选) 风格输出。
 - 支持 JsonString 打印。
+</div>
 
 ## 日志风格
 
 [:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
 
-目前提供了以下几种默认风格：
+通过 [LogFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-format/index.html) 可以自定义日志风格，例如为 [Logger.desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 指定风格为 [LineColorfulFormat](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop.format/-line-colorful-format/index.html) 。
 
-=== "表格风格"
+```kotlin
+val logFactory: LogFactory = getLogFactory {
+    ...
+    install(LogPrinter) {
+        logger = Logger.desktop(LineColorfulFormat)
+    }
+}
+```
 
-    <div class="result" markdown>
+<div class="result" markdown>
+
+=== "表格风格(TableFormat)"
     
-    ![table_format](../img/table_format.png){ align=right width="500" }
-
-    - 支持自定义日志头显示内容。
-    - 支持限制每行字符数。
-    - 支持限制打印次数。
-
-    </div>
-
-=== "线性风格"
-
-    <div class="result" markdown>
-
     <figure markdown="span">
-    ![log_desktop](../img/line_format.png){ width="500" }
+    ![table_format](../img/table_format.png)
     </figure>
 
-    </div>
+=== "线性风格(LineFormat)"
 
-=== "多彩线性风格"
+    <figure markdown="span">
+    ![log_desktop](../img/line_format.png)
+    </figure>
 
-    <div class="result" markdown>
+=== "多彩线性风格(LineColorfulFormat)"
 
-    ![log_desktop](../img/line_colorful_format.png){ align=right width="500" }
+    <figure markdown="span">
+    ![log_desktop](../img/line_colorful_format.png)
+    </figure>
 
-    - 提供了默认的控制台输出颜色。
+=== "简约模式(OnlyMsgFormat)"
 
-    </div>
+    <figure markdown="span">
+    ![log_desktop](../img/only_msg_format.png)
+    </figure>
 
-=== "简约模式"
-
-    <div class="result" markdown>
-
-    ![log_desktop](../img/only_msg_format.png){ align=right width="500" }
-
-    - 仅保留日志内容本身不附加额外信息。
-
-    </div>
+</div>
 
 ## 面向 Tencent/Mars
+
+[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+
+通过 [Logger.mars()](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 将 [Tencent/Mars](https://github.com/Tencent/mars) 的 **xlog** 组件快速集成： 
+
+```kotlin
+val logFactory: LogFactory = getLogFactory {
+    ...
+    install(LogPrinter) {
+        logger = Logger.mars(logDir, logCache)
+    }
+}
+```
 
 ## 面向 Okhttp
 
 [:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
 
 ```kotlin
-private val mLogcat: LogCat = mLogFactory.getLogCat(OpenApi::class.java)
-private val mOkhttp3Interceptor: Okhttp3Interceptor = Okhttp3Interceptor.getInstance(mLogcat)
+// Add Interceptor 
+val logcat = logFactory("global") 
+val okhttp = OkHttpClient
+    .Builder()
+    .addInterceptor(Okhttp3Interceptor(logcat))     
+    .build()  
+    
+// Make a request 
+val request: Request = Request.Builder()
+    .url("http://127.0.0.1:7777")
+    .build()
+okhttp.newCall(request).execute()
 ```
 <div class="result" markdown>
 
@@ -151,4 +183,20 @@ private val mOkhttp3Interceptor: Okhttp3Interceptor = Okhttp3Interceptor.getInst
 
     ```kotlin
     implementation("io.github.sakurajimamaii:log-mars:$version")
+    ```
+
+### log-slf4j
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-slf4j)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-slf4j:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-slf4j:$version")
     ```

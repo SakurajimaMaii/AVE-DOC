@@ -1,4 +1,8 @@
-# 日志打印
+# 概述
+
+!!! tip "SLF4J 支持现已推出"
+
+    如果你的应用使用 [SLF4J](https://www.slf4j.org/) 作为日志门面，可以尝试使用 [log-slf4j](https://ave.entropy2020.cn/documents/log/log-slf4j/usage/) 。
 
 [:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
 
@@ -8,17 +12,16 @@
 val logFactory: LogFactory = getLogFactory {
     ...
     install(LogPrinter) {
-        logger = Logger.desktop() // since 1.3.1
+        logger = Logger.desktop() 
     }
 }
 ```
 
-以下是按照默认配置打印的日志格式：
-
+<div class="result" markdown>
 <figure markdown>
-  ![默认日志打印格式](../img/line_colorful_format.png)
-  <figcaption>默认日志打印格式</figcaption>
+  ![多彩线性风格示例](../img/line_colorful_format.png)
 </figure>
+</div>
 
 ## 添加依赖 
 

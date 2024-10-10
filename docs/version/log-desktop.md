@@ -1,5 +1,11 @@
 # log-desktop
 
+## 1.3.7(Latest)
+
+- 更新：
+
+    - [log-core](https://central.sonatype.com/artifact/io.github.sakurajimamaii/log-core/overview) 更新到 1.3.7 版本。
+
 ## 1.3.6(Latest)
 
 - 更新：
