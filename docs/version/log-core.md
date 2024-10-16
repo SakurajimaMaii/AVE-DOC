@@ -5,11 +5,46 @@
     - 🥳🥳🥳 为推荐版本。
     - 删除线表示该版本存在错误，具体错误为描述中被删除线注解的部分。
 
-## 1.3.7(Latest)
+## 1.3.10(Latest)
 
 - 修复：
 
-    - 修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 被错误添加 internal 修饰符的问题，修复调用堆栈显示错误的问题。 [**#cc3eb84**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/cc3eb844ba2a8166de5bf14894acaece2e4dafb4)
+    - 修复 [LogTypeValidator](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-type-validator/index.html?query=class%20LogTypeValidator) 换行存在的问题。 [**#e18f68d**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/e18f68d8c6f1457e50a62b2473ef0d1b1766e22c)
+
+## 1.3.9
+
+- 修复：
+
+    - 修复 [TableFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.format/-table-format/index.html?query=class%20TableFormat(val%20mMaxSingleLogLength:%20Int,%20val%20mMaxPrintTimes:%20Int,%20val%20mHeader:%20TableFormat.LogHeader)%20:%20LogFormat) 换行存在的问题。 [**#0cd5459**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0cd54593e5416a32ad3fa506725ebdcc8988c113)
+
+## 1.3.8
+
+- 新增：
+
+    - 新增 [Log](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-tag/index.html) 用来作为日志的 tag 。
+
+        ```kotlin
+        logcat.i(LogTag(TAG)) { HELLO_WORLD }
+        ```
+
+        !!! example "实验性说明"
+
+            [Log](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-tag/index.html) 和 [LogTag](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-tag/index.htmll) 目前还处于实验性阶段。
+
+- 更新：
+
+    - 移除对 [Gson](https://github.com/google/gson) 和 [Jackson](https://github.com/FasterXML/jackson-databind) 的默认依赖。
+    - 更改 [LogSwitch](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-switch/index.html?query=class%20LogSwitch(val%20open:%20Boolean)) 行为，用户只有安装该插件才能启用日志
+
+- 修复：
+
+    - 修复在 json 转换中将字符串 "null 123456" 被识别成 null 并打印 "null" 的问题。 [**#0cd5459**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0cd54593e5416a32ad3fa506725ebdcc8988c113)
+
+## 1.3.7
+
+- 修复：
+
+    - 修复 [logPipeline](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/log-pipeline.html) 被错误添加 internal 修饰符的问题。 [**#cc3eb84**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/cc3eb844ba2a8166de5bf14894acaece2e4dafb4)
 
 ## ~~1.3.6~~
 
