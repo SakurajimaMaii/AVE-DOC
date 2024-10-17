@@ -103,11 +103,11 @@ val logFactory: LogFactory = getLogFactory {
 
 ```kotlin
 // 指定日志的存储位置
-val logDir = File(FileMgr.appInternalFilesDir(), "log")
-val logCache = File(FileMgr.appInternalFilesDir(), "log-cache")
+val logDir = File(..., "log")
+val logCache = File(..., "log-cache")
 
 val logFactory: LogFactory = getLogFactory {
-    // 配置插件
+    ...
     install(LogPrinter) {
         logger = Logger.mars(logDir, logCache)
     }
@@ -126,7 +126,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ```kotlin
 val logFactory: LogFactory = getLogFactory {
-    // 配置插件
+    ...
     install(LogPrinter) {
         logger = Logger.android()
     }

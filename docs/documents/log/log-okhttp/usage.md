@@ -24,7 +24,7 @@ okhttp.newCall(request).execute()
 以下是打印的日志示例：
 
 <figure markdown>
-  ![请求日志示例](../img/log_okhttp.png){ width="800" }
+  ![请求日志示例](../img/okhttp.png){ width="800" }
   <figcaption>请求日志示例</figcaption>
 </figure>
 
@@ -72,8 +72,7 @@ okhttp3Interceptor.apply {
 ```
 
 <figure markdown>
-  ![仅打印日志请求信息](../img/log_okhttp_info.png){ width="800" }
-  <figcaption>仅打印日志请求信息</figcaption>
+  ![仅打印日志请求信息](../img/okhttp_only_info.png){ width="800" }
 </figure>
 
 !!! note "内容级别默认值"
@@ -119,6 +118,24 @@ okhttp3Interceptor.apply {
     }
 }
 ```
+
+## 请求头隐藏
+
+[:octicons-tag-24: Version 1.3.9](https://ave.entropy2020.cn/version/log-okhttp/#139)
+
+通过 [sanitizedHeaders()](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/sanitized-headers.html) 可以将指定的请求头进行替换为隐藏字段：
+
+```kotlin
+Okhttp3Interceptor(logcat)
+    .sanitizedHeaders("Authorization","***")
+    .sanitizedHeaders("User-Agent","xxx")
+```
+
+则上述的请求头内容会被替换成指定内容：
+
+<figure markdown>
+  ![请求头隐藏](../img/okhttp_sanitized_headers.png){ width="800" }
+</figure>
 
 !!! note "回复日志级别默认值"
 

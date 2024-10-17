@@ -109,7 +109,7 @@ okhttp.newCall(request).execute()
 ```
 <div class="result" markdown>
 
-![log_okhttp](../img/log_okhttp.png){ align=right width="500" }
+![log_okhttp](../img/okhttp.png){ align=right width="500" }
 
 - 支持过滤请求。
 - 支持自定义日志内容显示级别。

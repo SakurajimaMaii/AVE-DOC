@@ -5,11 +5,10 @@
 默认情况下，如果直接将**对象**作为日志打印内容，则会出现以下错误：
 
 ```kotlin
-logCat.d(address)
+logcat.d(UserBean("Xiao Ming", "123456789"))
 ```
 
-> Can not convert class com.log.vastgui.core.model.Address, 
-> please install a specific converter plugin.
+![Json 转换错误](../../img/json_transfrom_error.png)
 
 [LogJson](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-json/index.html) 允许你将对象以 json 的形式打印：
 
@@ -26,26 +25,30 @@ val logFactory: LogFactory = getLogFactory {
 
 以下是成功打印示例：
 
-```
-╔════════════════════════════════════════════════════════════════════════════════════════════════════
-║ Thread: Test worker Tag: LogCatTest Level: DEBUG Time: 2024-06-27 15:23:15
-╟────────────────────────────────────────────────────────────────────────────────────────────────────
-║ com.log.vastgui.core.LogCatTest.log(LogCatTest.kt:115)
-╟────────────────────────────────────────────────────────────────────────────────────────────────────
-║ {
-║   "id": 1,
-║   "name": "Alice Smith",
-║   "email": "alice.smith@example.com",
-║   "registrationDate": "Jun 27, 2024, 3:23:15 PM",
-║   "isActive": true
-║ }
-╚════════════════════════════════════════════════════════════════════════════════════════════════════
-```
+![Json 转换](../../img/json_transfrom.png)
 
-目前提供了以下三种 Json 序列化对象
+## 添加依赖
 
-|       类名        |                           属性                            |
-| :---------------: | :-------------------------------------------------------: |
-| FastJsonConverter | 基于 [FastJson](https://github.com/alibaba/fastjson2) 打造 |
-|   GsonConverter   |     基于 [Gson](https://github.com/google/gson) 打造      |
-| JacksonConverter  | 基于 [Jackson](https://github.com/FasterXML/jackson) 打造 |
+=== "Gson"
+
+    ![version](https://img.shields.io/maven-central/v/com.google.code.gson/gson)
+
+    ```kotlin
+    implementation("com.google.code.gson:gson:$version")
+    ```
+
+=== "Fastjson2"
+
+    ![version](https://img.shields.io/maven-central/v/com.alibaba.fastjson2/fastjson2)
+
+    ```kotlin
+    implementation("com.alibaba.fastjson2:fastjson2:$version")
+    ```
+
+=== "Jackson"
+
+    ![version](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-databind)
+
+    ```kotlin
+    implementation("com.fasterxml.jackson.core:jackson-databind:$version")
+    ```
