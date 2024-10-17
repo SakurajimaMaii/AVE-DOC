@@ -9,7 +9,7 @@
 
 - 修复：
 
-    - 修复 [LogTypeValidator](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-type-validator/index.html?query=class%20LogTypeValidator) 换行存在的问题。 [**#e18f68d**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/e18f68d8c6f1457e50a62b2473ef0d1b1766e22c)
+    - 修复 [LogTypeValidator](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-type-validator/index.html?query=class%20LogTypeValidator) 存在的问题。 [**#e18f68d**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/e18f68d8c6f1457e50a62b2473ef0d1b1766e22c)
 
 ## 1.3.9
 
