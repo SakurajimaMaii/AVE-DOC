@@ -1,6 +1,6 @@
 # 概述
 
-!!! tip "SLF4J 支持现已推出"
+!!! example "SLF4J 支持现已推出预览版"
 
     如果你的应用使用 [SLF4J](https://www.slf4j.org/) 作为日志门面，可以尝试使用 [log-slf4j](https://ave.entropy2020.cn/documents/log/log-slf4j/usage/) 。
 
