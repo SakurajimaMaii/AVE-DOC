@@ -200,3 +200,19 @@ okhttp.newCall(request).execute()
     ```kotlin
     implementation("io.github.sakurajimamaii:log-slf4j:$version")
     ```
+
+### log-android
+
+当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-android)
+
+=== "gradle"
+
+    ```groovy
+    implementation 'io.github.sakurajimamaii:log-android:$version'
+    ```
+
+=== "kts"
+
+    ```kotlin
+    implementation("io.github.sakurajimamaii:log-android:$version")
+    ```
