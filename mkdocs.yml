@@ -85,6 +85,7 @@ plugins:
             License : 许可
             Lifecycle aware components : 生命周期感知型组件
             Log : 日志
+            Log android : Android
             Log core : 核心主题
             Log desktop : Kotlin/Java 应用
             Log mars : Tencent/Mars
