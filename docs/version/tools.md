@@ -1,6 +1,28 @@
 # tools
 
-## 1.5.0(Latest)
+## 1.5.1(Latest)
+
+- 新增：
+
+    - 试图可见性拓展方法。 [**#1ff6d2a**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/1ff6d2a607b20a2d20dae80598f67446c90cf6a2)
+    - [FileMgr](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.manager.filemgr/-file-mgr/index.html?query=object%20FileMgr) 新增 getOrSaveFile 和 getOrMakeDir 。 [**#6a18e7c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6a18e7c033517f5032f98c0d056e13da619a27bf)
+
+- 修复：
+
+    - [ColorUtils](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.utils/-color-utils/index.html?query=object%20ColorUtils) 获取颜色透明度错误的问题。
+    - 修复 [LogSp](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log.base/-log-sp/index.html?query=class%20LogSp%20:%20ISharedPreferencesOwner) 获取 SP 存储名字错误的问题。 [**#6126889**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6126889888200c6fc45035baad185c520761cbf5)
+
+- 更新：
+
+    - 更新 [AppCrashHandler](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.exception/-app-crash-handler/index.html?query=class%20AppCrashHandler(val%20configuration:%20AppCrashHandler.Configuration)%20:%20Thread.UncaughtExceptionHandler) 实现使其更易用。 [**#36127f3**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/36127f3e932e6d9707123dbc3d6155c7fa84e5da)
+    - 适配日志框架新 API 。
+    - 完善日志框架协程异常的打印和存储。 [**#56d9863**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/56d98637a4f2201d5a66c81ba57e13060436906b)
+
+- 删除：
+
+    - 将 ActivityLifecycleLogger 移除，迁移至 [log-android](https://ave.entropy2020.cn/documents/log/log-android/lifecycle/usgae/) 
+
+## 1.5.0
 
 - 新增：
 
