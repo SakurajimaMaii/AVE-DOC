@@ -1,6 +1,12 @@
 # log-mars
 
-## 1.3.6(Latest)
+## 1.3.10(Latest)
+
+- 更新：
+
+    - 适配 [log-core](https://ave.entropy2020.cn/documents/log/log-core/setting-up/)
+
+## 1.3.6
 
 - 更新：
 
