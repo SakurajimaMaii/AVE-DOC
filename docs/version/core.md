@@ -1,6 +1,18 @@
 # core
 
-## 0.1.1(Latest)
+## 0.1.3(Latest)
+
+- 新增
+
+    - 新增 `suspendCoroutineWithTimeout` 。 [**#faed9e0**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/faed9e0ec5c7d5170b9d28f7ec896efddcd18343)
+
+## 0.1.2
+
+- 新增
+
+    - 新增 `letThenNull` 。 [**#aef3195**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/aef31952d54c47137cca83180c32c6cf5fd76665)
+
+## 0.1.1
 
 - 更新
 
