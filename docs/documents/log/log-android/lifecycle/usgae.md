@@ -1,6 +1,6 @@
 # 生命周期日志
 
-[:octicons-tag-24: Version 1.3.10](https://ave.entropy2020.cn/version/log-core/#1310)
+[:octicons-tag-24: Version 1.3.10](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#1310)
 
 !!! tip "LifecykleLog"
 
@@ -8,7 +8,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 1.3.10](https://ave.entropy2020.cn/version/log-core/#1310)
+[:octicons-tag-24: Version 1.3.10](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#1310)
 
 - 在 [Application](https://developer.android.com/reference/android/app/Application) 调用 [registerLifecycleLogcat](https://api.ave.entropy2020.cn/log/android/com.log.vastgui.android.lifecycle/-activity-lifecycle-logcat/-companion/register-lifecycle-logcat.html) 注册回调监听：
 
@@ -47,7 +47,7 @@
 
 ## 指定生命周期
 
-[:octicons-tag-24: Version 1.3.10](https://ave.entropy2020.cn/version/log-core/#1310)
+[:octicons-tag-24: Version 1.3.10](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#1310)
 
 通过 [LogLifecycle.obverseEvent](https://api.ave.entropy2020.cn/log/android/com.log.vastgui.android.lifecycle/-log-lifecycle/obverse-event.html) 可以指定记录的生命周期：
 
@@ -64,7 +64,7 @@ class VideosFragment : VastVbVmFragment<FragmentVideosBinding, SharedVM>() {
 
 ## 自定义日志类名
 
-[:octicons-tag-24: Version 1.3.10](https://ave.entropy2020.cn/version/log-core/#1310)
+[:octicons-tag-24: Version 1.3.10](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#1310)
 
 通过 [LogLifecycle.name](https://api.ave.entropy2020.cn/log/android/com.log.vastgui.android.lifecycle/-log-lifecycle/name.html) 可以自定义日志类名：
 

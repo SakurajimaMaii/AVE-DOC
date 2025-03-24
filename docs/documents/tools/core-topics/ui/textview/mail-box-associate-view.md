@@ -7,7 +7,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -27,7 +27,7 @@
 
 ## 默认支持的邮箱
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 ```java
 qq.com

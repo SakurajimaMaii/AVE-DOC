@@ -1,6 +1,6 @@
 # 日志打印
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#131)
 
 下面的示例都将采用下段作为日志内容：
 
@@ -21,7 +21,7 @@
 
 ## 限制每行字符数
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#131)
 
 [android()](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 提供了 `maxSingleLogLength` 用于设置单行日志的最大打印长度。
 
@@ -59,7 +59,7 @@ val mLogFactory: LogFactory = getLogFactory {
 
 ## 限制最多打印次数
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#131)
 
 [android()](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 提供了 `maxPrintTimes` 用于设置日志打印的次数，例如根据设置超长的日志被分割为 10 行，如果 `maxPrintTimes` 被设置为 5 ，则只会打印前五行内容。
 
@@ -90,7 +90,7 @@ val mLogFactory: LogFactory = getLogFactory {
 
 ## 设置标头内容
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#131)
 
 默认情况下，日志的标头包含以下内容：
 

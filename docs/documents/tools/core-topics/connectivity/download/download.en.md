@@ -6,7 +6,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 Through `DLManager` you can create a download task, configure the download link for it, or the save path.
 
@@ -31,7 +31,7 @@ downloadTask = DLManager
 
 ## Breakpoint download
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 The download task object provides `pause`, `resume` and other methods to pause the task.
 
@@ -41,7 +41,7 @@ downloadTask. resume()
 
 ## MD5 verification
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 By calling `setMD5`, you can set the MD5 of the file for verification. This is not done by default.
 
@@ -54,7 +54,7 @@ downloadTask = DLManager
 
 ## Download event listener
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 Currently you can listen for the following download events:
 

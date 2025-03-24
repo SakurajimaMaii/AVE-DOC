@@ -1,6 +1,6 @@
 # 日志存储
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 [LogStorage](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-storage/index.html) 允许你自定义日志的存储方式。
 
@@ -49,9 +49,9 @@ val logFactory: LogFactory = getLogFactory {
 
 !!! warning "level 过时说明"
 
-    考虑到 `level` 对于日志等级的过滤不够灵活，因此在 [1.3.4](https://ave.entropy2020.cn/version/log-core/#134) 版本开始使用 `levelSet` 进行替代。
+    考虑到 `level` 对于日志等级的过滤不够灵活，因此在 [1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134) 版本开始使用 `levelSet` 进行替代。
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134)
 
 通过设置 `levelSet` 可以指定那些等级的日志可以被存储。
 
@@ -64,7 +64,7 @@ val logFactory: LogFactory = getLogFactory {
 }
 ```
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 通过设置 `level` 可以指定保存的日志的最小等级。
 
@@ -81,9 +81,9 @@ val logFactory: LogFactory = getLogFactory {
 
 ### [VastTools](https://github.com/SakurajimaMaii/Android-Vast-Extension)
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/tools/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#131)
 
-调用 [android()](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 获取 [AndroidStore](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-store/index.html) ，具体使用请参考 [链接](https://ave.entropy2020.cn/documents/VastTools/log/store/) 。
+调用 [android()](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/android.html) 获取 [AndroidStore](https://api.ave.entropy2020.cn/tools/com.ave.vastgui.tools.log/-android-store/index.html) ，具体使用请参考 [链接](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/log/store/) 。
 
 ```kotlin
 val logFactory: LogFactory = getLogFactory {
@@ -96,9 +96,9 @@ val logFactory: LogFactory = getLogFactory {
 
 ### [log-desktop](https://github.com/SakurajimaMaii/Android-Vast-Extension)
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/#131)
 
-调用 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 获取 [DesktopLogger](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/-desktop-logger/index.html) ，具体使用请参考 [链接](https://ave.entropy2020.cn/documents/log/log-desktop/store/) 。
+调用 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 获取 [DesktopLogger](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/-desktop-logger/index.html) ，具体使用请参考 [链接](https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/store/) 。
 
 ```kotlin
 val logFactory: LogFactory = getLogFactory {

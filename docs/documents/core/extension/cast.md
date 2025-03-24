@@ -1,6 +1,6 @@
 # 类型转换拓展
 
-[:octicons-tag-24: Version 0.0.1](https://ave.entropy2020.cn/version/core/#001)
+[:octicons-tag-24: Version 0.0.1](https://sakurajimamaii.github.io/AVE-DOC/version/core/#001)
 
 ```kotlin
 open class Person(val name:String)

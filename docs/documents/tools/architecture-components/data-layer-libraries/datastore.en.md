@@ -15,7 +15,7 @@ val Context.dataStore: DataStore<Preferences> by
 
 ### Implement IDataStoreOwner
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
+[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
 
 ```kotlin
 object ThemeDs : IDataStoreOwner {
@@ -28,7 +28,7 @@ object ThemeDs : IDataStoreOwner {
 
 ### Read from a Preferences DataStore
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
+[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
 
 The following example shows you that `Boolean` type data can be read from `Preferences DataStore` by calling `asNotNullFlow` in Compose .
 
@@ -38,7 +38,7 @@ val darkTheme by ThemeDs.isDark.asNotNullFlow().collectAsState(false)
 
 ### Write to a Preferences DataStore
 
-[:octicons-beaker-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-beaker-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 The following example shows you that `Boolean` type data can be written to `Preferences DataStore` in Compose .
 

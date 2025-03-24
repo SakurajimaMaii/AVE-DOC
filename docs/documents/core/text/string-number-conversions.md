@@ -1,6 +1,6 @@
 # 文本转换
 
-[:octicons-tag-24: Version 0.1.0](https://ave.entropy2020.cn/version/core/#010)
+[:octicons-tag-24: Version 0.1.0](https://sakurajimamaii.github.io/AVE-DOC/version/core/#010)
 
 能够确保更加安全将字符串转换成数字。
 

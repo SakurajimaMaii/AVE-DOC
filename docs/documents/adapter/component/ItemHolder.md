@@ -1,6 +1,6 @@
 # ItemHolder
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 当你使用 [BaseAdapter](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter/-base-adapter/index.html) ， [BaseListAdapter](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter/-base-list-adapter/index.html) ， [BasePagingAdapter](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter/-base-paging-adapter/index.html) 时，你需要继承 [ItemHolder](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter.base/-item-holder/index.html) 并实现 [HolderFactory](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter.base/-item-holder/-holder-factory/index.html) 接口。以下为示例：
 

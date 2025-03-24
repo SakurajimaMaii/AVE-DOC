@@ -1,6 +1,6 @@
 # 存储
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/#131)
 
 如果想要在 Kotlin/Java 应用中启用日志存储，需要配置 [LogStorage](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.plugin/-log-storage/index.html?query=class%20LogStorage(val%20mConfiguration:%20LogStorage.Configuration)) 插件，并调用 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 来获取 [DesktopStore](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/-desktop-store/index.html) 。
 
@@ -28,7 +28,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 日志文件存储位置
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/#131)
 
 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 提供了 `fileRoot` 参数来设置日志文件存储位置。
 
@@ -38,6 +38,6 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 日志文件大小
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-desktop/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/#131)
 
 [desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 提供了 `fileMaxSize` 参数来设置单个日志文件的大小，以字节为单位。

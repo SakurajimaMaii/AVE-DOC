@@ -8,7 +8,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 === "xml"
 
@@ -36,7 +36,7 @@
 
 ## 附加到 ViewPager2
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `attachToViewPager2` ，你可以将指示器附加到 `ViewPager2` 上。
 
@@ -50,7 +50,7 @@ mBinding.vp2indicator.attachToViewPager2(mBinding.vp2)
 
 ## 设置圆点指示器半径
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `setIndicatorCircleRadius` 设置圆形指示器半径。
 
@@ -68,7 +68,7 @@ mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
 
 ## 设置圆点指示器颜色
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `setSelectedColor` 和 `setUnSelectedColor` 来修改指示器选中和未选中状态颜色。
 
@@ -86,7 +86,7 @@ mBinding.vp2indicator.apply {
 
 ## 设置指示器间距
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `setIndicatorItemDistance` 来修改指示器间距。
 
@@ -96,7 +96,7 @@ mBinding.vp2indicator.setIndicatorItemDistance(10F.DP)
 
 ## 设置指示器类型
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 调用 `setIndicatorStyle` 来设置指示器类型，目前支持两种
 
@@ -105,7 +105,7 @@ mBinding.vp2indicator.setIndicatorItemDistance(10F.DP)
 
 ## 设置 Bitmap 作为指示器
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 下面的示例为你展示了如何设置三角形 bitmap 为指示器。
 

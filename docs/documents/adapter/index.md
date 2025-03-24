@@ -31,7 +31,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 下面以展示 `Person` 数据为例：
 

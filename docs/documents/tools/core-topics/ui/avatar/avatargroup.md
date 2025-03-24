@@ -1,12 +1,12 @@
 # 头像组
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `AvatarGroup` 将 `Avatar` 显示为组。
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.avatar.AvatarGroup
@@ -31,7 +31,7 @@
 
 ## 覆盖方式
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_overlap_from` 或者调用 `setOverlapFrom` 来设置头像的覆盖方式。
 
@@ -61,7 +61,7 @@
 
 ## 覆盖宽度
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_overlap_distance` 或者调用 `setOverlapDistance` 来设置头像的覆盖长度。
 
@@ -91,7 +91,7 @@
 
 ## 动态添加头像
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 1. 创建 `Avatar` 对象
 

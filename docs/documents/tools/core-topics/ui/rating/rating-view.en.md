@@ -19,7 +19,7 @@
 
 ## Select method
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 Rating currently supports three select method：
 
@@ -55,7 +55,7 @@ Rating currently supports three select method：
 
 ## Orientation
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 Rating currently supports two orientations：
 
@@ -115,7 +115,7 @@ mBinding.ratingView.setStarCountNumber(4)
 
 ## Listener
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
+[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
 
 Register a listener by calling `setOnStarRatingChangeListener` to observe the rating changes.
 

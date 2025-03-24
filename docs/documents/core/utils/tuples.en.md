@@ -1,6 +1,6 @@
 # Tuples
 
-[:octicons-tag-24: Version 0.0.4](https://ave.entropy2020.cn/version/core/#004)
+[:octicons-tag-24: Version 0.0.4](https://sakurajimamaii.github.io/AVE-DOC/version/core/#004)
 
 `Quadruple` represents a quadruple of values, `Quintuple` represents a quintuple of values.
 

@@ -4,7 +4,7 @@
 
 !!! tip "迁移到 Request2"
 
-    `Request` 最初是为了兼容 java 和 kotlin 混编的项目，并为你提供了基于 `ResponseStateListener` 和 `ResponseMutableLiveData` 的方法实现，但是因为 `Request` 需要数据实现 `ResponseApi` 接口，这在某些场景下是不便的，因此在 [0.5.1](https://ave.entropy2020.cn/version/tools/#051) 版本推出了 `Request2` ， `Request2` 不需要你实现 `ResponseApi` 接口。因此如果你的项目使用 kotlin ，那么强烈推荐你使用 `Request2` 。
+    `Request` 最初是为了兼容 java 和 kotlin 混编的项目，并为你提供了基于 `ResponseStateListener` 和 `ResponseMutableLiveData` 的方法实现，但是因为 `Request` 需要数据实现 `ResponseApi` 接口，这在某些场景下是不便的，因此在 [0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051) 版本推出了 `Request2` ， `Request2` 不需要你实现 `ResponseApi` 接口。因此如果你的项目使用 kotlin ，那么强烈推荐你使用 `Request2` 。
 
 !!! note "关于测试接口说明"
 
@@ -84,7 +84,7 @@
 
 - 手动设置状态
 
-    在获取到请求成功的结果后，使用 `postValueAndSuccess` 方法手动的改变状态。更多使用方法可以参考[更新 ResponseLiveData 对象](https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/#responselivedata_4)。
+    在获取到请求成功的结果后，使用 `postValueAndSuccess` 方法手动的改变状态。更多使用方法可以参考[更新 ResponseLiveData 对象](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/#responselivedata_4)。
 
     ```kotlin
     OpenApi().create(OpenApiService::class.java)
@@ -108,7 +108,7 @@
 
 - 监听 `ResponseLiveData` 的状态
 
-    具体使用参考[观察状态发生变化](https://ave.entropy2020.cn/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/#responselivedata_3)。
+    具体使用参考[观察状态发生变化](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/connectivity/performing-network-operations/response-livedata/#responselivedata_3)。
 
 ## 示例代码
 

@@ -4,7 +4,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 === "kotlin"
 
@@ -23,7 +23,7 @@
 
 ### 默认强度
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 `PwdRegex` 默认提供了四种密码强度：
 
@@ -38,7 +38,7 @@
 
 ### 自定义密码强度
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 通过实现 `PwdStrength` 接口，你可以自定义密码强度对应的正则表达式，例如：
 
@@ -65,7 +65,7 @@
 
 ## 常见组合屏蔽
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 `isPwd` 提供了参数 `shouldNotAppear` ，通过该参数你可以指定密码中不应该出现的组合，例如：
 

@@ -1,6 +1,6 @@
 # ArcProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.ave.vastgui.tools.view.progress.ArcProgressView
@@ -22,7 +22,7 @@
 
 ## 进度条宽度
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 通过 `arc_progress_width` 或者调用 `mProgressWidth` 可以设置进度条的宽度。
 
@@ -46,7 +46,7 @@
 
 ## 端点颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 通过 `arc_progress_startpoint_circle_color` 或者调用 `mStartpointCircleColor` 可以设置进度条起点圆的颜色。
 
@@ -77,7 +77,7 @@
 
 ## 终点端点半径
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
+[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
 
 通过 `arc_progress_endpoint_circle_radius` 或者调用 `mEndpointCircleRadius` 可以设置终点端点半径。
 
@@ -102,7 +102,7 @@
 
 ## 着色器
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
+[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
 
 通过调用 `mProgressShader` 可以设置渐变进度条。
 

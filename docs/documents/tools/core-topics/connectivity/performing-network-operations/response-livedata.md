@@ -35,7 +35,7 @@ mViewModel.sentence.observe(requireActivity()) {
 
 #### 观察状态发生变化
 
-[:octicons-tag-24: Version 0.3.0](https://ave.entropy2020.cn/version/tools/#030)
+[:octicons-tag-24: Version 0.3.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#030)
 
 对于 `requestResponse` ，调用 `observeState` 方法将状态添加到观察者列表中。
 

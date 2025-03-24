@@ -16,7 +16,7 @@ Currently support data type:
 
 ## Get started 
 
-[:octicons-tag-24: Version 0.5.6](https://ave.entropy2020.cn/version/tools/#056)
+[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
 
 - Implement `ISharedPreferencesOwner`
 

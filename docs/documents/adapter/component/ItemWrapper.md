@@ -1,6 +1,6 @@
 # ItemWrapper
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 [ItemWrapper](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter.base/-item-wrapper/index.html) 用于向适配器设置列表项的布局 id 以及设置列表项点击事件。
 
@@ -8,7 +8,7 @@
 
 ### 直接设置：
 
-[:octicons-tag-24: Version 1.2.0](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 你可以在向适配器添加数据项时直接设置对应的布局 id ，例如：
 
@@ -22,7 +22,7 @@ mAdapter.add(readContacts(), R.layout.item_contact)
 
 ### 通用点击事件
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 如果你想要为列表项设置通用点击事件，通常只需要进行以下操作：
 
@@ -42,7 +42,7 @@ mImageAdapter.apply {
 
 ### 列表项点击事件
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastAdapter/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#111)
 
 !!! warning "列表项点击事件说明"
 
@@ -77,7 +77,7 @@ if (0 == index % 2) {
 
 ### 列表项内部控件点击事件
 
-[:octicons-tag-24: Version 1.2.0](https://ave.entropy2020.cn/version/VastAdapter/#120)
+[:octicons-tag-24: Version 1.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/VastAdapter/#120)
 
 你可以借助 [ItemWrapper](https://api.ave.entropy2020.cn/adapter/com.ave.vastgui.adapter.base/-item-wrapper/index.html) 为列表项内部的控件添加点击事件，例如：
 

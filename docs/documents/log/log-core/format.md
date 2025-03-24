@@ -1,6 +1,6 @@
 # 格式化
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134)
 
 === "表格风格(TableFormat)"
     

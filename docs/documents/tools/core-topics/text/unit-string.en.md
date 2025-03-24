@@ -14,7 +14,7 @@ The following are the units provided by default.
 |    Ms     |    2m/s    |
 |  Percent  |    77％    |
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 === "kotlin"
 
@@ -34,7 +34,7 @@ The following are the units provided by default.
 
 ## Custom unit
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 By implementing `StrUnit` you can customize the unit:
 

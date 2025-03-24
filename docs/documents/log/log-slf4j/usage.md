@@ -1,6 +1,6 @@
 # 概述
 
-[:octicons-tag-24: Version 1.3.7](https://ave.entropy2020.cn/version/log-slf4j/#137)
+[:octicons-tag-24: Version 1.3.7](https://sakurajimamaii.github.io/AVE-DOC/version/log-slf4j/#137)
 
 !!! example "实验性提示"
 
@@ -40,7 +40,7 @@ class SLF4JKtTest {
 
 ## 配置 
 
-[:octicons-tag-24: Version 1.3.7](https://ave.entropy2020.cn/version/log-slf4j/#137)
+[:octicons-tag-24: Version 1.3.7](https://sakurajimamaii.github.io/AVE-DOC/version/log-slf4j/#137)
 
 通过 [Slf4jProvider.Options](https://api.ave.entropy2020.cn/log/slf4j/com.log.vastgui.slf4j/-slf4j-provider/-options/index.html) ，你可以进行相关配置，例如设置 [LogFactory](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-factory/index.html) ：
 

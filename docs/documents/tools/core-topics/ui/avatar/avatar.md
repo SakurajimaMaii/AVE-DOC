@@ -1,6 +1,6 @@
 # 头像
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 头像控件支持图片和文字展示。
 
@@ -10,7 +10,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.avatar.Avatar
@@ -22,7 +22,7 @@
 
 ## 设置大小
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_size` 或者调用 `mAvatarSize` 来设置头像的大小。
 
@@ -46,7 +46,7 @@
 
 ## 设置形状
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_shape` 或者调用 `setShape` 来设置头像的形状。目前支持以下形状：
 
@@ -73,7 +73,7 @@
 
 ## 设置颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_background` 或者调用 `mBackground` 来设置文字头像的背景色。
 
@@ -97,7 +97,7 @@
 
 ## 设置图片
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_src` 或者调用 `setAvatar` 来设置头像的图片。
 
@@ -121,7 +121,7 @@
 
 ## 设置文字
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_text` 或者调用 `mText` 来设置头像的显示文字。
 
@@ -145,7 +145,7 @@
 
 ## 设置文字颜色
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_text_color` 或者调用 `mTextColor` 来设置文字颜色。
 
@@ -169,7 +169,7 @@
 
 ## 设置文字大小
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_text_size` 或者调用 `mTextSize` 来设置头像的显示文字大小。
 
@@ -193,7 +193,7 @@
 
 ## 设置描边
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_stroke_color` 或者调用 `mStrokeColor` 来设置头像的描边颜色。
 
@@ -217,7 +217,7 @@
 
 ## 设置描边宽度
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_stroke_width` 或者调用 `mStrokeWidth` 来设置头像的描边宽度。
 
@@ -245,7 +245,7 @@
 
 ## 矩形圆角
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_corner_radius` 或者 `mCornerRadius` 来设置矩形圆角半径。
 

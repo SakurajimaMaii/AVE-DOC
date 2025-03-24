@@ -4,7 +4,7 @@
 
 You can choose the following three ways to call the cropping application. The main differences are as follows:
 
-- If you use `VastCropActivity` , the cropping application built based on [CropViewLayout](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/) will be used.
+- If you use `VastCropActivity` , the cropping application built based on [CropViewLayout](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/ui/cropview/crop-view/) will be used.
 - If you use `CropIntent` , you need to obtain the `Uri` of the returned image and refer to [Uri permissions](#uri-permission) to revoke permissions.
 - If you use `CropIntent` and `CropPhotoContract`, there is no need to set the `Uri` of the returned image and revoke permissions.
 
@@ -19,7 +19,7 @@ You can refer to [Sample code](#sample-code) to see a complete usage example.
 
 ## Set output picture name
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
+[:octicons-tag-24: Version 0.4.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#040)
 
 Call `setOutputName` to set output picture name，or take [value](https://doc.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.manager.mediafilemgr/-media-file-mgr/get-default-file-name.html) as the default value.
 
@@ -32,7 +32,7 @@ val cropIntent = CropIntent()
 
 ## Uri permission
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
+[:octicons-tag-24: Version 0.4.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#040)
 
 !!! danger "Uri permission"
 

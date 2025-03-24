@@ -15,7 +15,7 @@ internal fun getColorBitmap(@ColorInt colorInt: Int, width: Int, height: Int) =
 
 ### 上下重叠
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 调用 `mergeBitmap` 可以将两个位图上下重叠合并在一起，合并后的大小由底部位图决定。
 
@@ -61,7 +61,7 @@ val mergeBitmap = BmpUtils.mergeBitmap(
 
 ### 左右拼接
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 调用 `mergeBitmapLR` 可以将两个位图左右拼接合并在一起，你可以决定是小图放大还是大图缩小。
 
@@ -80,7 +80,7 @@ val mergeBitmap = BmpUtils.mergeBitmapLR(
 
 ### 上下拼接
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 调用 `mergeBitmapTB` 可以将两个位图上下拼接合并在一起，你可以决定是小图放大还是大图缩小。
 
@@ -109,7 +109,7 @@ val base64Bitmap = BmpUtils.getBitmapFromBase64(base64)
 
 ## 通过 Drawable 获取位图
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 `getBitmapFromDrawable` 可以将 `Drawable` 转换成 `Bitmap` 对象。
 
@@ -121,7 +121,7 @@ Image(bitmap = bitmap.asImageBitmap(), contentDescription = "测试图片")
 
 ## 位图缩放
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 如下图所示，使用 `scaleBitmap` 可以将位图放大到你需要的尺寸。
 
@@ -141,7 +141,7 @@ val bitmap = BmpUtils.scaleBitmap(
 
 ## 获取尺寸
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 `getBitmapWidthHeight` 允许你传入对应的解码方式并返回解码后的位图尺寸。
 

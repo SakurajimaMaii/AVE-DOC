@@ -18,7 +18,7 @@
 
 ## 创建 LogFactory
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 ```kotlin
 val logFactory: LogFactory = getLogFactory {
@@ -31,7 +31,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 获取 Logcat 并打印日志
 
-[:octicons-tag-24: Version 1.3.5](https://ave.entropy2020.cn/version/log-core/#135)
+[:octicons-tag-24: Version 1.3.5](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#135)
 
 从该版本开始，用户无需调用 [getLogCat()](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-factory/get-log-cat.html) 
 来获取 [LogCat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core/-log-cat/index.html) 对象。
@@ -41,7 +41,7 @@ val logFactory: LogFactory = getLogFactory {
 val logcat = logFactory("global")
 ```
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134)
 
 ```kotlin
 // 获取 Logcat

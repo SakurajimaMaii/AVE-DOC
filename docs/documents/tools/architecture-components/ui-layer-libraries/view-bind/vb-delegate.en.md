@@ -4,7 +4,7 @@
 
 ### Activity
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 ```kotlin
 private val mBindings by 
@@ -13,7 +13,7 @@ private val mBindings by
 
 ### Fragment
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 ```kotlin
 class VbFragment1 : Fragment(R.layout.fragment_sample) {
@@ -26,7 +26,7 @@ class VbFragment1 : Fragment(R.layout.fragment_sample) {
 
 ### ViewHolder
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 ```kotlin
 class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -38,7 +38,7 @@ class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
 ### ViewGroup
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 ```kotlin
 class VbViewGroup1 @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :

@@ -4,13 +4,13 @@
 
 !!! tip "CropIntent 和 CropPhotoContract"
 
-    建议配合 [CropPhotoContract](https://ave.entropy2020.cn/documents/VastTools/app-entry-points/activities/ActivityResult/#cropphotocontract) 使用
+    建议配合 [CropPhotoContract](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/app-entry-points/activities/ActivityResult/#cropphotocontract) 使用
 
 ## 快速使用
 
 你可以选择以下三种方式来调用裁剪应用，其主要区别如下：
 
-- 如果使用 `VastCropActivity` ，则会通过基于 [CropViewLayout](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/cropview/crop-view/) 所构建的裁剪应用。
+- 如果使用 `VastCropActivity` ，则会通过基于 [CropViewLayout](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/ui/cropview/crop-view/) 所构建的裁剪应用。
 - 如果使用 `CropIntent` ，需要手动获取返回图片的 `Uri` 并参考 [关于 uri 权限](#uri) 手动收回权限。
 - 如果使用 `CropIntent` 和 `CropPhotoContract` ，则无需手动设置返回图片的 `Uri` 以及取消权限。
 
@@ -25,7 +25,7 @@ A-->D[使用 CropIntent 和 CropPhotoContract]
 
 ## 设置输出图像名称
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
+[:octicons-tag-24: Version 0.4.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#040)
 
 调用 `setOutputName` 来设置图像名称，如果不设置则使用 [默认值](https://doc.ave.entropy2020.cn/VastTools/com.ave.vastgui.tools.manager.mediafilemgr/-media-file-mgr/get-default-file-name.html) 。
 
@@ -38,7 +38,7 @@ val cropIntent = CropIntent()
 
 ## 关于 Uri 权限
 
-[:octicons-tag-24: Version 0.4.0](https://ave.entropy2020.cn/version/tools/#040)
+[:octicons-tag-24: Version 0.4.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#040)
 
 !!! danger "Uri 权限"
 

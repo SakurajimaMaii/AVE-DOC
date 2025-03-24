@@ -1,6 +1,6 @@
 # 多种样式文字
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 `appendableStyleScope` helps you to build string with style.
 
@@ -11,7 +11,7 @@
 
 ## 快速开始
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 下面的示例为你展示了如何创建一条链接文本。
 
@@ -65,7 +65,7 @@ appendableStyleScope(getBinding().tv) {
 
 ## 通用样式
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 通过指定 `AppendableStyle` 内的 `backColor` 属性，可以为字符串设置背景色。目前 `AppendableStyle` 允许你指定以下属性：
 
@@ -94,7 +94,7 @@ appendableStyleScope(getBinding().tv) {
 
 ## 特殊样式
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 除了通用样式，你也可以为文字指定以下唯一的特殊样式，目前支持：
 

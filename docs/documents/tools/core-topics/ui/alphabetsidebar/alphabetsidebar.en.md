@@ -1,6 +1,6 @@
 # AlphabetSideBar
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.alphabetsidebar.AlphabetSideBar
@@ -23,7 +23,7 @@
 
 ## Location
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Currently supports **left** and **right** . It can be set by `alphabetsidebar_location` or calling `setLocation`.
 
@@ -48,7 +48,7 @@ Currently supports **left** and **right** . It can be set by `alphabetsidebar_lo
 
 ## Background color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Background color can be set by  `alphabetsidebar_background` or calling `mBackgroundColor` .
 
@@ -72,7 +72,7 @@ Background color can be set by  `alphabetsidebar_background` or calling `mBackgr
 
 ## Bar text size
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Bar text size can be set by  `alphabetsidebar_text_size` or calling `mBarTextSize` .
 
@@ -96,7 +96,7 @@ Bar text size can be set by  `alphabetsidebar_text_size` or calling `mBarTextSiz
 
 ## Bar text color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Bar text color can be set by `alphabetsidebar_text_color` or calling `mBarTextColor` .
 
@@ -120,7 +120,7 @@ Bar text color can be set by `alphabetsidebar_text_color` or calling `mBarTextCo
 
 ## Indicator text color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Indicator text color can be set by `alphabetsidebar_indicator_text_color` or calling `mBarIndicatorTextColor` .
 
@@ -147,7 +147,7 @@ The left is the default color, and the right is the modified color.
 
 ## Bubble text size
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Bubble text size can be set by `alphabetsidebar_bubble_text_size` or calling `mBubbleTextSize` .
 
@@ -174,7 +174,7 @@ The left is the default size and the right is the modified size.
 
 ## Bubble text color
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Bubble text color can be set by `alphabetsidebar_bubble_text_color` or calling `mBubbleTextColor` .
 
@@ -201,7 +201,7 @@ The left is the default color, and the right is the modified color.
 
 ## Register listener
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```kotlin
 mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
@@ -213,7 +213,7 @@ mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListen
 
 ## Update indicator letter target index
 
-[:octicons-tag-24: Version 0.5.4](https://ave.entropy2020.cn/version/tools/#054)
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 By calling `setIndicatorLetterTargetIndex`, you can update the target index value of the letter, which will be stored in [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) . 
 
