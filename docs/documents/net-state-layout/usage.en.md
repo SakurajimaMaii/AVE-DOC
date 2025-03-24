@@ -30,13 +30,13 @@
 
 - Loading error state
 
-    [:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+    [:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
     ```kotlin
     mNetStateLayout.showLoadingError()
     ```
 
-    Starting from version [1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111), you can set the response code and message to the `showLoadingError` , for example:
+    Starting from version [1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111), you can set the response code and message to the `showLoadingError` , for example:
 
     ```kotlin
     mNetStateLayout.showLoadingError(404, "The address does not exist.")
@@ -44,13 +44,13 @@
 
 - Net error state
 
-    [:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+    [:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
     ```kotlin
     mNetStateLayout.showNetError()
     ```
 
-    Starting from version [1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111), you can set the requested exception to the `showNetError` , for example:
+    Starting from version [1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111), you can set the requested exception to the `showNetError` , for example:
 
     ```kotlin
     mNetStateLayout.showNetError(RuntimeException("Network Unavailable"))
@@ -64,7 +64,7 @@
 
 ## Update page content
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
 The `OnXXXListener` of `NetStateLayout` provides the `onXXXInflate` method, where you can modify the content displayed on the page. Take modifying the information displayed on the default page [default_empty_data](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastNetStateLayout/src/main/res/layout/default_empty_data.xml) as an example:
 
@@ -83,7 +83,7 @@ mNetStateLayout.setNetStateMgr(netStateMgr)
 
 ## Set page click event
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
 The `OnXXXListener` interface of `NetStateLayout` provides the `onXXXClick` , where you can modify the click event of the page. Take the network unavailability as an example:
 

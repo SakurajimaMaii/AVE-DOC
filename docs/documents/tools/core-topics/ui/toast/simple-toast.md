@@ -9,7 +9,7 @@
 
 ## 弹出长Toast
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "Kotlin"
 
@@ -27,7 +27,7 @@
 
 ## 弹出短Toast
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "Kotlin"
 

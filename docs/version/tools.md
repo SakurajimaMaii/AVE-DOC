@@ -20,7 +20,7 @@
 
 - 删除：
 
-    - 将 ActivityLifecycleLogger 移除，迁移至 [log-android](https://ave.entropy2020.cn/documents/log/log-android/lifecycle/usgae/) 
+    - 将 ActivityLifecycleLogger 移除，迁移至 [log-android](https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-android/lifecycle/usgae/) 
 
 ## 1.5.0
 
@@ -78,9 +78,9 @@
 - 新增 
 
     - 网络工具新增 IP 地址相关方法
-    - [新增 Api 适配拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/build/)
-    - [新增 View 可见性拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/extension/view/)
-    - [新增 CountDownTimer 拓展方法](https://ave.entropy2020.cn/documents/VastTools/core-topics/os/extension/countdowntimer/)
+    - [新增 Api 适配拓展方法](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/os/extension/build/)
+    - [新增 View 可见性拓展方法](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/ui/extension/view/)
+    - [新增 CountDownTimer 拓展方法](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/os/extension/countdowntimer/)
 
 ## 1.1.1
 

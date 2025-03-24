@@ -1,6 +1,6 @@
 # WaveProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://ave.entropy2020.cn/version/tools/#020)
+[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.ave.vastgui.tools.view.progress.WaveProgressView
@@ -23,7 +23,7 @@
 
 ## 自定义背景
 
-[:octicons-tag-24: Version 0.5.5](https://ave.entropy2020.cn/version/tools/#055)
+[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
 
 你可以指定 `BitmapDrawable` `VectorDrawable` 和 `VectorDrawableCompat` 类型的对象为背景。
 

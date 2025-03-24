@@ -1,6 +1,6 @@
 # 概述
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 !!! note "Tencent/Mars"
 
@@ -47,31 +47,31 @@ ndk {
 
 ## 文件写入模式
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `mode` 用于设置文件写入模式。分为异步和同步，变量定义参考 [MarsWriteMode](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars.base/-mars-write-mode/index.html) ， Release版本一定要用 [Async](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars.base/-mars-write-mode/-async/index.html) ， Debug 版本两个都可以，但是使用 [Sync](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars.base/-mars-write-mode/-sync/index.html) 可能会有卡顿。
 
 ## 文件存储位置
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `logdir` 和 `cache` 用于设置日志文件存储位置。
 
 ## 文件名前缀
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `namePreFix` 用于设置日志文件名的前缀，例如该值为 TEST ，生成的文件名为：TEST_20170102.xlog。
 
 ## 单一文件保存
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `singleLogFileEveryday` 用于设置是否将每天的日志保存在单独的一个文件当中。
 
 ## 单个文件最大大小
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `singleLogFileMaxSize` 用于设置单个文件的最大大小。
 
@@ -81,13 +81,13 @@ ndk {
 
 ## 单个日志文件的存储时间
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `singleLogFileStoreTime` 用于设置单个文件的存储时间。
 
 ## 缓存时间
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 我们以上面设置的日志文件夹为例：
 
@@ -118,7 +118,7 @@ val logCache = File(FileMgr.appInternalFilesDir(), "log-cache")
 
 ## 加密秘钥
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 [mars](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 提供了 `pubKey` 用于设置日志文件的加密公钥。以下是相关流程：
 

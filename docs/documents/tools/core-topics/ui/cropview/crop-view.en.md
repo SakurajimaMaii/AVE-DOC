@@ -1,6 +1,6 @@
 # CropViewLayout
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -11,7 +11,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```xml
   <com.ave.vastgui.tools.view.cropview.CropViewLayout
@@ -26,11 +26,11 @@
 
 ### Call system cropping application
 
-Using [CropIntent](https://ave.entropy2020.cn/documents/VastTools/core-topics/intent/CropIntent/) to call the system cropping application.
+Using [CropIntent](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/intent/CropIntent/) to call the system cropping application.
 
 ### VastCropActivity
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 `VastCropActivity` is the default cropping application. You can easily use it in the following ways.
 
@@ -58,7 +58,7 @@ Click [VastCropActivity](https://github.com/SakurajimaMaii/Android-Vast-Extensio
 
 ## Frame type
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 The frame type can be set by `setCropFrameType` .
 
@@ -73,7 +73,7 @@ getBinding().cropViewLayout.setCropFrameType(CropFrameType.CIRCLE)
 
 ## Frame size
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 Calling `setCropFrameSize` to set the frame size.
 
@@ -87,7 +87,7 @@ getBinding().cropViewLayout.setCropFrameSize(previewWidth, previewHeight)
 
 ## Mask color
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 Calling `setCropMaskColor` to set the mask color.
 
@@ -105,7 +105,7 @@ getBinding().cropViewLayout.setCropMaskColor(color)
 
 ## Stroke color
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 Calling `setCropFrameStrokeColor` to set the stroke color of the frame.
 
@@ -121,7 +121,7 @@ getBinding().cropViewLayout.setCropFrameStrokeColor(color)
 
 ## Output image
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ### Compatibility with Android 9(API 28)
 

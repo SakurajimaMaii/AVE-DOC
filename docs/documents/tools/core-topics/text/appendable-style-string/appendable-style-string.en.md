@@ -1,6 +1,6 @@
 # AppendableStyleScope
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 `appendableStyleScope` 允许你快速构建多种样式文字。
 
@@ -11,7 +11,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 The following example shows how to create a link text.
 
@@ -65,7 +65,7 @@ appendableStyleScope(getBinding().tv) {
 
 ## Common style
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 - foreColor: text color.
 - backColor: Text background color.
@@ -92,7 +92,7 @@ appendableStyleScope(getBinding().tv) {
 
 ## Special style
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 In addition to common styles, you can also specify the following unique special styles for text, currently supported:
 

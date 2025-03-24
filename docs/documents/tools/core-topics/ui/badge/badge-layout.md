@@ -1,6 +1,6 @@
 # 徽标布局
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 `BadgeLayout` 默认提供徽标 `BadgeView` 和 `AppCompatImageView` ，其中徽标会在右上角展示，图标会以水平居中的方式展示。
 
@@ -11,7 +11,7 @@
 
 ## 标签设置
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 `BadgeLayout` 只允许容纳一个类型为 `TextView` 的控件用以显示标签，以下是示例代码：
 
@@ -33,7 +33,7 @@
 
 ### 显示徽标
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 调用 `showDot` 和 `hideDot` 可以用来开启和关闭徽标。
 
@@ -46,7 +46,7 @@ mBinding.dotbadge.hideDot()
 
 ## 气泡徽标
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 气泡徽标允许你拖动来消除，如下图所示：
 

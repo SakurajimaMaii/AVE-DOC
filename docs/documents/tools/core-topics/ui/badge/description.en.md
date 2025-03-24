@@ -1,6 +1,6 @@
 # Badge
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 Badge currently supports **dot** and **bubble** mode.
 
@@ -10,7 +10,7 @@ Badge currently supports **dot** and **bubble** mode.
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "Dot mode"
 

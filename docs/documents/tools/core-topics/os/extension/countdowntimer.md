@@ -2,7 +2,7 @@
 
 ## 倒计时拓展
 
-[:octicons-tag-24: Version 1.2.1](https://ave.entropy2020.cn/version/tools/#121)
+[:octicons-tag-24: Version 1.2.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#121)
 
 通常获取倒计时需要编写以下代码：
 

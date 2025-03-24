@@ -1,6 +1,6 @@
 # 日志开关
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 !!! tip "LogSwitch 行为改变提示"
 

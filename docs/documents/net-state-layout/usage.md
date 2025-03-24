@@ -32,13 +32,13 @@
 
 - 展示网络加载错误页面
 
-    [:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+    [:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
     ```kotlin
     mNetStateLayout.showLoadingError()
     ```
 
-    从 [1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111) 版本开始，可以将请求获取的代码和信息传给 `showLoadingError` 方法，例如：
+    从 [1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111) 版本开始，可以将请求获取的代码和信息传给 `showLoadingError` 方法，例如：
 
     ```kotlin
     mNetStateLayout.showLoadingError(404, "目标地址不存在")
@@ -46,13 +46,13 @@
 
 - 展示网络错误页面
 
-    [:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+    [:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
     ```kotlin
     mNetStateLayout.showNetError()
     ```
 
-    从 [1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111) 版本开始，可以将请求获取的异常信息传给 `showNetError` 方法，例如：
+    从 [1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111) 版本开始，可以将请求获取的异常信息传给 `showNetError` 方法，例如：
 
     ```kotlin
     mNetStateLayout.showNetError(RuntimeException("网络不可用"))
@@ -66,7 +66,7 @@
 
 ## 更新页面
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
 `NetStateLayout` 的 `OnXXXListener` 接口提供了 `onXXXInflate` 方法，在这里可以修改页面显示的内容，以修改默认页面 [default_empty_data](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastNetStateLayout/src/main/res/layout/default_empty_data.xml) 显示的信息为例：
 
@@ -85,7 +85,7 @@ mNetStateLayout.setNetStateMgr(netStateMgr)
 
 ## 设置页面点击事件
 
-[:octicons-tag-24: Version 1.1.1](https://ave.entropy2020.cn/version/VastNetStateLayout/#111)
+[:octicons-tag-24: Version 1.1.1](https://sakurajimamaii.github.io/AVE-DOC/version/VastNetStateLayout/#111)
 
 `NetStateLayout` 的 `OnXXXListener` 接口提供了 `onXXXClick` 方法，在这里可以修改页面的点击事件，以网络不可用为例：
 

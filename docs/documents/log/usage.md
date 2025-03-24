@@ -33,7 +33,7 @@ logcat.d("这是一条日志")
 
 ## 日志风格
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134)
 
 通过 [LogFormat](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-format/index.html) 可以自定义日志风格，例如为 [Logger.desktop()](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop/desktop.html) 指定风格为 [LineColorfulFormat](https://api.ave.entropy2020.cn/log/desktop/com.log.vastgui.desktop.format/-line-colorful-format/index.html) 。
 
@@ -76,7 +76,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 面向 Tencent/Mars
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-mars/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/#134)
 
 通过 [Logger.mars()](https://api.ave.entropy2020.cn/log/mars/com.log.vastgui.mars/mars.html) 将 [Tencent/Mars](https://github.com/Tencent/mars) 的 **xlog** 组件快速集成： 
 
@@ -91,7 +91,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 面向 Okhttp
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 ```kotlin
 // Add Interceptor 

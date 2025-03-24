@@ -4,7 +4,7 @@
 
 - 更新：
 
-    - 适配 [log-core](https://ave.entropy2020.cn/documents/log/log-core/setting-up/)
+    - 适配 [log-core](https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/setting-up/)
 
 ## 1.3.6
 

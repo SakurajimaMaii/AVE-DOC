@@ -1,6 +1,6 @@
 # 概述
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 通过将 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 添加为 [Okhttp](https://square.github.io/okhttp/) 拦截器，便可轻松打印请求日志：
 
@@ -46,7 +46,7 @@ okhttp.newCall(request).execute()
 
 ## 过滤器
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [filter](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/filter.html) 你可以对请求进行过滤，例如请求链接中必须包含 **getPhoto** :
 
@@ -60,7 +60,7 @@ okhttp3Interceptor.apply {
 
 ## 内容级别
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [contentLevel
 ](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/content-level.html) 你可以设置日志的打印内容，例如可以只打印日志的请求信息：
@@ -81,7 +81,7 @@ okhttp3Interceptor.apply {
 
 ## 请求日志级别
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [requestLevel](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/request-level.html) 你可以设置请求内容的日志级别：
 
@@ -103,7 +103,7 @@ okhttp3Interceptor.apply {
 
 ## 回复日志级别
 
-[:octicons-tag-24: Version 1.3.3](https://ave.entropy2020.cn/version/log-okhttp/#133)
+[:octicons-tag-24: Version 1.3.3](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#133)
 
 通过 [Okhttp3Interceptor](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/index.html) 提供的 [responseLevel](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/response-level.html) 你可以设置回复内容的日志级别：
 
@@ -121,7 +121,7 @@ okhttp3Interceptor.apply {
 
 ## 请求头隐藏
 
-[:octicons-tag-24: Version 1.3.9](https://ave.entropy2020.cn/version/log-okhttp/#139)
+[:octicons-tag-24: Version 1.3.9](https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/#139)
 
 通过 [sanitizedHeaders()](https://api.ave.entropy2020.cn/log/okhttp/com.log.vastgui.okhttp/-okhttp3-interceptor/sanitized-headers.html) 可以将指定的请求头进行替换为隐藏字段：
 

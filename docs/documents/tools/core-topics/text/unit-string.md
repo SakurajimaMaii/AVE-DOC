@@ -14,7 +14,7 @@
 |  米/秒  | 2m/s  |
 | 百分比  | 77％  |
 
-[:octicons-tag-24: Version 0.5.1](https://ave.entropy2020.cn/version/tools/#051)
+[:octicons-tag-24: Version 0.5.1](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#051)
 
 === "kotlin"
 
@@ -34,7 +34,7 @@
 
 ## 自定义单位
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 通过继承 `StrUnit` 你可以自定义单位：
 

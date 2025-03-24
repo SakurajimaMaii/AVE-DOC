@@ -4,9 +4,9 @@
 
     感谢 [ywnkm](https://github.com/ywnkm) 对该功能的开发。
 
-[:octicons-tag-24: Version 1.3.4](https://ave.entropy2020.cn/version/log-core/#134)
+[:octicons-tag-24: Version 1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134)
 
-从 [1.3.4](https://ave.entropy2020.cn/version/log-core/#134) 版本开始，日志的处理流程采用 Pipeline 模式，
+从 [1.3.4](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#134) 版本开始，日志的处理流程采用 Pipeline 模式，
 默认情况分为以下几个阶段：
 
 ```mermaid

@@ -1,6 +1,6 @@
 # Json 格式化
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 默认情况下，如果直接将**对象**作为日志打印内容，则会出现以下错误：
 

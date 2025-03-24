@@ -1,6 +1,6 @@
 # 徽标
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 徽标控件目前提供了**圆点**和**气泡**两种支持形式。
 
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.3](https://ave.entropy2020.cn/version/tools/#053)
+[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "圆点徽标"
 

@@ -2,7 +2,7 @@
 
 ## Create viewModel
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 `reflectViewModel` can create `ViewModel` by reflection.
 
@@ -33,7 +33,7 @@ class ReflectActivity1 : ReflectBaseActivity1<ActivityMyBinding, ReflectViewMode
 
 ## Create viewModel(Constructor with parameters)
 
-[:octicons-tag-24: Version 0.5.2](https://ave.entropy2020.cn/version/tools/#052)
+[:octicons-tag-24: Version 0.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#052)
 
 In order to create a ViewModel**(Constructor with parameters)** , you can take the following code as an example:
 

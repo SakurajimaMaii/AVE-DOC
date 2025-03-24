@@ -2,7 +2,7 @@
 
 ## 自定义 Logger 
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 通过实现 [Logger](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-logger/index.html?query=interface%20Logger) 接口并重写 [log](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-logger/log.html) 方法来使用自定义 `Logger` 。
 
@@ -29,7 +29,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 自定义 LogStore
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 通过实现 [LogStore](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-store/index.html?query=interface%20LogStore) 接口并重写 [store](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.base/-log-store/store.html) 方法来使用自定义 `Logger` 。
 
@@ -39,7 +39,7 @@ val logFactory: LogFactory = getLogFactory {
 
 ## 自定义 Json 转换器
 
-[:octicons-tag-24: Version 1.3.1](https://ave.entropy2020.cn/version/log-core/#131)
+[:octicons-tag-24: Version 1.3.1](https://sakurajimamaii.github.io/AVE-DOC/version/log-core/#131)
 
 通过实现 [Converter](https://api.ave.entropy2020.cn/log/core/com.log.vastgui.core.json/-converter/index.html?query=interface%20Converter) 接口并重写方法来使用自定义 `Converter` 。
 

@@ -50,7 +50,7 @@ uri = file.let {
 
 ## 获取共享存储空间
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```kotlin
 // 对应路径 /storage/emulated/0/Pictures
@@ -59,7 +59,7 @@ val dir = ImageMgr.getSharedFilesDir()
 
 ## 获取专属存储空间
 
-[:octicons-tag-24: Version 0.5.0](https://ave.entropy2020.cn/version/tools/#050)
+[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```kotlin
 // 对应路径 /storage/emulated/0/Android/data/com.ave.vastgui.app/files/Pictures
