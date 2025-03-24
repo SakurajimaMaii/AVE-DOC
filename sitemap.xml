@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ImageDiffUtil/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ImageDiffUtil/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ImageDiffUtil/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemBindHolder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemBindHolder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemBindHolder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemHolder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemHolder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemHolder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemWrapper/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemWrapper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemWrapper/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/Index/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/Index/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/Index/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/collections/map/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/collections/map/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/collections/map/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/cast/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/cast/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/cast/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/defaultLogTag/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/defaultLogTag/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/defaultLogTag/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/not-null-variable/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/not-null-variable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/not-null-variable/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/nothing/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/nothing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/nothing/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/singleton-holder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/singleton-holder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/singleton-holder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/text/string-number-conversions/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/text/string-number-conversions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/text/string-number-conversions/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/core/utils/tuples/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/utils/tuples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/utils/tuples/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-android/lifecycle/usgae/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-android/lifecycle/usgae/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-android/lifecycle/usgae/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/develop/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/develop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/develop/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/format/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/format/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/format/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/setting-up/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/setting-up/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/setting-up/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/advanced/advanced/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/advanced/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/advanced/advanced/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/json/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/json/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/pretty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/pretty/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/pretty/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/printer/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/printer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/printer/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/storage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/storage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/storage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/switch/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/switch/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/store/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/store/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/store/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-mars/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-mars/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-mars/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-okhttp/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-okhttp/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-okhttp/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/question/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/question/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/question/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/Index/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/Index/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/Index/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activity-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activity-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activity-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/app-shortcuts/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/app-shortcuts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/app-shortcuts/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity-result/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity-result/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity-result/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/bundle/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/bundle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/bundle/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/extension/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/extension/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/extension/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/lifecycle/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/lifecycle/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/extension/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/extension/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/extension/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/fragment/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/fragment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/fragment/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/data-layer-libraries/datastore/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/data-layer-libraries/datastore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/data-layer-libraries/datastore/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/context-helper/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/context-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/context-helper/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/animation/flip-animation/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/animation/flip-animation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/animation/flip-animation/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-compressed/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-compressed/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-compressed/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/color-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/color-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/color-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/density-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/density-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/density-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/resource-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/resource-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/resource-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/bean/bean/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/bean/bean/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/bean/bean/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/net-state-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/net-state-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/net-state-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/download/download/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/download/download/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/download/download/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request2/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request2/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-api/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-api/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-api/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/exception/app-crash-handler/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/exception/app-crash-handler/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/exception/app-crash-handler/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/bitmap/bitmap/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/bitmap/bitmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/bitmap/bitmap/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/qrcode/qrcode/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/qrcode/qrcode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/qrcode/qrcode/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/hardware/gps-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/hardware/gps-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/hardware/gps-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/app-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/app-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/app-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/date-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/date-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/date-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/screen-size-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/screen-size-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/screen-size-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/system-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/system-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/system-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/Intent/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/Intent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/Intent/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/crop-intent/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/crop-intent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/crop-intent/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/intent-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/intent-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/intent-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/build/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/build/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/build/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/countdowntimer/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/countdowntimer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/countdowntimer/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/permission/permission/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/permission/permission/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/permission/permission/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/security/encryption-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/security/encryption-utils/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/security/encryption-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/id-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/id-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/id-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/pwd-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/pwd-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/pwd-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/str-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/str-regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/str-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/unit-string/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/unit-string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/unit-string/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatar/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatar/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatargroup/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatargroup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatargroup/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/badge-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/badge-layout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/badge-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/description/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/description/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/description/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/cropview/crop-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/cropview/crop-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/cropview/crop-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/refresh-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/refresh-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/refresh-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/snapshot-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/snapshot-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/snapshot-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/masklayout/masklayout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/masklayout/masklayout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/masklayout/masklayout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/arc-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/arc-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/arc-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/horizontal-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/horizontal-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/horizontal-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/wave-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/wave-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/wave-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/rating/rating-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/rating/rating-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/rating/rating-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/mail-box-associate-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/mail-box-associate-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/mail-box-associate-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/marquee-text-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/marquee-text-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/marquee-text-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/toast/simple-toast/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/toast/simple-toast/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/toast/simple-toast/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/fragment-adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/fragment-adapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/fragment-adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/init/tools-config/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/init/tools-config/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/init/tools-config/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/logger/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/logger/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/logger/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/store/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/store/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/store/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/license/LICENSE/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/license/LICENSE/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/license/LICENSE/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/adapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/core/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/core/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-android/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-android/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-android/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-core/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-core/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-desktop/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-mars/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-okhttp/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/log-slf4j/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-slf4j/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-slf4j/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/net-state-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/net-state-layout/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/net-state-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/version/tools/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/tools/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/tools/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ImageDiffUtil/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ImageDiffUtil/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ImageDiffUtil/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemBindHolder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemBindHolder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemBindHolder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemHolder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemHolder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemHolder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemWrapper/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/adapter/component/ItemWrapper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/adapter/component/ItemWrapper/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/Index/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/Index/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/Index/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/collections/map/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/collections/map/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/collections/map/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/cast/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/cast/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/cast/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/defaultLogTag/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/defaultLogTag/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/defaultLogTag/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/not-null-variable/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/not-null-variable/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/not-null-variable/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/nothing/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/nothing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/nothing/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/singleton-holder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/extension/singleton-holder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/extension/singleton-holder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/text/string-number-conversions/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/text/string-number-conversions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/text/string-number-conversions/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/utils/tuples/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/core/utils/tuples/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/core/utils/tuples/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-android/lifecycle/usgae/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-android/lifecycle/usgae/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-android/lifecycle/usgae/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/develop/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/develop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/develop/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/format/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/format/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/format/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/setting-up/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/setting-up/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/setting-up/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/advanced/advanced/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/advanced/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/advanced/advanced/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/json/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/json/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/json/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/pretty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/pretty/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/pretty/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/printer/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/printer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/printer/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/storage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/storage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/storage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/switch/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-core/plugin/switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-core/plugin/switch/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/store/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/store/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/store/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-desktop/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-desktop/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-mars/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-mars/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-mars/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-okhttp/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-okhttp/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-okhttp/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/question/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/question/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/question/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/log/log-slf4j/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/log/log-slf4j/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/usage/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/net-state-layout/usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/net-state-layout/usage/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/Index/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/Index/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/Index/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activity-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activity-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activity-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/app-shortcuts/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/app-shortcuts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/app-shortcuts/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity-result/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity-result/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity-result/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/activity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/activity/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/bundle/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/bundle/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/bundle/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/extension/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/extension/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/extension/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/lifecycle/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/activities/lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/activities/lifecycle/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/extension/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/extension/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/extension/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/fragment/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/app-entry-points/fragments/fragment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/app-entry-points/fragments/fragment/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/data-layer-libraries/datastore/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/data-layer-libraries/datastore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/data-layer-libraries/datastore/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/lifecycle-aware-components/vm-reflection/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-delegate/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/architecture-components/ui-layer-libraries/view-bind/vb-reflection/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/context-helper/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/context-helper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/context-helper/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/animation/flip-animation/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/animation/flip-animation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/animation/flip-animation/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-compressed/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-compressed/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-compressed/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/file-manager/media-file-mgr/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/shared-preferences/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-encrypted/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-data-and-files/save-key-value-data/sp-normal/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/color-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/color-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/color-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/density-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/density-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/density-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/resource-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/app-resources/resource-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/app-resources/resource-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/bean/bean/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/bean/bean/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/bean/bean/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/net-state-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/net-state-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/net-state-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/download/download/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/download/download/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/download/download/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request-builder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request2/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/request2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/request2/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-api/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-api/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-api/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/connectivity/performing-network-operations/response-livedata/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/exception/app-crash-handler/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/exception/app-crash-handler/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/exception/app-crash-handler/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/bitmap/bitmap/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/bitmap/bitmap/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/bitmap/bitmap/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/gradient-drawable/gradient-drawable/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/qrcode/qrcode/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/graphics/qrcode/qrcode/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/graphics/qrcode/qrcode/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/hardware/gps-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/hardware/gps-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/hardware/gps-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/app-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/app-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/app-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/date-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/date-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/date-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/screen-size-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/screen-size-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/screen-size-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/system-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/information-get/system-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/information-get/system-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/Intent/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/Intent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/Intent/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/crop-intent/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/crop-intent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/crop-intent/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/intent-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/intent/intent-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/intent-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/build/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/build/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/build/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/countdowntimer/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/os/extension/countdowntimer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/os/extension/countdowntimer/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/permission/permission/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/permission/permission/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/permission/permission/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/security/encryption-utils/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/security/encryption-utils/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/security/encryption-utils/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/id-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/id-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/id-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/pwd-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/pwd-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/pwd-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/str-regex/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/str-regex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/str-regex/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/unit-string/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/unit-string/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/unit-string/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/text/appendable-style-string/appendable-style-string/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/alphabetsidebar/alphabetsidebar/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatar/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatar/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatargroup/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/avatar/avatargroup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/avatar/avatargroup/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/badge-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/badge-layout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/badge-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/description/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/badge/description/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/badge/description/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/cropview/crop-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/cropview/crop-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/cropview/crop-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/dialog/material-alert-dialog-builder/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/refresh-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/refresh-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/refresh-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/snapshot-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/snapshot-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/snapshot-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/extension/view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/extension/view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/masklayout/masklayout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/masklayout/masklayout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/masklayout/masklayout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/arc-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/arc-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/arc-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/horizontal-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/horizontal-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/horizontal-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/wave-progress-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/progress/wave-progress-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/progress/wave-progress-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/rating/rating-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/rating/rating-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/rating/rating-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/mail-box-associate-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/mail-box-associate-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/mail-box-associate-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/marquee-text-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/textview/marquee-text-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/textview/marquee-text-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/toast/simple-toast/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/toast/simple-toast/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/toast/simple-toast/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/fragment-adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/fragment-adapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/fragment-adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/ui/viewpager2/vp2-indicator-view/vp2-indicator-view/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/init/tools-config/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/init/tools-config/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/init/tools-config/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/logger/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/logger/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/logger/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/store/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/documents/tools/log/store/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/documents/tools/log/store/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/license/LICENSE/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/license/LICENSE/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/license/LICENSE/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/adapter/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/adapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/adapter/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/core/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/core/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/core/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-android/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-android/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-android/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-core/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-core/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-core/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-desktop/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-desktop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-desktop/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-mars/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-mars/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-mars/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-okhttp/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-okhttp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-okhttp/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/log-slf4j/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/log-slf4j/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/log-slf4j/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/net-state-layout/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/net-state-layout/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/net-state-layout/"/>
+    </url>
+    <url>
+        <loc>https://sakurajimamaii.github.io/AVE-DOC/en/version/tools/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sakurajimamaii.github.io/AVE-DOC/en/version/tools/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://sakurajimamaii.github.io/AVE-DOC/version/tools/"/>
+    </url>
+</urlset>
