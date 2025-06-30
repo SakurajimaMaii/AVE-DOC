@@ -1,6 +1,35 @@
 # tools
 
-## 1.5.1(Latest)
+## 1.5.2(Latest)
+
+- 新增
+
+    - NetStateUtils 新增对于默认网络和全部网络连接的判断。[**#66b1b2ef**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/66b1b2ef8e291ded358b1166f912e8fb67b53cd1) [**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
+    - 新增蓝牙工具。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增定位工具。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增获取音频服务。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - PermissionBuilder 新增对于没有未权限的处理，同时 PermissionBuilder 和 MultiPermissionBuilder 都将抛出异常作为对未声明权限的默认处理方式。新增 isPermissionGranted 和 isPermissionDenied 。 [**3f48eba**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3f48eba3f5589272444996f0749bdfd344b12c65) 
+
+- 更新：
+
+    - 对文件操作拓展方法进行了重写。 [**8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
+    - 对媒体文件 ImageFile 。 [**5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
+
+- 修复：
+
+    - NetStateUtils 修复 isEtherNet 方法判断错误的问题。 [**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
+    - 修复 BmpUtils 存在的若干问题，适配文件操作。 [**#6553a6a**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6553a6a123d798941281bddeba7509f5ff946de4)
+
+- 删除：
+
+    - 将日志模块移除，作为单独的模块。 [**#b9bf248**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/b9bf24855e27fd174ff98e0ba9d4a3e81d58e829)
+
+- 过时：
+
+    - isGPSOpen 标记为过时。
+    - CropProperty 将 setOutputFormat 标记为过时。 [**#09ed5f4**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/09ed5f419b5ec112666dadb0eedb004fdd15da4a)
+
+## 1.5.1
 
 - 新增：
 
