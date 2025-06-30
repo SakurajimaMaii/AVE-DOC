@@ -5,15 +5,18 @@
 - 新增
 
     - NetStateUtils 新增对于默认网络和全部网络连接的判断。[**#66b1b2ef**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/66b1b2ef8e291ded358b1166f912e8fb67b53cd1) [**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
-    - 新增蓝牙工具。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
-    - 新增定位工具。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
-    - 新增获取音频服务。 [**0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
-    - PermissionBuilder 新增对于没有未权限的处理，同时 PermissionBuilder 和 MultiPermissionBuilder 都将抛出异常作为对未声明权限的默认处理方式。新增 isPermissionGranted 和 isPermissionDenied 。 [**3f48eba**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3f48eba3f5589272444996f0749bdfd344b12c65) 
+    - 新增蓝牙工具。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增定位工具。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增获取音频服务。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - PermissionBuilder 新增对于没有未权限的处理，同时 PermissionBuilder 和 MultiPermissionBuilder 都将抛出异常作为对未声明权限的默认处理方式。新增 isPermissionGranted 和 isPermissionDenied 。 [**#3f48eba**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3f48eba3f5589272444996f0749bdfd344b12c65) 
+    - DateUtils.getCurrentTimeZone 返回值支持三种格式。 [**#5c9d98e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5c9d98ecc91831a5055207fe8b37bedb1d5801c3) 
+    - 新增 isAirplaneMode 获取设备是否处于飞行模式信息。 [**#4f23684**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4f236845a07ddd69db87648dddac784006d6f9b6) 
+    - 新增 FullScreenDialogFragment 用来实现全屏对话框。 [**#1773705**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/1773705f87800af5e8b3b4f13cfa83cd53350f76) 
 
 - 更新：
 
-    - 对文件操作拓展方法进行了重写。 [**8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
-    - 对媒体文件 ImageFile 。 [**5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
+    - 对文件操作拓展方法进行了重写。 [**#8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
+    - 对媒体文件 ImageFile 。 [**#5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
 
 - 修复：
 
@@ -28,6 +31,7 @@
 
     - isGPSOpen 标记为过时。
     - CropProperty 将 setOutputFormat 标记为过时。 [**#09ed5f4**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/09ed5f419b5ec112666dadb0eedb004fdd15da4a)
+    - screenConfig 标记为过时。 [**#364ea21**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/364ea213d2f38b351d3359fdef88105064e2ad81)
 
 ## 1.5.1
 

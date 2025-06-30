@@ -2,53 +2,53 @@
 
 ## 默认的时间格式
 
-```kotlin
-const val FORMAT_YYYY_MM_DD = "yyyy-MM-dd"
-const val FORMAT_YYYY_MM_DD_HH_MM_SS = "yyyy-MM-dd HH:mm:ss"
-const val FORMAT_YYYY_MM = "yyyy-MM"
-const val FORMAT_YYYY = "yyyy"
-const val FORMAT_HH_MM = "HH:mm"
-const val FORMAT_HH_MM_SS = "HH:mm:ss"
-const val FORMAT_MM_SS = "mm:ss"
-const val FORMAT_MM_DD_HH_MM = "MM-dd HH:mm"
-const val FORMAT_MM_DD_HH_MM_SS = "MM-dd HH:mm:ss"
-const val FORMAT_YYYY_MM_DD_HH_MM = "yyyy-MM-dd HH:mm"
-const val FORMAT_YYYY2MM2DD = "yyyy.MM.dd"
-const val FORMAT_YYYY2MM2DD_HH_MM = "yyyy.MM.dd HH:mm"
-const val FORMAT_MMCDDC_HH_MM = "MM月dd日 HH:mm"
-const val FORMAT_MMCDDC = "MM月dd日"
-const val FORMAT_YYYYCMMCDDC = "yyyy年MM月dd日"
-```
+| 常量名                     | 值                   |
+| -------------------------- | -------------------- |
+| FORMAT_YYYYhMMhDD          | yyyy-MM-dd           |
+| FORMAT_YYYY_MM_DD_HH_MM_SS | yyyy-MM-dd HH\:mm:ss |
+| FORMAT_YYYY_MM             | yyyy-MM              |
+| FORMAT_YYYY                | yyyy                 |
+| FORMAT_HH_MM               | HH:mm                |
+| FORMAT_HH_MM_SS            | HH\:mm:ss            |
+| FORMAT_MM_SS               | mm:ss                |
+| FORMAT_MM_DD_HH_MM         | MM-dd HH:mm          |
+| FORMAT_MM_DD_HH_MM_SS      | MM-dd HH\:mm:ss      |
+| FORMAT_YYYY_MM_DD_HH_MM    | yyyy-MM-dd HH:mm     |
+| FORMAT_YYYY2MM2DD          | yyyy.MM.dd           |
+| FORMAT_YYYY2MM2DD_HH_MM    | yyyy.MM.dd HH:mm     |
+| FORMAT_MMCDDC_HH_MM        | MM月dd日 HH:mm       |
+| FORMAT_MMCDDC              | MM月dd日             |
+| FORMAT_YYYYCMMCDDC         | yyyy年MM月dd日       |
 
 ## 支持的时区
 
-```kotlin
-const val GMT_PLUS_ZONE = "GMT+00:00"
-const val GMT_PLUS_ONE = "GMT+01:00"
-const val GMT_PLUS_TWO = "GMT+02:00"
-const val GMT_PLUS_THREE = "GMT+03:00"
-const val GMT_PLUS_FOUR = "GMT+04:00"
-const val GMT_PLUS_FIVE = "GMT+05:00"
-const val GMT_PLUS_SIX = "GMT+06:00"
-const val GMT_PLUS_SEVEN = "GMT+07:00"
-const val GMT_PLUS_EIGHT = "GMT+08:00"
-const val GMT_PLUS_NINE = "GMT+09:00"
-const val GMT_PLUS_TEN = "GMT+10:00"
-const val GMT_PLUS_ELEVEN = "GMT+11:00"
-const val GMT_PLUS_TWELVE = "GMT+12:00"
-const val GMT_MINUS_ONE = "GMT-01:00"
-const val GMT_MINUS_TWO = "GMT-02:00"
-const val GMT_MINUS_THREE = "GMT-03:00"
-const val GMT_MINUS_FOUR = "GMT-04:00"
-const val GMT_MINUS_FIVE = "GMT-05:00"
-const val GMT_MINUS_SIX = "GMT-06:00"
-const val GMT_MINUS_SEVEN = "GMT-07:00"
-const val GMT_MINUS_EIGHT = "GMT-08:00"
-const val GMT_MINUS_NINE = "GMT-09:00"
-const val GMT_MINUS_TEN = "GMT-10:00"
-const val GMT_MINUS_ELEVEN = "GMT-11:00"
-const val GMT_MINUS_TWELVE = "GMT-12:00"
-```
+| 常量名           | 值        |
+| ---------------- | --------- |
+| GMT_PLUS_ZONE    | GMT+00:00 |
+| GMT_PLUS_ONE     | GMT+01:00 |
+| GMT_PLUS_TWO     | GMT+02:00 |
+| GMT_PLUS_THREE   | GMT+03:00 |
+| GMT_PLUS_FOUR    | GMT+04:00 |
+| GMT_PLUS_FIVE    | GMT+05:00 |
+| GMT_PLUS_SIX     | GMT+06:00 |
+| GMT_PLUS_SEVEN   | GMT+07:00 |
+| GMT_PLUS_EIGHT   | GMT+08:00 |
+| GMT_PLUS_NINE    | GMT+09:00 |
+| GMT_PLUS_TEN     | GMT+10:00 |
+| GMT_PLUS_ELEVEN  | GMT+11:00 |
+| GMT_PLUS_TWELVE  | GMT+12:00 |
+| GMT_MINUS_ONE    | GMT-01:00 |
+| GMT_MINUS_TWO    | GMT-02:00 |
+| GMT_MINUS_THREE  | GMT-03:00 |
+| GMT_MINUS_FOUR   | GMT-04:00 |
+| GMT_MINUS_FIVE   | GMT-05:00 |
+| GMT_MINUS_SIX    | GMT-06:00 |
+| GMT_MINUS_SEVEN  | GMT-07:00 |
+| GMT_MINUS_EIGHT  | GMT-08:00 |
+| GMT_MINUS_NINE   | GMT-09:00 |
+| GMT_MINUS_TEN    | GMT-10:00 |
+| GMT_MINUS_ELEVEN | GMT-11:00 |
+| GMT_MINUS_TWELVE | GMT-12:00 |
 
 ## 按照指定格式获取当前时间
 
@@ -70,9 +70,11 @@ DateUtils.getDayBeforeOrAfterCurrentTime(DateUtils.FORMAT_MM_DD_HH_MM_SS,-2)
 
 ## 获取设备当前所在时区
 
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
+
 ```kotlin
 // 返回 GMT+00:00
-DateUtils.currentTimeZone
+val timezome = DateUtils.getCurrentTimeZone(DateUtils.SHORT)
 ```
 
 ## 根据给定的时间字符串和格式获取 Date 对象
