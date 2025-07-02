@@ -27,18 +27,18 @@ You can use `AvatarGroup` component to display avatars as a group.
 </com.ave.vastgui.tools.view.avatar.AvatarGroup>
 ```
 
-[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## Overlap from
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 The coverage direction of the avatars with overlapFrom can be set by `avatar_overlap_from` or calling `setOverlapFrom` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.avatarGroupStart.setOverlapFrom(AvatarGroup.END)
+    binding.avatarGroupStart.setOverlapFrom(AvatarGroup.END)
     ```
 
 === "Xml"
@@ -60,14 +60,14 @@ The coverage direction of the avatars with overlapFrom can be set by `avatar_ove
 
 ## Overlap width
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 The width can be set by `avatar_overlap_distance` or calling `setOverlapDistance` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.avatarGroupStart.setOverlapDistance(20f.DP)
+    binding.avatarGroupStart.setOverlapDistance(20f.DP)
     ```
 
 === "Xml"
@@ -89,12 +89,12 @@ The width can be set by `avatar_overlap_distance` or calling `setOverlapDistance
 
 ## Add Avatar
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 1. Create `Avatar`
 
     ```kotlin
-    val mAvatar = Avatar(this).apply {
+    val avatar = Avatar(this).apply {
         setAvatar(R.drawable.img_avatar_1)
     }
     ```
@@ -102,8 +102,8 @@ The width can be set by `avatar_overlap_distance` or calling `setOverlapDistance
 2. Add avatar by `addView`
 
     ```kotlin
-    mBinding.avatarGroupStart.addView(
-        mAvatar, LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
+    binding.avatarGroupStart.addView(
+        avatar, LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
     )
     ```
 

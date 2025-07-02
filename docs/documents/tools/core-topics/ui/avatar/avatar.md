@@ -18,18 +18,18 @@
     android:layout_height="wrap_content" />
 ```
 
-[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## 设置大小
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_size` 或者调用 `mAvatarSize` 来设置头像的大小。
+可以通过 `avatar_size` 或者调用 `size` 来设置头像的大小。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mAvatarSize = 60f.DP
+    binding.imgAvatar.size = 60f.DP
     ```
 
 === "Xml"
@@ -46,7 +46,7 @@
 
 ## 设置形状
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_shape` 或者调用 `setShape` 来设置头像的形状。目前支持以下形状：
 
@@ -56,7 +56,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.setShape(Avatar.SHAPE_CIRCLE)
+    binding.imgAvatar.setShape(Avatar.SHAPE_CIRCLE)
     ```
 
 === "Xml"
@@ -73,14 +73,14 @@
 
 ## 设置颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_background` 或者调用 `mBackground` 来设置文字头像的背景色。
+可以通过 `avatar_background` 或者调用 `srcColor` 来设置文字头像的背景色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mBackground = getColor(R.color.aquamarine)
+    binding.imgAvatar.srcColor = getColor(R.color.aquamarine)
     ```
 
 === "Xml"
@@ -97,14 +97,14 @@
 
 ## 设置图片
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_src` 或者调用 `setAvatar` 来设置头像的图片。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.setAvatar(R.drawable.img_avatar)
+    binding.imgAvatar.setAvatar(R.drawable.img_avatar)
     ```
 
 === "Xml"
@@ -121,14 +121,14 @@
 
 ## 设置文字
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_text` 或者调用 `mText` 来设置头像的显示文字。
+可以通过 `avatar_text` 或者调用 `srcText` 来设置头像的显示文字。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mText = "B"
+    binding.imgAvatar.srcText = "B"
     ```
 
 === "Xml"
@@ -145,14 +145,14 @@
 
 ## 设置文字颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_text_color` 或者调用 `mTextColor` 来设置文字颜色。
+可以通过 `avatar_text_color` 或者调用 `srcTextColor` 来设置文字颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mTextColor = getColor(R.color.burlywood)
+    binding.imgAvatar.srcTextColor = getColor(R.color.burlywood)
     ```
 
 === "Xml"
@@ -169,14 +169,14 @@
 
 ## 设置文字大小
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_text_size` 或者调用 `mTextSize` 来设置头像的显示文字大小。
+可以通过 `avatar_text_size` 或者调用 `srcTextSize` 来设置头像的显示文字大小。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mTextSize = 16f.SP
+    binding.imgAvatar.srcTextSize = 16f.SP
     ```
 
 === "Xml"
@@ -193,14 +193,14 @@
 
 ## 设置描边
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_stroke_color` 或者调用 `mStrokeColor` 来设置头像的描边颜色。
+可以通过 `avatar_stroke_color` 或者调用 `strokeColor` 来设置头像的描边颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mStrokeColor = getColor(R.color.blue)
+    binding.imgAvatar.strokeColor = getColor(R.color.blue)
     ```
 
 === "Xml"
@@ -217,18 +217,14 @@
 
 ## 设置描边宽度
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_stroke_width` 或者调用 `mStrokeWidth` 来设置头像的描边宽度。
-
-!!! note "描边宽度说明"
-
-    根据绘制顺序，实际显示的描边为你设置值的 1/2 。
+可以通过 `avatar_stroke_width` 或者调用 `strokeWidth` 来设置头像的描边宽度。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mStrokeWidth = 6f.DP
+    binding.imgAvatar.strokeWidth = 6f.DP
     ```
 
 === "Xml"
@@ -245,9 +241,9 @@
 
 ## 矩形圆角
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `avatar_corner_radius` 或者 `mCornerRadius` 来设置矩形圆角半径。
+可以通过 `avatar_corner_radius` 或者 `cornerRadius` 来设置矩形圆角半径。
 
 !!! note "矩形圆角说明"
 
@@ -256,7 +252,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mCornerRadius = 6f.DP
+    binding.imgAvatar.cornerRadius = 6f.DP
     ```
 
 === "Xml"

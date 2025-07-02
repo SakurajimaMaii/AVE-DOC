@@ -17,11 +17,13 @@
     - 新增间距装饰器 HorizontalSpacingDecoration ，VerticalSpacingDecoration 和 GridSpacingDecoration 。
     - 新增 dimension ，dimensionPixelSize 等拓展方法用来访问资源。
     - ColorUtils 新增 isColorInt 用来判断颜色值是否有效。 [**#0c8bba5**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c8bba5d4cecd83018414f76d51f24460d2988f1)
+    - 新增面包屑布局 BreadCrumbLayout 。 [**#69fb713**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/69fb713c8b482d2ff880897c57367c9599e896ea)
 
 - 更新：
 
     - 对文件操作拓展方法进行了重写。 [**#8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
     - 对媒体文件 ImageFile 。 [**#5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
+    - **对 UI 组件整体进行了优化，完善了相关功能。**
 
 - 修复：
 

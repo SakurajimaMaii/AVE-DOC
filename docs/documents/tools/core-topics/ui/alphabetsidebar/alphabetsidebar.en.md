@@ -23,7 +23,7 @@
 
 ## Location
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Currently supports **left** and **right** . It can be set by `alphabetsidebar_location` or calling `setLocation`.
 
@@ -48,14 +48,14 @@ Currently supports **left** and **right** . It can be set by `alphabetsidebar_lo
 
 ## Background color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Background color can be set by  `alphabetsidebar_background` or calling `mBackgroundColor` .
+Background color can be set by  `alphabetsidebar_background` or calling `barBackgroundColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBackgroundColor = ...
+    binding.alphabetsidebar.barBackgroundColor = ...
     ```
 
 === "Xml"
@@ -72,14 +72,14 @@ Background color can be set by  `alphabetsidebar_background` or calling `mBackgr
 
 ## Bar text size
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Bar text size can be set by  `alphabetsidebar_text_size` or calling `mBarTextSize` .
+Bar text size can be set by  `alphabetsidebar_text_size` or calling `barTextSize` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarTextSize = 20f.SP
+    binding.alphabetsidebar.barTextSize = 20f.SP
     ```
 
 === "Xml"
@@ -96,14 +96,14 @@ Bar text size can be set by  `alphabetsidebar_text_size` or calling `mBarTextSiz
 
 ## Bar text color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Bar text color can be set by `alphabetsidebar_text_color` or calling `mBarTextColor` .
+Bar text color can be set by `alphabetsidebar_text_color` or calling `barTextColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarTextColor = ...
+    binding.alphabetsidebar.barTextColor = ...
     ```
 
 === "Xml"
@@ -120,16 +120,16 @@ Bar text color can be set by `alphabetsidebar_text_color` or calling `mBarTextCo
 
 ## Indicator text color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Indicator text color can be set by `alphabetsidebar_indicator_text_color` or calling `mBarIndicatorTextColor` .
+Indicator text color can be set by `alphabetsidebar_indicator_text_color` or calling `barIndicatorTextColor` .
 
 The left is the default color, and the right is the modified color.
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarIndicatorTextColor = ...
+    binding.alphabetsidebar.barIndicatorTextColor = ...
     ```
 
 === "Xml"
@@ -147,16 +147,16 @@ The left is the default color, and the right is the modified color.
 
 ## Bubble text size
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Bubble text size can be set by `alphabetsidebar_bubble_text_size` or calling `mBubbleTextSize` .
+Bubble text size can be set by `alphabetsidebar_bubble_text_size` or calling `bubbleTextSize` .
 
 The left is the default size and the right is the modified size.
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBubbleTextSize = 35f.SP
+    binding.alphabetsidebar.bubbleTextSize = 35f.SP
     ```
 
 === "Xml"
@@ -174,16 +174,16 @@ The left is the default size and the right is the modified size.
 
 ## Bubble text color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Bubble text color can be set by `alphabetsidebar_bubble_text_color` or calling `mBubbleTextColor` .
+Bubble text color can be set by `alphabetsidebar_bubble_text_color` or calling `bubbleTextColor` .
 
 The left is the default color, and the right is the modified color.
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBubbleTextColor = ...
+    binding.alphabetsidebar.bubbleTextColor = ...
     ```
 
 === "Xml"
@@ -201,34 +201,34 @@ The left is the default color, and the right is the modified color.
 
 ## Register listener
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     override fun onIndicatorLetterUpdate(letter: String, index: Int, target: Int) {
-        mBinding.recyclerView.smoothScrollToPosition(target)
+        binding.recyclerView.smoothScrollToPosition(target)
     }
 })
 ```
 
 ## Update indicator letter target index
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
-By calling `setIndicatorLetterTargetIndex`, you can update the target index value of the letter, which will be stored in [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) . 
+By calling `setIndicatorLetterTargetIndex`, you can update the target index value of the letter, which will be stored in [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) . 
 
 ```kotlin
-mBinding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
+binding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
 ```
 
 Through the `onIndicatorLetterTargetUpdate` of `LetterListener` ,you can observe the update.
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     ... // onIndicatorLetterUpdate implemention
 
     override fun onIndicatorLetterTargetUpdate(letter: String, target: Int) {
-        mLogger.d(tag = "Gtest", "$letter target index is $target")
+        logger.d(tag = "Gtest", "$letter target index is $target")
     }
 })
 ```

@@ -1,5 +1,7 @@
 # 字母索引栏
 
+[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
         <source src="../img/alphabetsidebar.mp4" type="video/mp4">
@@ -53,7 +55,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.barBackgroundColor = ...
+    binding.alphabetsidebar.barBackgroundColor = ...
     ```
 
 === "Xml"
@@ -77,7 +79,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.barTextSize = 20f.SP
+    binding.alphabetsidebar.barTextSize = 20f.SP
     ```
 
 === "Xml"
@@ -101,7 +103,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.barTextColor = ...
+    binding.alphabetsidebar.barTextColor = ...
     ```
 
 === "Xml"
@@ -127,7 +129,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.barIndicatorTextColor = ...
+    binding.alphabetsidebar.barIndicatorTextColor = ...
     ```
 
 === "Xml"
@@ -154,7 +156,7 @@
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.bubbleTextSize = 35f.SP
+    binding.alphabetsidebar.bubbleTextSize = 35f.SP
     ```
 
 === "Xml"
@@ -204,9 +206,9 @@
 通过 `setLetterListener` 方法注册监听事件。
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     override fun onIndicatorLetterUpdate(letter: String, index: Int, target: Int) {
-        mBinding.recyclerView.smoothScrollToPosition(target)
+        binding.recyclerView.smoothScrollToPosition(target)
     }
 })
 ```
@@ -215,20 +217,20 @@ mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListen
 
 > 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
-通过调用 `setIndicatorLetterTargetIndex` ，你可以更新字母的目标索引值，该索引值会被存储在 [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) 中。
+通过调用 `setIndicatorLetterTargetIndex` ，你可以更新字母的目标索引值，该索引值会被存储在 [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) 中。
 
 ```kotlin
-mBinding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
+binding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
 ```
 
 你可以通过 `LetterListener` 的 `onIndicatorLetterTargetUpdate` 方法监听目标索引的更新。
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     ... // onIndicatorLetterUpdate 实现
 
     override fun onIndicatorLetterTargetUpdate(letter: String, target: Int) {
-        mLogger.d(tag = "Gtest", "$letter 目标索引更新为 $target")
+        logger.d(tag = "Gtest", "$letter 目标索引更新为 $target")
     }
 })
 ```

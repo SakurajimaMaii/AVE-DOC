@@ -27,18 +27,18 @@
 </com.ave.vastgui.tools.view.avatar.AvatarGroup>
 ```
 
-[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## 覆盖方式
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_overlap_from` 或者调用 `setOverlapFrom` 来设置头像的覆盖方式。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.avatarGroupStart.setOverlapFrom(AvatarGroup.END)
+    binding.avatarGroupStart.setOverlapFrom(AvatarGroup.END)
     ```
 
 === "Xml"
@@ -61,14 +61,14 @@
 
 ## 覆盖宽度
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 可以通过 `avatar_overlap_distance` 或者调用 `setOverlapDistance` 来设置头像的覆盖长度。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.avatarGroupStart.setOverlapDistance(20f.DP)
+    binding.avatarGroupStart.setOverlapDistance(20f.DP)
     ```
 
 === "Xml"
@@ -91,12 +91,12 @@
 
 ## 动态添加头像
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 1. 创建 `Avatar` 对象
 
     ```kotlin
-    val mAvatar = Avatar(this).apply {
+    val avatar = Avatar(this).apply {
         setAvatar(R.drawable.img_avatar_1)
     }
     ```
@@ -104,8 +104,8 @@
 2. 使用 `addView` 添加头像
 
     ```kotlin
-    mBinding.avatarGroupStart.addView(
-        mAvatar, LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
+    binding.avatarGroupStart.addView(
+        avatar, LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
     )
     ```
 
