@@ -14,6 +14,9 @@
     - 新增 FullScreenDialogFragment 用来实现全屏对话框。 [**#1773705**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/1773705f87800af5e8b3b4f13cfa83cd53350f76) 
     - 新增 LifecycleHandler 和 LifecycleHandlerThread 用来实现生命周期感知型 Handler 和 HandlerThread 。 [**#3dc0119**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3dc01199084a67df6adc1e721ecfb4fd080e4cbb)
     - 新增 VibratorCompat 和 VibratorManagerCompat 用来访问振动器。 [**#03cdc31**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/03cdc31362258a6899369a9b387a3e0a8aab61fc)..[**#ac0a8b3**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/ac0a8b3dccc267a17c53effa9b9e0b95f58950c7)
+    - 新增间距装饰器 HorizontalSpacingDecoration ，VerticalSpacingDecoration 和 GridSpacingDecoration 。
+    - 新增 dimension ，dimensionPixelSize 等拓展方法用来访问资源。
+    - ColorUtils 新增 isColorInt 用来判断颜色值是否有效。 [**#0c8bba5**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c8bba5d4cecd83018414f76d51f24460d2988f1)
 
 - 更新：
 
@@ -24,6 +27,8 @@
 
     - NetStateUtils 修复 isEtherNet 方法判断错误的问题。 [**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
     - 修复 BmpUtils 存在的若干问题，适配文件操作。 [**#6553a6a**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6553a6a123d798941281bddeba7509f5ff946de4)
+    - 修复 ColorUtils 的 getColorWithTransparency 对于颜色数值判断错误的问题。 [**#85f59cb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/85f59cba71705dd3068e54c4d7c16f55130af724)
+    - ColorUtils 修复 isColorHex 对于多输入 colorHex 返回单独的 Boolean 不能够反应每个单独的 colorHex 是否有效的问题。 [**#0c8bba5**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c8bba5d4cecd83018414f76d51f24460d2988f1)
 
 - 删除：
 
