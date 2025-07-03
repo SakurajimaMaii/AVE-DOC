@@ -21,14 +21,18 @@
     - BadgeView 新增 bubble_text_num 属性。 [**#8ec11d8**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8ec11d85f03e174a7d6415cb75dd05e0c4d484b9)
     - BadgeLayout 新增徽标位置设置。 [**#6373f28**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6373f2864ea6c7b265a481613a568126d68c7f70)
     - CropView 和 CropViewLayout 新增 crop_frame_size 属性用来设置除了矩形形状外的裁剪框尺寸。 [**#4339c2e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4339c2e1a32f7e975cc98a6e3efcbd8974b921b5)
+    - LineTextProgressView 新增 linetext_progress_box_width 设置文字 box 宽度，用来取代由文字内容决定宽度导致 UI 尺寸受影响的问题。 [**#4635f04**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4635f042fcf56c7956006f50d9666b4c15526372)
+    - 媒体文件 ImageFile 。 [**#5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
 
 - 更新：
 
     - 对文件操作拓展方法进行了重写。 [**#8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
-    - 对媒体文件 ImageFile 。 [**#5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
     - **对 UI 组件整体进行了优化，包括布局计算和更新属性后的刷新问题。**
-    - CropViewLayout 对获取裁剪后的图片的 API 进行了变动。
-    - RatingView 选择方式更名为 Mode 。
+    - CropViewLayout 对获取裁剪后的图片的 API 进行了变动。 [**#379c06e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/379c06eb69820355a30757709f01a3146e0aea43)
+    - RatingView 选择方式更名为 Touch mode 。 [**#7fa5bec**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/7fa5becaf47c54d04d55dd2b67f0f015ad13173d)
+    - VastFragmentAdapter 更名为 BaseFragmentStateAdapter 。 [**#92396bb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/92396bb10af31aa59226db73022845e85c7fcf19)
+    - 更新了邮箱补足默认支持的邮箱。 [**#a601c75**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/a601c7585950ccf08e46f13db84a1fe1f596b8b0)
+    - Vp2IndicatorView 将风格枚举类重命名为 Style 。 [**#490380e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/490380e459ce7bee7565d08a5f4cc2c801f4a745)
 
 - 修复：
 

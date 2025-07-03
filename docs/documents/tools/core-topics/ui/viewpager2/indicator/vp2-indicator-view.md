@@ -1,5 +1,7 @@
 # 指示器
 
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+
 指示器默认会以 **圆点** 形式显示你当前所在的页面。
 
 <figure markdown>
@@ -8,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 === "xml"
 
@@ -36,7 +38,7 @@
 
 ## 附加到 ViewPager2
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `attachToViewPager2` ，你可以将指示器附加到 `ViewPager2` 上。
 
@@ -45,17 +47,17 @@
     该方法被调用后将不再允许手动设置指示器数量和当前被选中的指示器。
 
 ```kotlin
-mBinding.vp2indicator.attachToViewPager2(mBinding.vp2)
+binding.vp2indicator.attachToViewPager2(binding.vp2)
 ```
 
 ## 设置圆点指示器半径
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 调用 `setIndicatorCircleRadius` 设置圆形指示器半径。
 
 ```kotlin
-mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
+binding.vp2indicator.setIndicatorCircleRadius(8f.DP)
 ```
 
 <figure markdown>
@@ -68,12 +70,12 @@ mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
 
 ## 设置圆点指示器颜色
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-调用 `setSelectedColor` 和 `setUnSelectedColor` 来修改指示器选中和未选中状态颜色。
+当指示器的风格为 `Style.CIRCLE` ，可以通过 `setSelectedColor` 和 `setUnSelectedColor` 为指示器指定颜色。
 
 ```kotlin
-mBinding.vp2indicator.apply {
+binding.vp2indicator.apply {
     setSelectedColor(R.color.tomato)
     setUnSelectedColor(R.color.limegreen)
     ... // 其他设置
@@ -135,8 +137,8 @@ mBinding.vp2indicator.apply {
 
 ```kotlin
 binding.vp2indicator.apply {
-    setIndicatorStyle(Vp2IndicatorType.BITMAP)
-    setBitmapSize(20f.DP.toInt(),20f.DP.toInt())
+    setIndicatorStyle(Style.BITMAP)
+    setBitmapSize(20f.DP.toInt(), 20f.DP.toInt())
     setSelectedBitmap(R.drawable.ic_indicator_select)
     setUnSelectedBitmap(R.drawable.ic_indicator_unselect)
     ... // 其他设置

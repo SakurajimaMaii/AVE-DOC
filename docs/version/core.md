@@ -1,6 +1,16 @@
 # core
 
-## 0.1.3(Latest)
+## 0.1.4(Latest)
+
+- 新增 
+
+    - ResultCompat 新增 getOrThrow ， onSuccess 和 onFailure 。 [**#c9ed164**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c9ed1649a44e21d1de97896332c51ba738689a3e)
+    - 中文字符串判断。 [**#c732ca2**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c732ca2e5433fd0158c566da8fcb7c19be363bac)
+    - 全角/半角字符转换。 [**#c732ca2**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c732ca2e5433fd0158c566da8fcb7c19be363bac)
+    - FileComparator 文件比较器。 [**#c732ca2**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c732ca2e5433fd0158c566da8fcb7c19be363bac)
+    - 实验性 API 注解 ExperimentalApi 。 [**#c732ca2**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/c732ca2e5433fd0158c566da8fcb7c19be363bac)
+
+## 0.1.3
 
 - 新增
 

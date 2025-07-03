@@ -1,12 +1,14 @@
 # Vp2IndicatorView
 
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+
 <figure markdown>
   ![Vp2IndicatorView](../img/vp2_indicator_view.gif){ width="250" }
 </figure>
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 === "xml"
 
@@ -32,28 +34,28 @@
 
 [Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
 
-## With ViewPager2
+## Attach to ViewPager2
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 Calling `attachToViewPager2` to attach to `ViewPager2` .
 
 !!! warning "attachToViewPager2"
 
-    After this method is called, it will no longer be allowed to manually set the number of indicators and the currently selected indicator.
+    After `attachToViewPager2()` is called, it will no longer be allowed to set the count of indicators and the current index of indicator.
 
 ```kotlin
-mBinding.vp2indicator.attachToViewPager2(mBinding.vp2)
+binding.vp2indicator.attachToViewPager2(binding.vp2)
 ```
 
-## Circle indicator radius
+## Radius of indicator
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-Circle indicator radius can be set by `setIndicatorCircleRadius` .
+When the style of the indicator is `Style.CIRCLE` , the radius of indicator can be set by calling `setIndicatorCircleRadius` .
 
 ```kotlin
-mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
+binding.vp2indicator.setIndicatorCircleRadius(8f.DP)
 ```
 
 <figure markdown>
@@ -64,14 +66,14 @@ mBinding.vp2indicator.setIndicatorCircleRadius(8F.DP)
   ![Change size](../img/change_size.jpg){ width="250" }
 </figure>
 
-## Circle indicator color
+## Color of indicator
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-Calling `setSelectedColor` and `setUnSelectedColor` to change the indicator color.
+When the style of the indicator is `Style.CIRCLE` , the color of the indicator can be set by calling `setSelectedColor` and `setUnSelectedColor` .
 
 ```kotlin
-mBinding.vp2indicator.apply {
+binding.vp2indicator.apply {
     setSelectedColor(R.color.tomato)
     setUnSelectedColor(R.color.limegreen)
     ... 
@@ -82,7 +84,7 @@ mBinding.vp2indicator.apply {
   ![Circle indicator color](../img/change_color.jpg){ width="250" }
 </figure>
 
-## Indicator item interval width
+## Interval width of indicator
 
 > Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
@@ -102,7 +104,7 @@ The interval width of indicator can be set by `indicator_item_distance` or calli
         app:indicator_item_distance="10dp" />
     ```
 
-## Indicator style
+## Style of indicator
 
 > Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
@@ -125,13 +127,13 @@ The indicator style can be set by `setIndicatorStyle` or calling `setIndicatorSt
         app:indicator_style="circle" />
     ```
 
-## Indicator image
+## Bitmap of indicator
 
 > Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```kotlin
 binding.vp2indicator.apply {
-    setIndicatorStyle(Vp2IndicatorType.BITMAP)
+    setIndicatorStyle(Style.BITMAP)
     setBitmapSize(20f.DP.toInt(),20f.DP.toInt())
     setSelectedBitmap(R.drawable.ic_indicator_select)
     setUnSelectedBitmap(R.drawable.ic_indicator_unselect)
