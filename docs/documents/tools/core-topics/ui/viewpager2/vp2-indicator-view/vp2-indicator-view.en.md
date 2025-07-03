@@ -82,31 +82,55 @@ mBinding.vp2indicator.apply {
   ![Circle indicator color](../img/change_color.jpg){ width="250" }
 </figure>
 
-## Indicator gap
+## Indicator item interval width
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-Calling `setIndicatorItemDistance` to change the gap distance.
+The interval width of indicator can be set by `indicator_item_distance` or calling `setIndicatorItemDistance` to change the gap distance.
 
-```kotlin
-mBinding.vp2indicator.setIndicatorItemDistance(10F.DP)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.vp2indicator.setIndicatorItemDistance(10f.DP)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.viewpager2.indicator.Vp2IndicatorView
+        ...
+        app:indicator_item_distance="10dp" />
+    ```
 
 ## Indicator style
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Calling `setIndicatorStyle` to set the type, `Vp2IndicatorView` currently supports two types.
+The indicator style can be set by `setIndicatorStyle` or calling `setIndicatorStyle` , `Vp2IndicatorView` currently supports two types:
 
 - CIRCLE
 - BITMAP
 
+=== "Kotlin"
+
+    ```kotlin
+    binding.vp2indicator.setIndicatorStyle(Vp2IndicatorView.Style.CIRCLE)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.viewpager2.indicator.Vp2IndicatorView
+        ...
+        app:indicator_style="circle" />
+    ```
+
 ## Indicator image
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```kotlin
-mBinding.vp2indicator.apply {
+binding.vp2indicator.apply {
     setIndicatorStyle(Vp2IndicatorType.BITMAP)
     setBitmapSize(20f.DP.toInt(),20f.DP.toInt())
     setSelectedBitmap(R.drawable.ic_indicator_select)

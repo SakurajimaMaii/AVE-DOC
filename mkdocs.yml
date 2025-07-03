@@ -125,6 +125,7 @@ plugins:
             裁剪照片 : Crop photo
             适用于 DataStore 的拓展 : Extension for DataStore
             适用于 SharedPreferences 的拓展 : Extension for SharedPreferences
+            面包屑 : BreadCrumbLayout
   - search:
       lang: ja
   - awesome-pages:

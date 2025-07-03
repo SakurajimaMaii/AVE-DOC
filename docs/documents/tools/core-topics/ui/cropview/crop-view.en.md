@@ -1,6 +1,6 @@
 # CropViewLayout
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -11,26 +11,26 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 ```xml
-  <com.ave.vastgui.tools.view.cropview.CropViewLayout
-      android:id="@+id/cropViewLayout"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent" />
+<com.ave.vastgui.tools.view.cropview.CropViewLayout
+    android:id="@+id/cropview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
 ```
 
-[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
-## Call crop
+## Use of Cropping
 
-### Call system cropping application
+### Calling the system cropping application
 
-Using [CropIntent](https://sakurajimamaii.github.io/AVE-DOC/documents/VastTools/core-topics/intent/CropIntent/) to call the system cropping application.
+Using [CropIntent](https://sakurajimamaii.github.io/AVE-DOC/documents/tools/core-topics/intent/crop-intent/) to call the system cropping application.
 
 ### VastCropActivity
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 `VastCropActivity` is the default cropping application. You can easily use it in the following ways.
 
@@ -54,46 +54,91 @@ val intent = Intent(this, VastCropActivity::class.java).apply {
 }
 ```
 
-Click [VastCropActivity](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/activity/app/VastCropActivity.kt) to get more information.
+!!! info "VastCropActivity"
+
+    Click [VastCropActivity](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/kotlin/com/ave/vastgui/tools/activity/app/VastCropActivity.kt) to get more information.
 
 ## Frame type
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-The frame type can be set by `setCropFrameType` .
+The frame type can be set by  `crop_frame_type` or calling `cropFrameType` .
 
-|Type|Example|Type|Example|
-|:-:|:-:|:-:|:-:|
-|CIRCLE|![Frame circle](../img/frame_cricle.jpg){ width="250" }|SQUARE|![Frame square](../img/frame_square.jpg){ width="250" }|
-|GRID9|![Frame grid9](../img/frame_grid9.jpg){ width="250" }|RECTANGLE|![Frame rectangle](../img/frame_rectangle.jpg){ width="250" }|
+|  Type  |                         Example                         |   Type    |                            Example                            |
+| :----: | :-----------------------------------------------------: | :-------: | :-----------------------------------------------------------: |
+| CIRCLE | ![Frame circle](../img/frame_cricle.jpg){ width="250" } |  SQUARE   |    ![Frame square](../img/frame_square.jpg){ width="250" }    |
+| GRID9  |  ![Frame grid9](../img/frame_grid9.jpg){ width="250" }  | RECTANGLE | ![Frame rectangle](../img/frame_rectangle.jpg){ width="250" } |
 
-```kotlin
-getBinding().cropViewLayout.setCropFrameType(CropFrameType.CIRCLE)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.cropViewLayout.cropFrameType = CropFrameType.CIRCLE
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.cropview.CropViewLayout
+        ...
+        app:crop_frame_type="circle" />
+    ```
 
 ## Frame size
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Calling `setCropFrameSize` to set the frame size.
+The size of the preview frame is related to the shape of the preview frame, if the shape of the preview frame is `RECTANGLE`, the size of the preview frame can be set by `crop_frame_width` and `crop_frame_height` or call `setCropFrameSize(Float, Float)`.
 
-```kotlin
-getBinding().cropViewLayout.setCropFrameSize(previewWidth, previewHeight)
-```
+=== "Kotlin"
 
-!!! warning "Size of rectangle frame type"
+    ```kotlin
+    binding.cropViewLayout.setCropFrameSize(50f.DP, 50f.DP)
+    ```
 
-    The different length and width settings will only take effect when the preview frame type is **RECTANGLE**. Otherwise, the smaller value of the set length and width will be used as the actual preview frame size.
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.cropview.CropViewLayout
+        ...
+        app:crop_frame_width="50dp"
+        app:crop_frame_height="50dp" />
+    ```
+
+If the shape is `CIRCLE`, `SQUARE` or `GRID9`, the size of the preview frame can be set by `crop_frame_size` or call `setCropFrameSize(Float)`.
+
+=== "Kotlin"
+
+    ```kotlin
+    binding.cropViewLayout.setCropFrameSize(50f.DP)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.cropview.CropViewLayout
+        ...
+        app:crop_frame_size="50dp" />
+    ```
 
 ## Mask color
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
-Calling `setCropMaskColor` to set the mask color.
+The mask color can be set by  `crop_mask_layer_color` or calling `setCropMaskColor` .
 
-```kotlin
-getBinding().cropViewLayout.setCropMaskColor(color)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.cropViewLayout.setCropMaskColor(Color.RED)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.cropview.CropViewLayout
+        ...
+        app:crop_mask_layer_color="@color/red" />
+    ```
 
 !!! note "Alpha of mask color"
 
@@ -105,15 +150,23 @@ getBinding().cropViewLayout.setCropMaskColor(color)
 
 ## Stroke color
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
-Calling `setCropFrameStrokeColor` to set the stroke color of the frame.
+The stroke color of the frame can be set by  `crop_frame_stroke_color` or calling `setCropFrameStrokeColor` .
 
-```kotlin
-val color = ColorUtils.colorHex2Int("#e74c3c")
+=== "Kotlin"
 
-getBinding().cropViewLayout.setCropFrameStrokeColor(color)
-```
+    ```kotlin
+    binding.cropViewLayout.setCropFrameStrokeColor(Color.RED)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.cropview.CropViewLayout
+        ...
+        app:crop_frame_stroke_color="@color/red" />
+    ```
 
 <figure markdown>
   ![CropViewLayout with stroke color](../img/stroke_color.jpg){ width="250" }
@@ -121,22 +174,20 @@ getBinding().cropViewLayout.setCropFrameStrokeColor(color)
 
 ## Output image
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> Add:[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
 ### Compatibility with Android 9(API 28)
 
 ```kotlin
-val bitmap:Bitmap? = 
-    getBinding().cropViewLayout.getCroppedImageAboveApi28(outputX,outputY)
+val bitmap:Bitmap? = binding.cropViewLayout.getCroppedImageApi28(outputX,outputY)
 ```
 
 ### Compatibility under Android 9
 
 ```kotlin
-val bitmap:Bitmap? =
-    getBinding().cropViewLayout.getCroppedImageUnderApi28(outputX,outputY)
+val bitmap:Bitmap? = binding.cropViewLayout.getCroppedImage(outputX,outputY)
 ```
 
 ## Sample code
 
-[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/CropImageActivity.kt){ .md-button }
+[Sample code](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/app/src/main/kotlin/com/ave/vastgui/app/activity/view/CropActivity.kt){ .md-button }

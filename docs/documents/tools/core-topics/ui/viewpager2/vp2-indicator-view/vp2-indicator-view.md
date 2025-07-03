@@ -86,31 +86,55 @@ mBinding.vp2indicator.apply {
 
 ## 设置指示器间距
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-调用 `setIndicatorItemDistance` 来修改指示器间距。
+可以通过 `indicator_item_distance` 或者调用 `setIndicatorItemDistance` 来修改指示器间距。
 
-```kotlin
-mBinding.vp2indicator.setIndicatorItemDistance(10F.DP)
-```
+=== "Kotlin"
 
-## 设置指示器类型
+    ```kotlin
+    binding.vp2indicator.setIndicatorItemDistance(10f.DP)
+    ```
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+=== "Xml"
 
-调用 `setIndicatorStyle` 来设置指示器类型，目前支持两种
+    ```xml
+    <com.ave.vastgui.tools.view.viewpager2.indicator.Vp2IndicatorView
+        ...
+        app:indicator_item_distance="10dp" />
+    ```
+
+## 设置指示器风格
+
+> 添加：[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
+
+可以通过 `indicator_style` 或者调用 `setIndicatorStyle` 来设置指示器类型，目前支持两种：
 
 - CIRCLE：默认的圆形指示器
 - BITMAP：指定对应的Bitmap为指示器形状
 
+=== "Kotlin"
+
+    ```kotlin
+    binding.vp2indicator.setIndicatorStyle(Vp2IndicatorView.Style.CIRCLE)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.viewpager2.indicator.Vp2IndicatorView
+        ...
+        app:indicator_style="circle" />
+    ```
+
 ## 设置 Bitmap 作为指示器
 
-[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
+> 添加：[:octicons-tag-24: Version 0.5.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#050)
 
 下面的示例为你展示了如何设置三角形 bitmap 为指示器。
 
 ```kotlin
-mBinding.vp2indicator.apply {
+binding.vp2indicator.apply {
     setIndicatorStyle(Vp2IndicatorType.BITMAP)
     setBitmapSize(20f.DP.toInt(),20f.DP.toInt())
     setSelectedBitmap(R.drawable.ic_indicator_select)

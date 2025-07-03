@@ -1,5 +1,7 @@
 # MailBoxAssociateView
 
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+
 <figure markdown>
   ![MailBoxAssociateView](../img/mail-box-associate-view.gif){ width="250" }
   <figcaption>MailBoxAssociateView</figcaption>
@@ -7,7 +9,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -27,18 +29,24 @@
 
 ## Default support mail address
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-```java
-qq.com
-163.com
-126.com
-gmail.com
-139.com
-hotmail.com
-sina.com
-me.com
-```
+| Region        | Email Suffix    | Description                                                  |
+| ------------- | --------------- | ------------------------------------------------------------ |
+| China         | @qq.com         | Tencent QQ email, one of the most popular in China           |
+| China         | @163.com        | NetEase 163 email, widely used                               |
+| China         | @126.com        | NetEase 126 email, common for personal use                   |
+| China         | @sina.com       | Sina email, popular in earlier years                         |
+| China         | @sohu.com       | Sohu email, used by early adopters                           |
+| China         | @aliyun.com     | Alibaba Cloud email, suitable for businesses and individuals |
+| China         | @yeah.net       | Another NetEase email service                                |
+| International | @gmail.com      | Google email, globally popular                               |
+| International | @outlook.com    | Microsoft email, widely used for personal and business       |
+| International | @yahoo.com      | Yahoo email, popular in earlier years                        |
+| International | @hotmail.com    | Microsoft’s early email service                              |
+| International | @icloud.com     | Apple email, common among Apple device users                 |
+| International | @protonmail.com | ProtonMail, focused on privacy protection                    |
+| International | @aol.com        | AOL email, used by early internet adopters                   |
 
 ## Sample code
 

@@ -1,6 +1,6 @@
 # ArcProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.ave.vastgui.tools.view.progress.ArcProgressView
@@ -22,14 +22,14 @@
 
 ## Progress width
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Width of pogress can be set by `arc_progress_width` or calling `mProgressWidth` .
+Width of pogress can be set by `arc_progress_width` or calling `progressWidth` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mProgressWidth = 10f.DP
+    binding.arcProgressView.progressWidth = 10f.DP
     ```
 
 === "Xml"
@@ -46,19 +46,19 @@ Width of pogress can be set by `arc_progress_width` or calling `mProgressWidth` 
 
 ## Color of startpoint and endpoint circle
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Color of startpoint circle can be set by `arc_progress_startpoint_circle_color` or calling `mStartpointCircleColor` .
+Color of startpoint circle can be set by `arc_progress_startpoint_circle_color` or calling `startpointCircleColor` .
 
-Color of endpoint circle can be set by `arc_progress_endpoint_circle_color` or calling `mEndpointCircleColor` .
+Color of endpoint circle can be set by `arc_progress_endpoint_circle_color` or calling `endpointCircleColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mStartpointCircleColor =
+    binding.arcProgressView.startpointCircleColor =
         ColorUtils.colorHex2Int("#e84118")
 
-    mBinding.arcProgressView.mEndpointCircleColor = 
+    binding.arcProgressView.endpointCircleColor = 
         ColorUtils.colorHex2Int("#e84118")
     ```
 
@@ -77,14 +77,14 @@ Color of endpoint circle can be set by `arc_progress_endpoint_circle_color` or c
 
 ## Radius of endpoint circle
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Radius of endpoint circle can be set by `arc_progress_endpoint_circle_radius` or calling `mEndpointCircleRadius` .
+Radius of endpoint circle can be set by `arc_progress_endpoint_circle_radius` or calling `endpointCircleRadius` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mEndpointCircleRadius = 
+    binding.arcProgressView.endpointCircleRadius = 
         15f.DP.coerceAtLeast(recommendedRadius())
     ```
 
@@ -102,9 +102,9 @@ Radius of endpoint circle can be set by `arc_progress_endpoint_circle_radius` or
 
 ## Shader
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Shader of progress can be set by calling `mProgressShader` .
+Shader of progress can be set by calling `progressShader` .
 
 ```kotlin
 val colors = intArrayOf(
@@ -113,7 +113,7 @@ val colors = intArrayOf(
 val pos = floatArrayOf(
     ... // The relative positions [0..1] of each corresponding color in the colors array.
 )
-getBinding().arcProgressView.mProgressShader = LinearGradient(
+binding.arcProgressView.progressShader = LinearGradient(
     -700f, 0f, 700f, 0f,
     colors, pos,
     Shader.TileMode.CLAMP

@@ -15,30 +15,40 @@
     android:layout_height="wrap_content" />
 ```
 
-[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
-## 设置选中方式
+## 操作模式
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-调用 `setStarSelectMethod` 来设置星星的选中方式，目前支持三种：
+可以通过 `star_touch_mode` 或者调用 `setStarTouchMode` 来设置星星的选中方式，目前支持三种：
 
-- Sliding：滑动
-- Click：点击
+- SLIDING：滑动
+- CLICK：点击
 
     !!! 点击行为变更
 
         从 0.5.6 版本开始，当选择方式设置为 `Click` 时，星星的选中数量只能为整数。
 
-- Unable：只能通过代码设置
+- UNABLE：只能通过代码设置
 
-```kotlin
-mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarTouchMode(RatingView.Mode.SLIDING)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_touch_mode="click" />
+    ```
 
 ## 设置排列方向
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
 目前支持两种星星排列方式：
 
@@ -48,7 +58,7 @@ mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
 === "Kotlin"
 
     ```kotlin
-    mBinding.ratingView.setStarOrientation(StarOrientation.HORIZONTAL)
+    binding.ratingView.setStarOrientation(RatingView.Orientation.HORIZONTAL)
     ```
 
 === "Xml"
@@ -58,56 +68,108 @@ mBinding.ratingView.setStarSelectMethod(RatingSelectMethod.SLIDING)
         ...
         app:star_orientation="horizontal" />
     ```
-
-!!! note "默认排列方向"
-
-    星星的默认排列方向为 `StarOrientation.UNSPECIFIED` ，方向仅允许通过 `setStarOrientation` 或 `star_orientation` 修改一次。
  
 ## 设置星星间距
 
-调用 `setStarIntervalWidth` 来设置星星的间距
+可以通过 `star_interval_width` 或者调用 `setStarIntervalWidth` 来设置星星的间距。
 
-```kotlin
-mBinding.ratingView.setStarIntervalWidth(10F.DP)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarIntervalWidth(10f.DP)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_interval_width="10dp" />
+    ```
 
 ## 设置星星图片
 
-调用 `setStarSelectedBitmap` 和 `setStarNormalBitmap` 来设置星星图片。
+对于选中的星星图片，可以通过 `star_selected` 或者调用 `setStarSelectedBitmap` 来设置。
 
-```kotlin
-mBinding.ratingView.apply{
-    setStarSelectedBitmap(R.drawable.ic_star_normal)
-    setStarUnselectedBitmap(R.drawable.ic_star_unselected)
-}
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarSelectedBitmap(R.drawable.ic_star_normal)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_selected="@drawable/ic_star_selected" />
+    ```
+
+对于未选中的星星图片，可以通过 `star_unselected` 和 `setStarUnselectedBitmap` 来设置。
+
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarUnselectedBitmap(R.drawable.ic_star_unselected)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_unselected="@drawable/ic_star_unselected" />
+    ```
 
 ## 设置星星图片大小
 
-调用 `setStarBitMapSize` 来设置星星图片大小
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
-```kotlin
-mBinding.ratingView.setStarBitMapSize(40F.DP,40F.DP)
-```
+可以通过 `star_width` 和 `star_height` 或者调用 `setStarBitmapSize` 来设置星星的图片大小。
+
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarBitmapSize(40F.DP, 40F.DP)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_width="40dp"
+        app:star_height="40dp" />
+    ```
 
 ## 设置星星数量
 
-调用 `setStarCountNumber` 设置星星数量
+可以通过 `star_count` 或者调用 `setStarCountNumber` 设置星星数量。
 
-```kotlin
-mBinding.ratingView.setStarCountNumber(4)
-```
+=== "Kotlin"
+
+    ```kotlin
+    binding.ratingView.setStarCountNumber(4)
+    ```
+
+=== "Xml"
+
+    ```xml
+    <com.ave.vastgui.tools.view.ratingview.RatingView
+        ...
+        app:star_count="5" />
+    ```
 
 ## 监听星星数量
 
-[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
+> 添加：[:octicons-tag-24: Version 0.5.6](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#056)
 
 通过 `setOnStarRatingChangeListener` 注册监听事件来观察评分的改变。
 
 ```kotlin
-mBinding.ratingView.setOnStarRatingChangeListener(object : RatingView.OnStarRatingChangeListener {
+binding.ratingView.setOnStarRatingChangeListener(object : RatingView.OnStarRatingChangeListener {
     override fun onRatingChanged(rating: Float) {
-        mLogger.d("当前星星评级为 $rating")
+        logger.d("当前星星评级为 $rating")
     }
 })
 ```

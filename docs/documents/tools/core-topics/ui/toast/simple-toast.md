@@ -9,36 +9,36 @@
 
 ## 弹出长Toast
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "Kotlin"
 
     ```kotlin
-    SimpleToast.showLongMsg("Hello", this@MainActivity) // 直接使用字符
-    SimpleToast.showLongMsg(R.string.app_name, this@MainActivity) // 使用str id
+    SimpleToast.showLongMsg("Hello", this) // 直接使用字符
+    SimpleToast.showLongMsg(R.string.app_name, this) // 使用str id
     ```
 
 === "Java"
 
     ```java
-    SimpleToast.showLongMsg("Hello", this@MainActivity) // 直接使用字符
-    SimpleToast.showLongMsg(R.string.app_name, this@MainActivity) // 使用str id
+    SimpleToast.showLongMsg("Hello", this) // 直接使用字符
+    SimpleToast.showLongMsg(R.string.app_name, this) // 使用str id
     ```
 
 ## 弹出短Toast
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "Kotlin"
 
     ```kotlin
-    SimpleToast.showShortMsg("Hello", this@MainActivity) // 直接使用字符
-    SimpleToast.showShortMsg(R.string.app_name, this@MainActivity) // 使用str id
+    SimpleToast.showShortMsg("Hello", this) // 直接使用字符
+    SimpleToast.showShortMsg(R.string.app_name, this) // 使用str id
     ```
 
 === "Java"
 
     ```java
-    SimpleToast.showShortMsg("Hello", this@MainActivity) // 直接使用字符
-    SimpleToast.showShortMsg(R.string.app_name, this@MainActivity) // 使用str id
+    SimpleToast.showShortMsg("Hello", this) // 直接使用字符
+    SimpleToast.showShortMsg(R.string.app_name, this) // 使用str id
     ```
