@@ -1,6 +1,6 @@
 # ArcProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ```xml
 <com.ave.vastgui.tools.view.progress.ArcProgressView
@@ -22,14 +22,14 @@
 
 ## 进度条宽度
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-通过 `arc_progress_width` 或者调用 `mProgressWidth` 可以设置进度条的宽度。
+通过 `arc_progress_width` 或者调用 `progressWidth` 可以设置进度条的宽度。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mProgressWidth = 10f.DP
+    binding.arcProgressView.progressWidth = 10f.DP
     ```
 
 === "Xml"
@@ -40,25 +40,25 @@
         app:arc_progress_width="10dp" />
     ```
 
-|                     宽度20dp                     |                     宽度10dp                      |
-| :----------------------------------------------: | :-----------------------------------------------: |
+|                       宽度20dp                       |                     宽度10dp                      |
+| :--------------------------------------------------: | :-----------------------------------------------: |
 | ![Width 20dp](../img/progress_55.jpg){ width="150" } | ![Width 10dp](../img/width_10.jpg){ width="150" } |
 
 ## 端点颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-通过 `arc_progress_startpoint_circle_color` 或者调用 `mStartpointCircleColor` 可以设置进度条起点圆的颜色。
+通过 `arc_progress_startpoint_circle_color` 或者调用 `startpointCircleColor` 可以设置进度条起点圆的颜色。
 
-通过 `arc_progress_endpoint_circle_color` 或者调用 `mEndpointCircleColor` 可以设置进度条终点圆的颜色。
+通过 `arc_progress_endpoint_circle_color` 或者调用 `endpointCircleColor` 可以设置进度条终点圆的颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mStartpointCircleColor =
+    binding.arcProgressView.startpointCircleColor =
         ColorUtils.colorHex2Int("#e84118")
 
-    mBinding.arcProgressView.mEndpointCircleColor = 
+    binding.arcProgressView.endpointCircleColor = 
         ColorUtils.colorHex2Int("#e84118")
     ```
 
@@ -77,14 +77,14 @@
 
 ## 终点端点半径
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> 添加：[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-通过 `arc_progress_endpoint_circle_radius` 或者调用 `mEndpointCircleRadius` 可以设置终点端点半径。
+通过 `arc_progress_endpoint_circle_radius` 或者调用 `endpointCircleRadius` 可以设置终点端点半径。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.arcProgressView.mEndpointCircleRadius = 
+    binding.arcProgressView.endpointCircleRadius = 
         15f.DP.coerceAtLeast(recommendedRadius())
     ```
 
@@ -102,9 +102,9 @@
 
 ## 着色器
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> 添加：[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-通过调用 `mProgressShader` 可以设置渐变进度条。
+通过调用 `progressShader` 可以设置渐变进度条。
 
 ```kotlin
 val colors = intArrayOf(
@@ -113,7 +113,7 @@ val colors = intArrayOf(
 val pos = floatArrayOf(
     ... // The relative positions [0..1] of each corresponding color in the colors array.
 )
-getBinding().arcProgressView.mProgressShader = LinearGradient(
+binding.arcProgressView.progressShader = LinearGradient(
     -700f, 0f, 700f, 0f,
     colors, pos,
     Shader.TileMode.CLAMP

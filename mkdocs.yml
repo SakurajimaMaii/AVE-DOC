@@ -79,6 +79,7 @@ plugins:
             File manager : 文件管理
             Fragments : 片段
             Graphics : 绘图
+            Hardware : 硬件
             Images : 图像
             Information get : 信息获取
             Init : 初始化
@@ -124,6 +125,7 @@ plugins:
             裁剪照片 : Crop photo
             适用于 DataStore 的拓展 : Extension for DataStore
             适用于 SharedPreferences 的拓展 : Extension for SharedPreferences
+            面包屑 : BreadCrumbLayout
   - search:
       lang: ja
   - awesome-pages:

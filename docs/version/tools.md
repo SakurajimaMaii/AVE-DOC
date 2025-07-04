@@ -1,6 +1,58 @@
 # tools
 
-## 1.5.1(Latest)
+## 1.5.2(Latest)
+
+- 新增
+
+    - NetStateUtils 新增对于默认网络和全部网络连接的判断。[**#66b1b2ef**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/66b1b2ef8e291ded358b1166f912e8fb67b53cd1)..[**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
+    - 新增蓝牙工具。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增定位工具。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - 新增获取音频服务。 [**#0c96faa**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c96faa42631a063b4ff5bd1258981578988c693)
+    - PermissionBuilder 新增对于没有未权限的处理，同时 PermissionBuilder 和 MultiPermissionBuilder 都将抛出异常作为对未声明权限的默认处理方式。新增 isPermissionGranted 和 isPermissionDenied 。 [**#3f48eba**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3f48eba3f5589272444996f0749bdfd344b12c65) 
+    - DateUtils.getCurrentTimeZone 返回值支持三种格式。 [**#5c9d98e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5c9d98ecc91831a5055207fe8b37bedb1d5801c3) 
+    - 新增 isAirplaneMode 获取设备是否处于飞行模式信息。 [**#4f23684**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4f236845a07ddd69db87648dddac784006d6f9b6) 
+    - 新增 FullScreenDialogFragment 用来实现全屏对话框。 [**#1773705**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/1773705f87800af5e8b3b4f13cfa83cd53350f76) 
+    - 新增 LifecycleHandler 和 LifecycleHandlerThread 用来实现生命周期感知型 Handler 和 HandlerThread 。 [**#3dc0119**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/3dc01199084a67df6adc1e721ecfb4fd080e4cbb)
+    - 新增 VibratorCompat 和 VibratorManagerCompat 用来访问振动器。 [**#03cdc31**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/03cdc31362258a6899369a9b387a3e0a8aab61fc)..[**#ac0a8b3**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/ac0a8b3dccc267a17c53effa9b9e0b95f58950c7)
+    - 新增间距装饰器 HorizontalSpacingDecoration ，VerticalSpacingDecoration 和 GridSpacingDecoration 。
+    - 新增 dimension ，dimensionPixelSize 等拓展方法用来访问资源。
+    - ColorUtils 新增 isColorInt 用来判断颜色值是否有效。 [**#0c8bba5**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c8bba5d4cecd83018414f76d51f24460d2988f1)
+    - 新增面包屑布局 BreadCrumbLayout 。 [**#69fb713**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/69fb713c8b482d2ff880897c57367c9599e896ea)
+    - BadgeView 新增 bubble_text_num 属性。 [**#8ec11d8**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8ec11d85f03e174a7d6415cb75dd05e0c4d484b9)
+    - BadgeLayout 新增徽标位置设置。 [**#6373f28**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6373f2864ea6c7b265a481613a568126d68c7f70)
+    - CropView 和 CropViewLayout 新增 crop_frame_size 属性用来设置除了矩形形状外的裁剪框尺寸。 [**#4339c2e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4339c2e1a32f7e975cc98a6e3efcbd8974b921b5)
+    - LineTextProgressView 新增 linetext_progress_box_width 设置文字 box 宽度，用来取代由文字内容决定宽度导致 UI 尺寸受影响的问题。 [**#4635f04**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/4635f042fcf56c7956006f50d9666b4c15526372)
+    - 媒体文件 ImageFile 。 [**#5743a9c**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/5743a9ce44f683f6b41c79a5bc7225ff9cfe1d6a)
+
+- 更新：
+
+    - 对文件操作拓展方法进行了重写。 [**#8716048**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/8716048622c3779cbc7f2e008fddb080e857fe55)
+    - **对 UI 组件整体进行了优化，包括布局计算和更新属性后的刷新问题。**
+    - CropViewLayout 对获取裁剪后的图片的 API 进行了变动。 [**#379c06e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/379c06eb69820355a30757709f01a3146e0aea43)
+    - RatingView 选择方式更名为 Touch mode 。 [**#7fa5bec**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/7fa5becaf47c54d04d55dd2b67f0f015ad13173d)
+    - VastFragmentAdapter 更名为 BaseFragmentStateAdapter 。 [**#92396bb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/92396bb10af31aa59226db73022845e85c7fcf19)
+    - 更新了邮箱补足默认支持的邮箱。 [**#a601c75**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/a601c7585950ccf08e46f13db84a1fe1f596b8b0)
+    - Vp2IndicatorView 将风格枚举类重命名为 Style 。 [**#490380e**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/490380e459ce7bee7565d08a5f4cc2c801f4a745)
+
+- 修复：
+
+    - NetStateUtils 修复 isEtherNet 方法判断错误的问题。 [**#9a9678b**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/9a9678b4ef892380c63fa8a4238ad3e2ed6b3005)
+    - 修复 BmpUtils 存在的若干问题，适配文件操作。 [**#6553a6a**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6553a6a123d798941281bddeba7509f5ff946de4)
+    - 修复 ColorUtils 的 getColorWithTransparency 对于颜色数值判断错误的问题。 [**#85f59cb**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/85f59cba71705dd3068e54c4d7c16f55130af724)
+    - ColorUtils 修复 isColorHex 对于多输入 colorHex 返回单独的 Boolean 不能够反应每个单独的 colorHex 是否有效的问题。 [**#0c8bba5**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/0c8bba5d4cecd83018414f76d51f24460d2988f1)
+    - BadgeLayout 修复 setIconPadding 无效的问题。 [**#6373f28**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/6373f2864ea6c7b265a481613a568126d68c7f70)
+
+- 删除：
+
+    - 将日志模块移除，作为单独的模块。 [**#b9bf248**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/b9bf24855e27fd174ff98e0ba9d4a3e81d58e829)
+
+- 过时：
+
+    - isGPSOpen 标记为过时。
+    - CropProperty 将 setOutputFormat 标记为过时。 [**#09ed5f4**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/09ed5f419b5ec112666dadb0eedb004fdd15da4a)
+    - screenConfig 标记为过时。 [**#364ea21**](https://github.com/SakurajimaMaii/Android-Vast-Extension/commit/364ea213d2f38b351d3359fdef88105064e2ad81)
+
+## 1.5.1
 
 - 新增：
 

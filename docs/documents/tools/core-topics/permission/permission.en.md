@@ -9,11 +9,12 @@ App permissions help support user privacy by protecting access to the following:
 
 [:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
-`requestPermission` and `requestMultiplePermissions` return three statuses for the requested permissions.
+`requestPermission` and `requestMultiplePermissions` return four statuses for the requested permissions.
 
 - granted/allGranted: permission has been granted/all permissions have been granted.
 - denied : The permission was denied, but can still be requested again.
 - noMoreAsk : The permission will not be asked to be granted again.
+- noDeclare ： The permission are not declared in the `AndroidManifest.xml` .
 
 ## Request single permission
 

@@ -10,7 +10,7 @@
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 ```xml
 <com.ave.vastgui.tools.view.alphabetsidebar.AlphabetSideBar
@@ -19,11 +19,11 @@
     android:layout_height="wrap_content" />
 ```
 
-[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## 索引栏位置
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) 
 
 索引栏目前支持 **左边** 和 **右边** 两种模式。可以通过 `alphabetsidebar_location` 和调用 `setLocation` 来进行设置。
 
@@ -48,14 +48,14 @@
 
 ## 背景颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_background` 和调用 `mBackgroundColor` 来设置背景颜色。
+可以通过 `alphabetsidebar_background` 和调用 `barBackgroundColor` 来设置背景颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBackgroundColor = ...
+    binding.alphabetsidebar.barBackgroundColor = ...
     ```
 
 === "Xml"
@@ -72,14 +72,14 @@
 
 ## 索引栏字体大小
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_text_size` 和调用 `mBarTextSize` 来设置索引栏字体大小。
+可以通过 `alphabetsidebar_text_size` 和调用 `barTextSize` 来设置索引栏字体大小。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarTextSize = 20f.SP
+    binding.alphabetsidebar.barTextSize = 20f.SP
     ```
 
 === "Xml"
@@ -96,14 +96,14 @@
 
 ## 索引栏字体颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_text_color` 和调用 `mBarTextColor` 来设置索引栏字体颜色。
+可以通过 `alphabetsidebar_text_color` 和调用 `barTextColor` 来设置索引栏字体颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarTextColor = ...
+    binding.alphabetsidebar.barTextColor = ...
     ```
 
 === "Xml"
@@ -120,16 +120,16 @@
 
 ## 当前索引字体颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_indicator_text_color` 和调用 `mBarIndicatorTextColor` 来设置当前索引字体颜色。
+可以通过 `alphabetsidebar_indicator_text_color` 和调用 `barIndicatorTextColor` 来设置当前索引字体颜色。
 
 左边是默认颜色，右边是修改后的颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBarIndicatorTextColor = ...
+    binding.alphabetsidebar.barIndicatorTextColor = ...
     ```
 
 === "Xml"
@@ -147,16 +147,16 @@
 
 ## 气泡内文字大小
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_bubble_text_size` 和调用 `mBubbleTextSize` 来设置气泡内文字大小。
+可以通过 `alphabetsidebar_bubble_text_size` 和调用 `bubbleTextSize` 来设置气泡内文字大小。
 
 左边是默认大小，右边是修改后的大小。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBubbleTextSize = 35f.SP
+    binding.alphabetsidebar.bubbleTextSize = 35f.SP
     ```
 
 === "Xml"
@@ -174,16 +174,16 @@
 
 ## 气泡内文字颜色
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-可以通过 `alphabetsidebar_bubble_text_color` 和调用 `mBubbleTextColor` 来设置气泡内文字颜色。
+可以通过 `alphabetsidebar_bubble_text_color` 和调用 `bubbleTextColor` 来设置气泡内文字颜色。
 
 左边是默认颜色，右边是修改后的颜色。
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.alphabetsidebar.mBubbleTextColor = ...
+    mBinding.alphabetsidebar.bubbleTextColor = ...
     ```
 
 === "Xml"
@@ -201,36 +201,36 @@
 
 ## 注册监听事件
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 通过 `setLetterListener` 方法注册监听事件。
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     override fun onIndicatorLetterUpdate(letter: String, index: Int, target: Int) {
-        mBinding.recyclerView.smoothScrollToPosition(target)
+        binding.recyclerView.smoothScrollToPosition(target)
     }
 })
 ```
 
 ## 更新字母目标索引
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> 添加：[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
-通过调用 `setIndicatorLetterTargetIndex` ，你可以更新字母的目标索引值，该索引值会被存储在 [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) 中。
+通过调用 `setIndicatorLetterTargetIndex` ，你可以更新字母的目标索引值，该索引值会被存储在 [AlphabetSp](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/kotlin/com/ave/vastgui/tools/view/alphabetsidebar/AlphabetSp.kt) 中。
 
 ```kotlin
-mBinding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
+binding.alphabetsidebar.setIndicatorLetterTargetIndex("A", target)
 ```
 
 你可以通过 `LetterListener` 的 `onIndicatorLetterTargetUpdate` 方法监听目标索引的更新。
 
 ```kotlin
-mBinding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
+binding.alphabetsidebar.setLetterListener(object : AlphabetSideBar.LetterListener {
     ... // onIndicatorLetterUpdate 实现
 
     override fun onIndicatorLetterTargetUpdate(letter: String, target: Int) {
-        mLogger.d(tag = "Gtest", "$letter 目标索引更新为 $target")
+        logger.d(tag = "Gtest", "$letter 目标索引更新为 $target")
     }
 })
 ```

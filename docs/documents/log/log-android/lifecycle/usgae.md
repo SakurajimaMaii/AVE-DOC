@@ -43,7 +43,7 @@
 
     这样就可以看到相关的生命周期：
 
-    ![生命周期示例](../img/lifecycle_sample.png)
+    ![生命周期示例](./img/lifecycle_sample.png)
 
 ## 指定生命周期
 
@@ -60,7 +60,7 @@ class VideosFragment : VastVbVmFragment<FragmentVideosBinding, SharedVM>() {
 
 这样就可以只打印生命周期：
 
-![记录指定生命周期示例](../img/lifecycle_specify_events.png)
+![记录指定生命周期示例](./img/lifecycle_specify_events.png)
 
 ## 自定义日志类名
 
@@ -75,20 +75,4 @@ class VideosFragment : VastVbVmFragment<FragmentVideosBinding, SharedVM>() {
 }
 ```
 
-![记录指定生命周期示例](../img/lifecycle_specify_name.png)
-
-## 添加依赖
-
-当前版本 ![version](https://img.shields.io/maven-central/v/io.github.sakurajimamaii/log-android)
-
-=== "gradle"
-
-    ```groovy
-    implementation 'io.github.sakurajimamaii:log-android:$version'
-    ```
-
-=== "kts"
-
-    ```kotlin
-    implementation("io.github.sakurajimamaii:log-android:$version")
-    ```
+![记录指定生命周期示例](./img/lifecycle_specify_name.png)

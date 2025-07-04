@@ -7,17 +7,18 @@
 
 ## 请求结果
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; 更新：[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-`requestPermission` 和 `requestMultiplePermissions` 会针对所请求的权限返回三种状态。
+`requestPermission` 和 `requestMultiplePermissions` 会针对所请求的权限返回四种状态。
 
 - granted/allGranted ：权限已经被授予/全部权限均被授予。
 - denied ：权限被拒绝，但是仍可再次请求。
 - noMoreAsk ：权限不会再被请求授予。
+- noDeclare ：权限未在 `AndroidManifest.xml` 中声明。
 
 ## 请求单个权限
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ![requestPermission](../img/permission.jpg){ align=right width="200"}
 
@@ -48,7 +49,7 @@ requestPermission("android.permission.READ_CALENDAR") {
 
 ## 请求多个权限
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> 添加：[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 ![MultiplePermissions](../img/multiple_permissions.gif){ align=right width="200"}
 
@@ -78,6 +79,12 @@ requestMultiplePermissions(arrayOf(DATE, SMS)) {
     }
 }
 ```
+
+## 权限检查
+
+> 添加：[:octicons-tag-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
+
+`isPermissionGranted` 和 `isPermissionDenied` 拓展方法支持检查单个权限是否授予。
 
 ## 示例代码
 

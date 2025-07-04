@@ -1,6 +1,6 @@
 # HorizontalProgressView
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 <center>
     <video width="250" controls="controls" autoplay="autoplay">
@@ -10,7 +10,7 @@
 
 ## Quick start
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
 
 === "HorizontalProgressView"
 
@@ -36,20 +36,20 @@
         android:layout_height="50dp" />
     ```
 
-[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## HorizontalProgressView
 
 ### Drawable for background
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; Update:[:octicons-clock-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Background can be set by `horizontal_progress_background_drawable` or calling `setProgressBkDrawable` .
+
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalProgressView
-        .setProgressBkDrawable(R.drawable.background)
+    binding.horizontalProgressView.setProgressBkDrawable(R.drawable.background)
     ```
 
 === "Xml"
@@ -66,15 +66,14 @@ Background can be set by `horizontal_progress_background_drawable` or calling `s
 
 ### Drawable for progress
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; Update:[:octicons-clock-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Progress can be set to the drawable by `horizontal_progress_drawable` or calling `setProgressDrawable` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalProgressView
-        .setProgressDrawable(R.drawable.progress)
+    binding.horizontalProgressView.setProgressDrawable(R.drawable.progress)
     ```
 
 === "Xml"
@@ -91,15 +90,14 @@ Progress can be set to the drawable by `horizontal_progress_drawable` or calling
 
 ### Stroke
 
-[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020)
+> Add:[:octicons-tag-24: Version 0.2.0](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#020) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
 Stroke of the progress can be set by `horizontal_progress_stroke_width` or calling `mStrokeWidth` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalProgressView
-        .mStrokeWidth = 0f
+    binding.horizontalProgressView.strokeWidth = 0f
     ```
 
 === "Xml"
@@ -118,18 +116,14 @@ Stroke of the progress can be set by `horizontal_progress_stroke_width` or calli
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-The height of progress can be set by  `horizontal_text_progress_height` or calling `setProgressHeight` .
-
-!!! note "Minimum height of progress"
-
-    The minimum height of progress will not smaller than the text height.
+The height of progress can be set by  `horizontal_text_progress_height` or calling `progressHeight` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.mProgressHeight = 15f.DP
+    binding.horizontalTextProgressView.progressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -146,14 +140,14 @@ The height of progress can be set by  `horizontal_text_progress_height` or calli
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Text margin can be set by `horizontal_text_progress_text_margin` or calling `mTextMargin` .
+Text margin can be set by `horizontal_text_progress_text_margin` or calling `textMargin` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.mTextMargin = 10f.DP
+    binding.horizontalTextProgressView.textMargin = 10f.DP
     ```
 
 === "Xml"
@@ -170,13 +164,14 @@ Text margin can be set by `horizontal_text_progress_text_margin` or calling `mTe
 
 ### Text box color
 
-Color-int of the text box can be set by `horizontal_text_progress_box_color` or calling `mTextBoxColor` .
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
+
+Color-int of the text box can be set by `horizontal_text_progress_box_color` or calling `textBoxColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.mTextBoxColor =
-        ColorUtils.colorHex2Int("#e84118")
+    binding.horizontalTextProgressView.textBoxColor = ColorUtils.colorHex2Int("#e84118")
     ```
 
 === "Xml"
@@ -195,15 +190,15 @@ Color-int of the text box can be set by `horizontal_text_progress_box_color` or 
 
 ### Height of progress
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-The height of progress can be set by `linetext_progress_height` or calling `mProgressHeight` .
+The height of progress can be set by `linetext_progress_height` or calling `progressHeight` .
 
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.lineTextProgressView.mProgressHeight = 15f.DP
+    binding.lineTextProgressView.progressHeight = 15f.DP
     ```
 
 === "Xml"
@@ -214,20 +209,20 @@ The height of progress can be set by `linetext_progress_height` or calling `mPro
         app:linetext_progress_height="15dp" />
     ```
 
-|                              Height 15dp                              |                              Height 25dp                              |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+|                           Height 15dp                           |                           Height 25dp                           |
+| :-------------------------------------------------------------: | :-------------------------------------------------------------: |
 | ![Height 15dp](../img/line_text_height_15dp.jpg){ width="270" } | ![Height 25dp](../img/line_text_height_25dp.jpg){ width="270" } |
 
 ### Text margin
 
-[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055)
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Text margin can be set by `linetext_progress_text_margin` or calling `mTextMargin` .
+Text margin can be set by `linetext_progress_text_margin` or calling `textMargin` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.lineTextProgressView.mTextMargin = 10f.DP
+    binding.lineTextProgressView.textMargin = 10f.DP
     ```
 
 === "Xml"
@@ -244,13 +239,14 @@ Text margin can be set by `linetext_progress_text_margin` or calling `mTextMargi
 
 ### Text box color
 
-Color-int of the text box can be set by `linetext_progress_box_color` or calling `mTextBoxColor` .
+> Add:[:octicons-tag-24: Version 0.5.5](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#055) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
+
+Color-int of the text box can be set by `linetext_progress_box_color` or calling `textBoxColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.horizontalTextProgressView.mTextBoxColor =
-        ColorUtils.colorHex2Int("#e84118")
+    binding.horizontalTextProgressView.textBoxColor = ColorUtils.colorHex2Int("#e84118")
     ```
 
 === "Xml"

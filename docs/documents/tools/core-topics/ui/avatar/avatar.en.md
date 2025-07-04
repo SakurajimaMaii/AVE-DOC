@@ -18,18 +18,18 @@ Avatar, used for image or text display.
     android:layout_height="wrap_content" />
 ```
 
-[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[Default style](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }
 
 ## Size
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Size can be set by `avatar_size` or calling `mAvatarSize` .
+Size can be set by `avatar_size` or calling `size` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mAvatarSize = 60f.DP
+    binding.imgAvatar.size = 60f.DP
     ```
 
 === "Xml"
@@ -46,7 +46,7 @@ Size can be set by `avatar_size` or calling `mAvatarSize` .
 
 ## Shape
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Shape of avatar can be set by `avatar_shape` or calling `setShape` . Currently support:
 
@@ -73,14 +73,14 @@ Shape of avatar can be set by `avatar_shape` or calling `setShape` . Currently s
 
 ## Color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-The background color of text avatar can be set by  `avatar_background` or calling `mBackground` .
+The background color of text avatar can be set by  `avatar_background` or calling `srcColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mBackground = getColor(R.color.aquamarine)
+    binding.imgAvatar.srcColor = getColor(R.color.aquamarine)
     ```
 
 === "Xml"
@@ -97,14 +97,14 @@ The background color of text avatar can be set by  `avatar_background` or callin
 
 ## Image
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
 
 Image of avatar can be set by `avatar_src` or calling `setAvatar` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.setAvatar(R.drawable.img_avatar)
+    binding.imgAvatar.setAvatar(R.drawable.img_avatar)
     ```
 
 === "Xml"
@@ -121,14 +121,14 @@ Image of avatar can be set by `avatar_src` or calling `setAvatar` .
 
 ## Text
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Text of avatar can be set by `avatar_text` or calling `mText` .
+Text of avatar can be set by `avatar_text` or calling `srcText` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mText = "B"
+    binding.imgAvatar.srcText = "B"
     ```
 
 === "Xml"
@@ -145,14 +145,14 @@ Text of avatar can be set by `avatar_text` or calling `mText` .
 
 ## Text color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Color-int of the avatar text can be set by `avatar_text_color` or calling `mTextColor` .
+Color-int of the avatar text can be set by `avatar_text_color` or calling `srcTextColor` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mTextColor = getColor(R.color.burlywood)
+    binding.imgAvatar.srcTextColor = getColor(R.color.burlywood)
     ```
 
 === "Xml"
@@ -169,14 +169,14 @@ Color-int of the avatar text can be set by `avatar_text_color` or calling `mText
 
 ## Text size
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Size of avatar text can be set by `avatar_text_size` or calling `mTextSize` .
+Size of avatar text can be set by `avatar_text_size` or calling `srcTextSize` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mTextSize = 16f.SP
+    binding.imgAvatar.srcTextSize = 16f.SP
     ```
 
 === "Xml"
@@ -193,13 +193,13 @@ Size of avatar text can be set by `avatar_text_size` or calling `mTextSize` .
 
 ## Stroke color
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Stroke color of avatar can be set by `avatar_stroke_color` or calling `mStrokeColor` .
+Stroke color of avatar can be set by `avatar_stroke_color` or calling `strokeColor` .
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mStrokeColor = getColor(R.color.blue)
+    binding.imgAvatar.strokeColor = getColor(R.color.blue)
     ```
 
 === "Xml"
@@ -216,18 +216,14 @@ Stroke color of avatar can be set by `avatar_stroke_color` or calling `mStrokeCo
 
 ## Stroke width
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-Stroke width of avatar can be set by `avatar_stroke_width` or calling `mStrokeWidth` .
-
-!!! note "Stroke width"
-
-    Depending on the draw order, the actual stroke displayed is 1/2 the value you set. 
+Stroke width of avatar can be set by `avatar_stroke_width` or calling `strokeWidth` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mStrokeWidth = 6f.DP
+    binding.imgAvatar.strokeWidth = 6f.DP
     ```
 
 === "Xml"
@@ -244,14 +240,14 @@ Stroke width of avatar can be set by `avatar_stroke_width` or calling `mStrokeWi
 
 ## Round corner radius
 
-[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054)
+> Add:[:octicons-tag-24: Version 0.5.4](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#054) &emsp; Update:[:octicons-clock-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-When the shape of avatar is round rctangle, round corner radius can be set by `avatar_corner_radius` or calling `mCornerRadius` .
+When the shape of avatar is round rctangle, round corner radius can be set by `avatar_corner_radius` or calling `cornerRadius` .
 
 === "Kotlin"
 
     ```kotlin
-    mBinding.imgAvatar.mCornerRadius = 6f.DP
+    binding.imgAvatar.cornerRadius = 6f.DP
     ```
 
 === "Xml"

@@ -1,16 +1,16 @@
 # 徽标
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 徽标控件目前提供了**圆点**和**气泡**两种支持形式。
 
-|               隐藏圆点徽标                |               显示圆点徽标                |                 隐藏气泡徽标                 |                 显示气泡徽标                 |
-| :---------------------------------------: | :---------------------------------------: | :------------------------------------------: | :------------------------------------------: |
+|            隐藏圆点徽标             |            显示圆点徽标             |              隐藏气泡徽标              |              显示气泡徽标              |
+| :---------------------------------: | :---------------------------------: | :------------------------------------: | :------------------------------------: |
 | ![隐藏圆点徽标](./img/dot_hide.png) | ![显示圆点徽标](./img/dot_show.png) | ![隐藏气泡徽标](./img/number_hide.png) | ![显示气泡徽标](./img/number_show.png) |
 
 ## 快速使用
 
-[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
+> 添加：[:octicons-tag-24: Version 0.5.3](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#053)
 
 === "圆点徽标"
 
@@ -50,4 +50,4 @@
     </com.ave.vastgui.tools.view.badgeview.BadgeLayout>
     ```
 
-[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/VastTools/src/main/res/values/styles.xml){ .md-button }
+[查看默认样式](https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/tools/src/main/res/values/styles.xml){ .md-button }

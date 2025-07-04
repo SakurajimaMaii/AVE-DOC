@@ -67,7 +67,7 @@ val mLogFactory: LogFactory = getLogFactory {
 val mLogFactory: LogFactory = getLogFactory {
     ...
     install(LogPrinter) {
-        logger = Logger.android(30,5)
+        logger = Logger.android(30, 5)
     }
 }
 ```
