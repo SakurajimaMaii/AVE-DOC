@@ -4,7 +4,7 @@
 
 <center>
     <figure markdown>
-    ![BreadCrumbLayout](../img/breadcrumb_layout.jpg){ width="540" }
+        ![BreadCrumbLayout](./img/breadcrumb_layout.jpg){ width="540" }
     </figure>
 </center>
 
@@ -27,7 +27,7 @@ BreadCrumb("详情页")
 
 <center>
     <figure markdown>
-        ![BreadCrumbLayout](../img/breadcrumb_layout.jpg){ width="540" }
+        ![BreadCrumbLayout](./img/breadcrumb_layout.jpg){ width="540" }
     </figure>
 </center>
 
@@ -53,7 +53,7 @@ BreadCrumb("详情页")
 
 <center>
     <figure markdown>
-        ![BreadCrumbLayout with red text](../img/breadcrumb_layout_text_color_red.jpg){ width="540" }
+        ![BreadCrumbLayout with red text](./img/breadcrumb_layout_text_color_red.jpg){ width="540" }
     </figure>
 </center>
 
@@ -99,7 +99,7 @@ BreadCrumb("详情页")
 
 <center>
     <figure markdown>
-        ![BreadCrumbLayout with red text](../img/breadcrumb_layout_icon.jpg){ width="540" }
+        ![BreadCrumbLayout with red text](./img/breadcrumb_layout_icon.jpg){ width="540" }
     </figure>
 </center>
 
