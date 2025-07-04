@@ -2,11 +2,9 @@
 
 > 添加：[:octicons-tag-24: Version 1.5.2](https://sakurajimamaii.github.io/AVE-DOC/version/tools/#152)
 
-<center>
-    <figure markdown>
-        ![BreadCrumbLayout](./img/breadcrumb_layout.jpg){ width="540" }
-    </figure>
-</center>
+<figure markdown>
+  ![BreadCrumbLayout](../img/breadcrumb_layout.jpg){ width="540" }
+</figure>
 
 ## 路径对象
 
@@ -25,11 +23,9 @@ BreadCrumb("详情页")
 
 效果如下图所示：
 
-<center>
-    <figure markdown>
-        ![BreadCrumbLayout](./img/breadcrumb_layout.jpg){ width="540" }
-    </figure>
-</center>
+<figure markdown>
+  ![BreadCrumbLayout](../img/breadcrumb_layout.jpg){ width="540" }
+</figure>
 
 ## 设置路径文字颜色 
 
@@ -51,11 +47,9 @@ BreadCrumb("详情页")
         app:breadcrumb_text_color="@color/red" />
     ```
 
-<center>
-    <figure markdown>
-        ![BreadCrumbLayout with red text](./img/breadcrumb_layout_text_color_red.jpg){ width="540" }
-    </figure>
-</center>
+<figure markdown>
+  ![BreadCrumbLayout with red text](../img/breadcrumb_layout_text_color_red.jpg){ width="540" }
+</figure>
 
 ## 设置路径文字大小
 
@@ -97,11 +91,9 @@ BreadCrumb("详情页")
         app:breadcrumb_interval_icon="@drawable/ic_breadcrumb_default_interval_icon" />
     ```
 
-<center>
-    <figure markdown>
-        ![BreadCrumbLayout with red text](./img/breadcrumb_layout_icon.jpg){ width="540" }
-    </figure>
-</center>
+<figure markdown>
+  ![BreadCrumbLayout with red text](../img/breadcrumb_layout_icon.jpg){ width="540" }
+</figure>
 
 ## 改变分隔符大小
 
